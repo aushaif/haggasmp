@@ -1,0 +1,79 @@
+# --------------------------------------------
+#
+#          AntiSpam 3.0.0
+#
+# Thank you for downloading this plugin
+# don't forget to leave a review
+#
+# if you have a suggestion for what could
+# be added, write it to me on discord
+#
+# Plugin Developer: Kijler
+# Discord Support: https://discord.gg/sk4QQAU2yv
+#
+# My websites: https://kijler.eu
+#
+# --------------------------------------------
+
+# Select the plugin language.
+# Available options: EN (English), CZ (Czech), DE (German).
+# You can edit these files in the /languages/ folder.
+language: EN
+
+# Database Configuration
+# Type: Choose between "SQLITE" (local file) or "MYSQL" (external database).
+# If using SQLITE, the file 'data.db' will be created in the plugin folder.
+# If using MYSQL, fill in the host, port, database, username, and password.
+database:
+  type: SQLITE
+  host: localhost
+  port: 3306
+  database: minecraft_db
+  username: root
+  password: password
+  useSSL: false
+
+# Chat Restrictions
+# block-repeated-messages: If true, prevents players from sending the exact same message twice.
+# repeat-message-delay: How many seconds a player must wait before sending the same message again.
+# delay: The global cooldown in seconds between any chat messages.
+# block-repeated-characters: Prevents excessive character repetition (e.g., "hellloooo").
+# max-repeating-characters: The maximum allowed number of identical consecutive characters.
+block-repeated-messages: true
+repeat-message-delay: 60
+delay: 3
+block-repeated-characters: true
+max-repeating-characters: 3
+
+# Punishment Settings
+# punishment-issuer: The name that will appear as the source of the punishment command.
+# This is useful for ban management plugins to show a specific name instead of "Console".
+punishment-issuer: AntiSpam
+
+# Punishment Categories
+# You can configure automatic punishments for each violation type.
+# enabled: Toggle this punishment category on or off.
+# threshold: How many times a player must violate the rule before the command is executed.
+# command: The command to execute when the threshold is reached.
+# Placeholders: %player% (player name), %punish_id% (unique ID of the violation).
+punishments:
+  blocked-word:
+    enabled: true
+    threshold: 3
+    command: tempmute %player% 2h Inappropriate behavior (#%punish_id%)
+  
+  spam:
+    enabled: true
+    threshold: 5
+    command: tempmute %player% 30m Spamming (#%punish_id%)
+  
+  flood:
+    enabled: true
+    threshold: 5
+    command: tempmute %player% 15m Flood (#%punish_id%)
+
+# Blocked Words List
+# Add words here that you want to prevent players from saying in chat.
+blocked-words:
+- badword1
+- badword2

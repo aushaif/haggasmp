@@ -1,0 +1,92 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:arrow": 1,
+      "minecraft:enchanted_golden_apple": 2,
+      "minecraft:firework_rocket": 7
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 3,
+      "minecraft:zombie": 1
+    },
+    "minecraft:mined": {
+      "minecraft:sand": 1,
+      "minecraft:player_head": 2,
+      "minecraft:dirt": 23,
+      "minecraft:oxeye_daisy": 2,
+      "minecraft:grass_block": 6,
+      "minecraft:cobweb": 1,
+      "minecraft:stone": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 2,
+      "minecraft:netherrack": 1,
+      "minecraft:netherite_block": 64,
+      "minecraft:dirt": 29,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:cobblestone": 2,
+      "minecraft:player_head": 1,
+      "minecraft:red_tulip": 1,
+      "minecraft:azure_bluet": 1,
+      "minecraft:oxeye_daisy": 2,
+      "minecraft:firework_rocket": 11,
+      "minecraft:wheat_seeds": 2,
+      "minecraft:chest": 1,
+      "minecraft:elytra": 1,
+      "minecraft:cornflower": 1,
+      "minecraft:golden_carrot": 17,
+      "minecraft:golden_apple": 1
+    },
+    "minecraft:used": {
+      "minecraft:netherrack": 1,
+      "minecraft:oxeye_daisy": 2,
+      "minecraft:chorus_fruit": 9,
+      "minecraft:player_head": 1,
+      "minecraft:netherite_sword": 70,
+      "minecraft:wooden_pickaxe": 3,
+      "minecraft:firework_rocket": 2,
+      "minecraft:cobblestone": 2,
+      "minecraft:golden_carrot": 1,
+      "minecraft:golden_apple": 1,
+      "minecraft:elytra": 5,
+      "minecraft:chest": 1,
+      "minecraft:netherite_chestplate": 4,
+      "minecraft:enchanted_golden_apple": 2,
+      "minecraft:totem_of_undying": 1,
+      "minecraft:azure_bluet": 1,
+      "minecraft:egg": 1,
+      "minecraft:dirt": 7,
+      "minecraft:ender_pearl": 5
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2898,
+      "minecraft:leave_game": 8,
+      "minecraft:damage_taken": 3983,
+      "minecraft:open_shulker_box": 24,
+      "minecraft:damage_absorbed": 330,
+      "minecraft:time_since_death": 2830,
+      "minecraft:aviate_one_cm": 36359,
+      "minecraft:damage_dealt_absorbed": 33,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:total_world_time": 81665,
+      "minecraft:swim_one_cm": 31259,
+      "minecraft:crouch_one_cm": 603,
+      "minecraft:deaths": 8,
+      "minecraft:damage_resisted": 168,
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:walk_one_cm": 127152,
+      "minecraft:walk_under_water_one_cm": 5082,
+      "minecraft:play_time": 81665,
+      "minecraft:damage_dealt": 210,
+      "minecraft:jump": 659,
+      "minecraft:drop": 4,
+      "minecraft:sprint_one_cm": 98517,
+      "minecraft:open_chest": 40,
+      "minecraft:fall_one_cm": 36344,
+      "minecraft:fly_one_cm": 479202,
+      "minecraft:walk_on_water_one_cm": 8439,
+      "minecraft:sneak_time": 2042
+    }
+  },
+  "DataVersion": 4671
+}

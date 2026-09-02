@@ -1,0 +1,11 @@
+prefix: '§6AntiSpam §8» '
+blocked-word-message: §7Vaše zpráva obsahuje blokované slovo.
+reload-message: §aPlugin byl úspěšně znovu načten.
+wait-message: §7Musíte počkat §6%remaining_time% §7sekundy před odesláním další zprávy.
+repeat-message: §7Neposílejte stejnou zprávu dvakrát za sebou.
+no-permission-message: §cNemáte oprávnění k použití tohoto příkazu.
+repeat-character-message: §7Vaše zpráva obsahuje příliš mnoho opakujících se znaků.
+invalid-id-message: §cID musí být číslo.
+punish-check-not-found: §cTrest s tímto ID nebyl nalezen.
+punish-check-found: "§7Vyhledávání trestu\n§7ID trestu: §6%id% \n§7Hráč: §e%player%\
+  \ \n§7Kategorie: §c%category%\n§7Zpráva: §f%content%"

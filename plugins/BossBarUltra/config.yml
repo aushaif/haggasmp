@@ -1,0 +1,71 @@
+# ======================================
+# BossBarUltra 2.1 - Configuration File
+# ======================================
+
+# -----------------------------
+# Display Mode
+# -----------------------------
+
+# Display mode:
+#  - look     → Show bar only when player looks at the mob
+#  - combat  → Show bar only while the mob is in combat
+#  - always  → Always visible for nearby mobs
+display-mode: always
+
+# How long an entity stays in combat after taking damage (milliseconds)
+combat-timeout-ms: 5000
+
+# Maximum distance for detection (blocks)
+max-distance: 20.0
+
+# Time before bar disappears after losing focus (milliseconds)
+display-grace-ms: 300
+
+# Vertical offset above the mob’s head
+vertical-offset: 0.6
+
+# -----------------------------
+# Bar Style Settings
+# -----------------------------
+
+# Bar style:
+#  - solid  → ██████▒▒▒▒
+#  - hearts → ❤❤❤❤♡♡♡♡
+bar-style: solid
+
+# Number of segments / hearts
+bar-width: 12
+
+# Bar color options:
+# red, gold, yellow, lime, green, aqua, blue, purple, pink, white, black, grey
+bar-color: red
+
+# Apply glowing effect to the bar text
+glowing-enabled: false
+
+# -----------------------------
+# Performance
+# -----------------------------
+
+# Update interval in ticks
+# 20 ticks = 1 second
+update-interval-ticks: 5
+
+# -----------------------------
+# Admin Settings
+# -----------------------------
+
+# Send message to admins on join
+admin-join-message-enabled: true
+
+# Admin join message
+admin-join-message: '&a[BossBarUltra] &eUse &b/bb &eto open settings.'
+
+# -----------------------------
+# Feedback System
+# -----------------------------
+
+# Your Supabase publishable key for feedback
+supabase-key: sb_publishable_Ze8iY2_EPlOrS5aleFpCAw_xep9QFSA
+last-supabase-ping: 1788262503980
+smart-colors: true

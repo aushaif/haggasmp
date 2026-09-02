@@ -1,0 +1,12 @@
+prefix: '§6AntiSpam §8» '
+blocked-word-message: §7Ihre Nachricht enthält ein blockiertes Wort.
+reload-message: §7Plugin wurde erfolgreich neu geladen.
+wait-message: §7Sie müssen noch §6%remaining_time% §7Sekunden warten, bevor Sie eine
+  weitere Nachricht senden können.
+repeat-message: §7Senden Sie nicht zweimal hintereinander die gleiche Nachricht.
+no-permission-message: §cSie haben keine Berechtigung, diesen Befehl zu verwenden.
+repeat-character-message: §7Ihre Nachricht enthält zu viele wiederholte Zeichen.
+invalid-id-message: §cID muss eine Nummer sein.
+punish-check-not-found: §cStrafe mit dieser ID nicht gefunden.
+punish-check-found: "§7Strafen-Suche\n§7Strafen-ID: §6%id% \n§7Spieler: §e%player%\
+  \ \n§7Kategorie: §c%category%\n§7Nachricht: §f%content%"

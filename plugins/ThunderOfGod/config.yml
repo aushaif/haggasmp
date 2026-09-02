@@ -1,0 +1,170 @@
+# ╔══════════════════════════════════════════════════╗
+# ║          Thunder of God — Plugin Config          ║
+# ║  Edit this file to customize the plugin fully.   ║
+# ║  Use /tg reload in-game to apply changes.        ║
+# ╚══════════════════════════════════════════════════╝
+
+
+# ==========================================
+#   TRIDENT SETTINGS
+# ==========================================
+# Configure the appearance and enchantments
+# of the Thunder of God trident item.
+
+trident:
+
+  # The display name shown in the player's inventory.
+  # Supports color codes using the & symbol:
+  #   &a = Green,  &b = Aqua,  &c = Red,
+  #   &e = Yellow, &6 = Gold,  &d = Pink,
+  #   &l = Bold,   &o = Italic, &r = Reset
+  name: "&bThunder of God"
+
+  # Enchantments applied to the trident.
+  # Format: enchantment-name: level
+  # Available trident enchantments:
+  #   channeling, loyalty, riptide,
+  #   unbreaking, mending, impaling
+  enchantments:
+    channeling: 1
+    loyalty: 3
+    unbreaking: 10
+    mending: 1
+
+
+# ==========================================
+#   ADMIN LOGIN MESSAGE
+# ==========================================
+# When an admin (op) joins the server, they
+# will see a short reminder of plugin commands
+# after 3 seconds.
+
+# Set to true to enable, false to disable.
+login-message: true
+
+
+# ==========================================
+#   TRIDENT LIMIT
+# ==========================================
+# Controls how many times the /tg give command
+# can be used on the same player.
+#
+# Example:
+#   max-tridents: 1  → each player can only
+#                       receive 1 trident.
+#   max-tridents: 3  → each player can receive
+#                       up to 3 tridents.
+#   max-tridents: -1 → unlimited (no limit).
+max-tridents: 1
+
+
+# ==========================================
+#   LIGHTNING SETTINGS
+# ==========================================
+# Controls the lightning storm that triggers
+# when the trident hits a surface (throw mode).
+
+lightning:
+
+  # How many lightning bolts strike per wave
+  # when the trident lands (throw mode).
+  # Recommended range: 5–20
+  throw-count: 10
+
+  # How many lightning bolts strike when the
+  # player double-clicks while holding the trident.
+  # Recommended range: 4–15
+  double-count: 8
+
+  # How long (in seconds) the lightning storm
+  # continues after the trident lands.
+  # Recommended range: 1–5
+  duration: 2
+
+  # The radius (in blocks) around the landing
+  # point where lightning can strike.
+  # Max value is capped at 4 for performance.
+  # Recommended range: 1–4
+  radius: 1
+
+
+  # ┌─────────────────────────────────────┐
+  # │       BRANCH LIGHTNING              │
+  # │  Extra bolts that branch outward    │
+  # │  from each main lightning strike.   │
+  # └─────────────────────────────────────┘
+
+  branches:
+
+    # Set to true to enable branching lightning,
+    # false to disable it entirely.
+    enabled: true
+
+    # How many branch bolts spawn from each
+    # main lightning strike.
+    # Recommended range: 4–8
+    count: 5
+
+    # How far (in blocks) branches can spread
+    # outward from the main strike.
+    # Recommended range: 2–6
+    length: 4
+
+
+# ==========================================
+#   DOUBLE-CLICK ZONE
+# ==========================================
+# When a player double-clicks while holding
+# the trident, a lightning + damage zone
+# activates around them.
+
+double-click:
+
+  # Radius (in blocks) of the damage zone
+  # centered on the player.
+  radius: 8
+
+  # Damage dealt to all entities inside
+  # the zone per tick (in half-hearts).
+  # Example: 6.0 = 3 full hearts per tick
+  damage: 6.0
+
+  # How many ticks entities inside the zone
+  # are set on fire. (20 ticks = 1 second)
+  # Example: 100 = 5 seconds of fire
+  fire-ticks: 100
+
+  # How long (in seconds) the damage zone
+  # remains active after activation.
+  duration: 5
+
+
+  # ┌─────────────────────────────────────┐
+  # │         ZONE PARTICLES              │
+  # │  Visual particle ring displayed     │
+  # │  when the zone activates.           │
+  # └─────────────────────────────────────┘
+
+  particles:
+
+    # Set to true to show zone particles,
+    # false to hide them.
+    enabled: true
+
+    # How high (in blocks) the particle ring
+    # rises before disappearing.
+    rise-height: 1
+
+    # How fast the ring rises per tick.
+    # Lower = slower. Recommended: 0.1–0.5
+    rise-speed: 0.2
+
+    # How densely packed the ring particles are.
+    # Lower value = more particles (denser ring).
+    # Recommended: 0.1–0.4
+    ring-step: 0.2
+
+    # Number of particles spawned to fill the
+    # inside of the zone ring.
+    # Higher = more filled. Recommended: 5–25
+    fill-count: 15

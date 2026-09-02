@@ -1,0 +1,330 @@
+[13:30:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10; Homebrew Homebrew) on Mac OS X 26.4.1 (aarch64)
+[13:30:05] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) for Minecraft 1.21.11
+[13:30:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:30:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[13:30:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - BossBarUltra (3.1), Geyser-Spigot (2.10.0-SNAPSHOT), GraveStonesPlus (1.9.1), MusicOnDisk (1.0.0), SkinsRestorer (15.12.0), Skript (2.15.2), ThunderOfGod (1.0), ViaBackwards (5.9.1), ViaVersion (5.9.1), floodgate (2.2.5-SNAPSHOT (b130-d73192f)), uno-sleep (1.0)
+[13:30:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:30:08] [ServerMain/INFO]: Found non-pack entry './world/datapacks/.DS_Store', ignoring
+[13:30:08] [ServerMain/INFO]: Loaded 1470 recipes
+[13:30:08] [ServerMain/INFO]: Loaded 1584 advancements
+[13:30:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:30:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 184.2ms
+[13:30:09] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[13:30:09] [Server thread/INFO]: Loading properties
+[13:30:09] [Server thread/INFO]: This server is running Purpur version 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[13:30:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:30:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:30:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:30:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:30:09] [Server thread/INFO]: Default game type: SURVIVAL
+[13:30:09] [Server thread/INFO]: Generating keypair
+[13:30:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:30:11] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
+[13:30:11] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
+[13:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
+[13:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /Users/infinitynoob/Documents/Minecraft/hagga-smp/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[13:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /Users/infinitynoob/Documents/Minecraft/hagga-smp/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[13:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /Users/infinitynoob/Documents/Minecraft/hagga-smp/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[13:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /Users/infinitynoob/Documents/Minecraft/hagga-smp/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[13:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /Users/infinitynoob/Documents/Minecraft/hagga-smp/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[13:30:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /Users/infinitynoob/Documents/Minecraft/hagga-smp/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[13:30:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[13:30:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[13:30:11] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:30:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:30:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:30:11] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[13:30:12] [Server thread/INFO]: [floodgate] Took 282ms to boot Floodgate
+[13:30:12] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
+[13:30:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.0
+[13:30:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
+[13:30:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[13:30:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[13:30:12] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
+[13:30:12] [Server thread/INFO]: [ThunderOfGod] Loading server plugin ThunderOfGod v1.0
+[13:30:12] [Server thread/INFO]: [BossBarUltra] Loading server plugin BossBarUltra v3.1
+[13:30:12] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.9.1
+[13:30:12] [Server thread/INFO]: [MusicOnDisk] Loading server plugin MusicOnDisk v1.0.0
+[13:30:12] [Server thread/INFO]: [uno-sleep] Loading server plugin uno-sleep v1.0
+[13:30:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:30:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.0
+[13:30:12] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[13:30:12] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[13:30:12] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[13:30:12] [Server thread/INFO]: [MusicOnDisk] Enabling MusicOnDisk v1.0.0
+[13:30:12] [Server thread/INFO]: [MusicOnDisk]   __  __           _      ___       ____  _     _    
+[13:30:12] [Server thread/INFO]: [MusicOnDisk]  |  \/  |_   _ ___(_) ___|/ _ \_ __ |  _ \(_)___| | __
+[13:30:12] [Server thread/INFO]: [MusicOnDisk]  | |\/| | | | / __| |/ __| | | | '_ \| | | | / __| |/ /
+[13:30:12] [Server thread/INFO]: [MusicOnDisk]  | |  | | |_| \__ \ | (__| |_| | | | | |_| | \__ \   < 
+[13:30:12] [Server thread/INFO]: [MusicOnDisk]  |_|  |_|\__,_|___/_|\___|\___/|_| |_|____/|_|___/_|\_\
+[13:30:12] [Server thread/INFO]: [MusicOnDisk]                                               v1.0.0
+[13:30:12] [Server thread/INFO]: [MusicOnDisk]  Custom Music Discs from YouTube | Paper Plugin
+[13:30:12] [Server thread/INFO]: [MusicOnDisk] Starting MusicOnDisk v1.0.0...
+[13:30:12] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Installer] Detecting operating system...
+[13:30:12] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Installer] Detected: MACOS ARM64
+[13:30:12] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Installer] Checking system PATH for existing tools...
+[13:30:12] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Installer] Found system FFmpeg:  /opt/homebrew/bin/ffmpeg
+[13:30:12] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Installer] Found system FFprobe: /opt/homebrew/bin/ffprobe
+[13:30:12] [Server thread/ERROR]: [MusicOnDisk] [Server thread] INFO com.musicondisk.libs.hikari.HikariDataSource - MusicOnDisk-DB - Starting...
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.0
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 2903414
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[13:30:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[13:30:13] [Server thread/ERROR]: [MusicOnDisk] [Server thread] INFO com.musicondisk.libs.hikari.pool.HikariPool - MusicOnDisk-DB - Added connection org.sqlite.jdbc4.JDBC4Connection@5fc34545
+[13:30:13] [Server thread/ERROR]: [MusicOnDisk] [Server thread] INFO com.musicondisk.libs.hikari.HikariDataSource - MusicOnDisk-DB - Start completed.
+[13:30:13] [Server thread/INFO]: [MusicOnDisk] Database initialized successfully.
+[13:30:13] [Server thread/INFO]: [MusicOnDisk] Loaded 4 music disc(s) into registry.
+[13:30:13] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Building resource pack...
+[13:30:13] [Server thread/INFO]: [MusicOnDisk] ✓ MusicOnDisk enabled successfully in 290ms!
+[13:30:13] [Server thread/INFO]: [MusicOnDisk]   Loaded 4 custom music disc(s).
+[13:30:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:30:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:30:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:30:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:30:13] [Server thread/INFO]: Preparing level "world"
+[13:30:13] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] HTTP server started on port 8765
+[13:30:13] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Wrote music_disc_cat.json with 4 override(s).
+[13:30:14] [Server thread/INFO]: Loading 274 persistent chunks for world 'minecraft:overworld'...
+[13:30:14] [Server thread/INFO]: Preparing spawn area: 3%
+[13:30:14] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Pack built. SHA1: b8276b97... Size: 42.5 MB
+[13:30:14] [Server thread/INFO]: Prepared spawn area in 934 ms
+[13:30:14] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[13:30:14] [Server thread/INFO]: Prepared spawn area in 0 ms
+[13:30:14] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[13:30:14] [Server thread/INFO]: Prepared spawn area in 0 ms
+[13:30:14] [Server thread/INFO]: Done preparing level "world" (1.845s)
+[13:30:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[13:30:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[13:30:15] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[13:30:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
+[13:30:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
+[13:30:15] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
+[13:30:16] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[13:30:16] [Server thread/INFO]: [ThunderOfGod] Enabling ThunderOfGod v1.0
+[13:30:16] [Server thread/INFO]: [ThunderOfGod] ThunderOfGod Enabled!
+[13:30:16] [Server thread/INFO]: [BossBarUltra] Enabling BossBarUltra v3.1
+[13:30:16] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.9.1
+[13:30:16] [Server thread/INFO]: [GraveStonesPlus] Loaded 3 NBT ignore rules.
+[13:30:16] [Server thread/INFO]: [GraveStonesPlus] Loaded 3 NBT keep rules.
+[13:30:16] [Server thread/INFO]: [GraveStonesPlus] Loaded 3 NBT grave rules.
+[13:30:16] [Server thread/INFO]: [GraveStonesPlus] NBTAPI not found, some features may not work.
+[13:30:16] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
+[13:30:16] [Server thread/INFO]: [uno-sleep] Enabling uno-sleep v1.0
+[13:30:16] [Server thread/INFO]: [uno-sleep] UnoSleep has been enabled!
+[13:30:16] [Server thread/INFO]: [spark] Starting background profiler...
+[13:30:16] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[13:30:17] [ForkJoinPool.commonPool-worker-2/INFO]: [Skript] Loaded 5684 aliases in 550ms
+[13:30:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:30:18] [Server thread/INFO]: [Geyser-Spigot] 
+[13:30:18] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1144 (git-master-9b42045)
+[13:30:18] [Server thread/INFO]: [Geyser-Spigot] 
+[13:30:18] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:30:20] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[13:30:20] [Server thread/INFO]: [Geyser-Spigot] Done (1.784s)! Run /geyser help for help!
+[13:30:20] [Server thread/INFO]: Running delayed init tasks
+[13:30:20] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:30:20] [Server thread/INFO]: [Skript] Loading variables...
+[13:30:20] [Server thread/INFO]: [Skript] Loaded 5 variables in 0.0 seconds
+[13:30:21] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[13:30:21] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 21 structures in 0.35 seconds
+[13:30:21] [Server thread/INFO]: [Skript] Finished loading.
+[13:30:21] [Server thread/INFO]: Done (16.649s)! For help, type "help"
+[13:30:21] [Craft Scheduler Thread - 6 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus has an update available! Your Version: 1.9.1 New Version: 2.0
+[13:30:24] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Installer] All tools already installed and verified.
+[13:30:29] [User Authenticator #0/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[13:30:29] [Server thread/INFO]: InfinityNoob joined the game
+[13:30:29] [Server thread/INFO]: InfinityNoob[/127.0.0.1:55166] logged in with entity id 482 at ([world]1778.6782105677191, 64.0, -385.4728888944592)
+[13:30:39] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:30:47] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[13:30:50] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:30:57] [Server thread/INFO]: [MusicOnDisk] [Playback] Started session: Haryanvi NONSTOP  8D AUDIO  Mix - USE HEADPHONES at world:1777:63:-387 (Slot: 0)
+[13:30:57] [Server thread/INFO]: [MusicOnDisk] [Jukebox] InfinityNoob inserted 'Haryanvi NONSTOP  8D AUDIO  Mix - USE HEADPHONES' at world:1777:63:-387
+[13:31:16] [pool-24-thread-1/INFO]: [GraveStonesPlus] Detected day changed, processing...
+[13:31:16] [pool-24-thread-1/INFO]: [GraveStonesPlus] Time change event: DAY, Fake: false
+[13:31:16] [pool-24-thread-1/INFO]: [GraveStonesPlus] Finished processing day changes
+[13:34:29] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.0.0.1 has disconnected for reason Bedrock client disconnected
+[13:34:53] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username Haras124 (975)
+[13:34:53] [localSession-7-2/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to the Java server
+[13:34:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[13:34:53] [Server thread/INFO]: .Haras124 joined the game
+[13:34:53] [Server thread/INFO]: .Haras124[/127.0.0.1:0] logged in with entity id 1856 at ([world]1760.8026, 72.06250999523162, -451.71542)
+[13:35:18] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yoo
+[13:35:22] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: yoo
+[13:36:33] [Server thread/INFO]: InfinityNoob issued server command: /time set day
+[13:36:33] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
+[13:36:40] [Server thread/INFO]: .Haras124 has made the advancement [Sneak 100]
+[13:37:03] [Server thread/INFO]: .Haras124 died
+[13:37:05] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=1762.4438,y=70.00000999523162,z=-412.19864,pitch=16.38887,yaw=65.12697}
+[13:37:07] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: huh
+[13:37:09] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: jaaa
+[13:37:14] [Server thread/INFO]: InfinityNoob issued server command: /tp .Haras124 InfinityNoob
+[13:37:14] [Server thread/INFO]: [InfinityNoob: Teleported .Haras124 to InfinityNoob]
+[13:37:24] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: itna damage kaise lag gaya
+[13:37:29] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: isse
+[13:37:30] [Server thread/INFO]: Named entity ArmorStand['.Haras124 died here!'/2229, uuid='69c29f3c-5786-4f61-b3ac-fddf709368ce', l='ServerLevel[world]', x=1762.50, y=71.50, z=-412.50, cpos=[110, -26], tl=493, v=true] died: .Haras124 died here! died
+[13:37:30] [Server thread/INFO]: Named entity ArmorStand['Died at Fri May 15 13:37:05 IST 2026'/2230, uuid='a701e750-ab97-4089-8589-4424364df5ef', l='ServerLevel[world]', x=1762.50, y=71.25, z=-412.50, cpos=[110, -26], tl=493, v=true] died: Died at Fri May 15 13:37:05 IST 2026 died
+[13:37:30] [Server thread/INFO]: Named entity ArmorStand['Reason: .Haras124 died'/2231, uuid='6c20dbb2-b184-47e0-ba73-aaa77d290ce8', l='ServerLevel[world]', x=1762.50, y=71.00, z=-412.50, cpos=[110, -26], tl=493, v=true] died: Reason: .Haras124 died died
+[13:37:51] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: wo use mat karo mera game crash ho jqyeag
+[13:37:57] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[13:37:58] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: jayega *
+[13:37:58] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ok
+[13:38:50] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: kya kre
+[13:38:55] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: pvp ?
+[13:39:28] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Haras124 has disconnected from the Java server because of Bedrock client disconnected
+[13:39:28] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[13:39:28] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[13:39:28] [Server thread/INFO]: .Haras124 left the game
+[13:40:32] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username Haras124 (975)
+[13:40:32] [localSession-7-3/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to the Java server
+[13:40:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[13:40:33] [Server thread/INFO]: .Haras124 joined the game
+[13:40:33] [Server thread/INFO]: .Haras124[/127.0.0.1:0] logged in with entity id 3441 at ([world]1904.5375899774042, 85.78069255110377, -171.46851334175003)
+[13:41:28] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: tere pe silktouch pic axe h
+[13:41:30] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ?
+[13:41:34] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ha
+[13:41:36] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: de to
+[13:41:43] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[13:41:48] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:43:54] [Server thread/WARN]: .Haras124 moved wrongly!, (0.0)
+[13:44:04] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ok mein ready hu
+[13:44:09] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[13:44:10] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wait
+[13:44:18] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ok
+[13:46:39] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: aaja
+[13:46:53] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ha
+[13:46:58] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: accha tere pe 1 hel met h
+[13:47:08] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: hm ?
+[13:47:11] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: protecton wala deto
+[13:47:17] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ok
+[13:47:21] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[13:47:21] [Server thread/INFO]: [.Haras124: Set the time to 1000]
+[13:49:16] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: hm ?
+[13:49:27] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: helmet ?
+[13:50:59] [Server thread/WARN]: .Haras124 moved wrongly!, (0.0646199999999908)
+[13:50:59] [Server thread/WARN]: .Haras124 moved wrongly!, (-0.1552199999999999)
+[13:51:04] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.013651223702467519)
+[13:51:45] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.020239077061376065)
+[13:57:54] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[13:57:54] [Server thread/INFO]: [.Haras124: Set the time to 1000]
+[13:58:10] [Server thread/INFO]: InfinityNoob issued server command: /give @p minecraft:arrow 128
+[13:58:10] [Server thread/INFO]: [InfinityNoob: Gave 128 [Arrow] to InfinityNoob]
+[13:58:22] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: huh no creative
+[13:59:19] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wait
+[13:59:23] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: call aara
+[13:59:27] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ok
+[14:00:30] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ready
+[14:03:02] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: oii
+[14:08:38] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[14:08:38] [Server thread/INFO]: [.Haras124: Set the time to 1000]
+[14:13:19] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.022902115535345047)
+[14:13:40] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.24813599859093927)
+[14:23:23] [Server thread/WARN]: .Haras124 moved wrongly!, (-0.24471000000001197)
+[14:23:45] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.0)
+[14:24:36] [Server thread/INFO]: InfinityNoob was smashed by .Haras124
+[14:24:38] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=1980.7935161079067,y=65.17675927506424,z=-87.44270069763715,pitch=1.744345,yaw=-99.82239}
+[14:24:40] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ggg
+[14:24:43] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: ggs *
+[14:24:44] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:24:44] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[14:24:48] [Server thread/INFO]: Named entity ArmorStand['InfinityNoob died here!'/11485, uuid='25c641ab-41e9-44b5-9fad-37bcf7540be5', l='ServerLevel[world]', x=1980.50, y=66.50, z=-87.50, cpos=[123, -6], tl=194, v=true] died: InfinityNoob died here! died
+[14:24:48] [Server thread/INFO]: Named entity ArmorStand['Died at Fri May 15 14:24:38 IST 2026'/11486, uuid='2afbc857-6076-4975-850c-7e08493515ef', l='ServerLevel[world]', x=1980.50, y=66.25, z=-87.50, cpos=[123, -6], tl=194, v=true] died: Died at Fri May 15 14:24:38 IST 2026 died
+[14:24:48] [Server thread/INFO]: Named entity ArmorStand['Reason: InfinityNoob was smashed by .Haras124'/11487, uuid='07b2314a-5243-44f4-902a-b8e771271291', l='ServerLevel[world]', x=1980.50, y=66.00, z=-87.50, cpos=[123, -6], tl=194, v=true] died: Reason: InfinityNoob was smashed by .Haras124 died
+[14:24:48] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: hqhahah
+[14:24:50] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[14:24:58] [Server thread/INFO]: InfinityNoob was smashed by .Haras124
+[14:25:00] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=1979.89491885036,y=64.0,z=-87.03101412586904,pitch=19.88273,yaw=168.51912}
+[14:25:01] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[14:25:03] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:25:03] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[14:25:04] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: heheheh
+[14:25:07] [Server thread/INFO]: Named entity ArmorStand['InfinityNoob died here!'/11550, uuid='493e7091-4ff4-46fc-8bbf-55bc2801ee44', l='ServerLevel[world]', x=1979.50, y=65.50, z=-87.50, cpos=[123, -6], tl=145, v=true] died: InfinityNoob died here! died
+[14:25:07] [Server thread/INFO]: Named entity ArmorStand['Died at Fri May 15 14:25:00 IST 2026'/11551, uuid='9d009b32-541a-48b5-bece-b71acd83b36a', l='ServerLevel[world]', x=1979.50, y=65.25, z=-87.50, cpos=[123, -6], tl=145, v=true] died: Died at Fri May 15 14:25:00 IST 2026 died
+[14:25:07] [Server thread/INFO]: Named entity ArmorStand['Reason: InfinityNoob was smashed by .Haras124'/11552, uuid='435e8d72-08b2-434c-98e8-01913ec99742', l='ServerLevel[world]', x=1979.50, y=65.00, z=-87.50, cpos=[123, -6], tl=145, v=true] died: Reason: InfinityNoob was smashed by .Haras124 died
+[14:25:09] [Server thread/INFO]: ⚙ [Co-Operator] .Haras124: elytra mace
+[14:28:49] [Server thread/WARN]: .Haras124 moved wrongly!, (-0.07839999523162078)
+[14:36:20] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
+[14:36:20] [Server thread/INFO]: InfinityNoob left the game
+[14:37:02] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[14:37:02] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Haras124 has disconnected from the Java server because of Bedrock client disconnected
+[14:37:02] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[14:37:02] [Server thread/INFO]: .Haras124 left the game
+[14:39:32] [Server thread/INFO]: Stopping server
+[14:39:32] [Server thread/INFO]: [uno-sleep] Disabling uno-sleep v1.0
+[14:39:32] [Server thread/INFO]: [uno-sleep] UnoSleep has been disabled!
+[14:39:32] [Server thread/INFO]: [MusicOnDisk] Disabling MusicOnDisk v1.0.0
+[14:39:32] [Server thread/INFO]: [MusicOnDisk] Shutting down MusicOnDisk...
+[14:39:32] [Server thread/INFO]: [MusicOnDisk] [ResourcePack] HTTP server stopped.
+[14:39:33] [Server thread/ERROR]: [MusicOnDisk] [Server thread] INFO com.musicondisk.libs.hikari.HikariDataSource - MusicOnDisk-DB - Shutdown initiated...
+[14:39:33] [Server thread/ERROR]: [MusicOnDisk] [Server thread] INFO com.musicondisk.libs.hikari.HikariDataSource - MusicOnDisk-DB - Shutdown completed.
+[14:39:33] [Server thread/INFO]: [MusicOnDisk] Database connection closed.
+[14:39:33] [Server thread/INFO]: [MusicOnDisk] MusicOnDisk disabled. Goodbye!
+[14:39:33] [Server thread/INFO]: [GraveStonesPlus] Disabling GraveStonesPlus v1.9.1
+[14:39:33] [Server thread/INFO]: [GraveStonesPlus] Allowing background tasks to finish, this could take up to 5 seconds
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['BHUMIHAR died here!'/424, uuid='a4de82af-d3f3-4eee-beac-f74cbeb7abf7', l='ServerLevel[world]', x=2110.50, y=-53.50, z=-416.50, cpos=[131, -27], tl=82972, v=true] died: BHUMIHAR died here! died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Died at Fri Dec 05 18:52:21 IST 2025'/425, uuid='087106ef-ab24-4477-8aa3-b18c65b1feee', l='ServerLevel[world]', x=2110.50, y=-53.75, z=-416.50, cpos=[131, -27], tl=82972, v=true] died: Died at Fri Dec 05 18:52:21 IST 2025 died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Reason: BHUMIHAR was blown up by Creeper'/426, uuid='7959ac3c-b9ca-4abe-8680-a7adf4b43b67', l='ServerLevel[world]', x=2110.50, y=-54.00, z=-416.50, cpos=[131, -27], tl=82972, v=true] died: Reason: BHUMIHAR was blown up by Creeper died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['.Ankit_gamer2227 died here!'/427, uuid='2d58a335-c81f-445e-be86-bf6d04e84b0d', l='ServerLevel[world]', x=1936.50, y=65.50, z=-84.50, cpos=[121, -6], tl=82972, v=true] died: .Ankit_gamer2227 died here! died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Died at Tue Mar 10 13:31:14 IST 2026'/428, uuid='ef1e577d-282a-488a-b15e-a59eb2193cec', l='ServerLevel[world]', x=1936.50, y=65.25, z=-84.50, cpos=[121, -6], tl=82972, v=true] died: Died at Tue Mar 10 13:31:14 IST 2026 died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Reason: .Ankit_gamer2227 was slain by .Haras124'/429, uuid='caa26e07-921b-43a2-bd4c-a3669fa9b930', l='ServerLevel[world]', x=1936.50, y=65.00, z=-84.50, cpos=[121, -6], tl=82972, v=true] died: Reason: .Ankit_gamer2227 was slain by .Haras124 died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['.Blaize1155 died here!'/430, uuid='0027f518-f895-4049-ae26-5d18b0673ba6', l='ServerLevel[world]', x=1977.50, y=65.50, z=-225.50, cpos=[123, -15], tl=82972, v=true] died: .Blaize1155 died here! died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Died at Thu Mar 19 15:13:31 IST 2026'/431, uuid='20361b1b-6526-4624-96e8-0727762b650e', l='ServerLevel[world]', x=1977.50, y=65.25, z=-225.50, cpos=[123, -15], tl=82972, v=true] died: Died at Thu Mar 19 15:13:31 IST 2026 died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Reason: .Blaize1155 was slain by Zombie'/432, uuid='5af1bb3f-bcb8-4bb5-940c-27c35def4a1b', l='ServerLevel[world]', x=1977.50, y=65.00, z=-225.50, cpos=[123, -15], tl=82972, v=true] died: Reason: .Blaize1155 was slain by Zombie died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['.Blaize1155 died here!'/433, uuid='a2a07f1b-9365-4e9f-ad0f-5d1a09e84952', l='ServerLevel[world]', x=1745.50, y=64.50, z=-340.50, cpos=[109, -22], tl=82972, v=true] died: .Blaize1155 died here! died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Died at Tue May 12 19:06:26 IST 2026'/434, uuid='11ba4ead-132f-44d3-835f-7fff108e89b4', l='ServerLevel[world]', x=1745.50, y=64.25, z=-340.50, cpos=[109, -22], tl=82972, v=true] died: Died at Tue May 12 19:06:26 IST 2026 died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Reason: .Blaize1155 was shot by Skeleton'/435, uuid='06a4cc04-732f-4cb6-ace5-c3be5ec4df19', l='ServerLevel[world]', x=1745.50, y=64.00, z=-340.50, cpos=[109, -22], tl=82972, v=true] died: Reason: .Blaize1155 was shot by Skeleton died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['.Blaize1155 died here!'/436, uuid='514739d5-8b74-48bf-812b-036182e4247e', l='ServerLevel[world]', x=1765.50, y=65.50, z=-350.50, cpos=[110, -22], tl=82972, v=true] died: .Blaize1155 died here! died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Died at Tue May 12 19:07:16 IST 2026'/437, uuid='a25db0f9-2540-4f7f-9b6c-1313c9feb9cf', l='ServerLevel[world]', x=1765.50, y=65.25, z=-350.50, cpos=[110, -22], tl=82972, v=true] died: Died at Tue May 12 19:07:16 IST 2026 died
+[14:39:33] [Server thread/INFO]: Named entity ArmorStand['Reason: .Blaize1155 was slain by InfinityNoob using [Thunder of God]'/438, uuid='6d8e5ea6-88c9-4965-ae51-3e0a26f62823', l='ServerLevel[world]', x=1765.50, y=65.00, z=-350.50, cpos=[110, -22], tl=82972, v=true] died: Reason: .Blaize1155 was slain by InfinityNoob using [Thunder of God] died
+[14:39:33] [Server thread/INFO]: [BossBarUltra] Disabling BossBarUltra v3.1
+[14:39:33] [Server thread/INFO]: [ThunderOfGod] Disabling ThunderOfGod v1.0
+[14:39:33] [Server thread/INFO]: [ThunderOfGod] ThunderOfGod Disabled — data saved.
+[14:39:33] [Server thread/INFO]: [Skript] Disabling Skript v2.15.2
+[14:39:33] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.10.0-SNAPSHOT
+[14:39:33] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[14:39:33] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[14:39:33] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.0
+[14:39:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.9.1
+[14:39:33] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[14:39:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.9.1
+[14:39:33] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[14:39:33] [Server thread/INFO]: Saving players
+[14:39:33] [Server thread/INFO]: Saving worlds
+[14:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 20 block chunks, 327 entity chunks, 0 poi chunks in world 'world' in 0.09s
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[14:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[14:39:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[14:39:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:39:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:39:33] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[14:39:33] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[14:39:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:39:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

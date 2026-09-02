@@ -1,0 +1,123 @@
+{
+  "musicondisk.b03448b3.0": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.4": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.5": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.6": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.7": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.8": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3.9": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  },
+  "musicondisk.b03448b3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "musicondisk/b03448b3",
+        "stream": true,
+        "volume": 1.0,
+        "attenuation_distance": 128.0
+      }
+    ]
+  }
+}
