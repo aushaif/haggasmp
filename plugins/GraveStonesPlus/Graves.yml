@@ -346,8 +346,8 @@ graves:
       count: 1
       components:
         minecraft:repair_cost: '63'
-        minecraft:enchantments: '{"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5}'
         minecraft:custom_name: '"zulfikaar"'
+        minecraft:enchantments: '{"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5}'
         minecraft:damage: '40'
       schema_version: 1
     5:
