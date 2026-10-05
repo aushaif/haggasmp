@@ -1,35 +1,44 @@
 {
   "stats": {
-    "minecraft:dropped": {
-      "minecraft:music_disc_cat": 9
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 77560,
-      "minecraft:walk_one_cm": 14269,
-      "minecraft:leave_game": 31,
-      "minecraft:walk_under_water_one_cm": 463,
-      "minecraft:damage_taken": 3039,
-      "minecraft:play_time": 156929,
-      "minecraft:damage_dealt": 10,
-      "minecraft:jump": 60,
-      "minecraft:time_since_death": 77035,
-      "minecraft:play_record": 1,
-      "minecraft:drop": 9,
-      "minecraft:sprint_one_cm": 12203,
-      "minecraft:fall_one_cm": 5900,
-      "minecraft:total_world_time": 156929,
-      "minecraft:fly_one_cm": 3933,
-      "minecraft:walk_on_water_one_cm": 3,
-      "minecraft:crouch_one_cm": 52,
-      "minecraft:sneak_time": 21,
-      "minecraft:deaths": 7
+    "minecraft:picked_up": {
+      "minecraft:music_disc_cat": 15,
+      "minecraft:bedrock": 1,
+      "minecraft:white_wool": 1
     },
     "minecraft:killed_by": {
       "minecraft:player": 3
     },
-    "minecraft:picked_up": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 102786,
+      "minecraft:walk_one_cm": 14343,
+      "minecraft:leave_game": 42,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 1133,
+      "minecraft:damage_taken": 3039,
+      "minecraft:damage_dealt": 90,
+      "minecraft:play_time": 182155,
+      "minecraft:jump": 64,
+      "minecraft:time_since_death": 102261,
+      "minecraft:play_record": 3,
+      "minecraft:drop": 12,
+      "minecraft:sprint_one_cm": 12492,
+      "minecraft:fall_one_cm": 5900,
+      "minecraft:total_world_time": 182155,
+      "minecraft:fly_one_cm": 161726,
+      "minecraft:walk_on_water_one_cm": 50,
+      "minecraft:crouch_one_cm": 52,
+      "minecraft:sneak_time": 171,
+      "minecraft:deaths": 7
+    },
+    "minecraft:killed": {
+      "minecraft:sheep": 1
+    },
+    "minecraft:dropped": {
       "minecraft:music_disc_cat": 11,
-      "minecraft:bedrock": 1
+      "minecraft:white_wool": 1
+    },
+    "minecraft:used": {
+      "minecraft:jukebox": 1
     }
   },
   "DataVersion": 4671

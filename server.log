@@ -1,197 +1,297 @@
 Starting org.bukkit.craftbukkit.Main
-2026-09-02T14:40:37.037719820Z ServerMain WARN Advanced terminal features are not available in this environment
-[14:40:37 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12+8-1-26.04-Ubuntu; Ubuntu null) on Linux 7.0.0-30-generic (amd64)
-[14:40:37 INFO]: [bootstrap] Loading Purpur 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) for Minecraft 1.21.11
-[14:40:38 INFO]: [PluginInitializerManager] Initializing plugins...
-[14:40:38 INFO]: [PluginInitializerManager] Initialized 12 plugins
-[14:40:38 INFO]: [PluginInitializerManager] Bukkit plugins (12):
- - AntiSpam (3.0.0), BossBarUltra (3.1), Geyser-Spigot (2.10.0-SNAPSHOT), GraveStonesPlus (1.9.1), MusicOnDisk (1.0.0), SkinsRestorer (15.12.5), Skript (2.15.2), ThunderOfGod (1.0), ViaBackwards (5.9.1), ViaVersion (5.9.1), floodgate (2.2.5-SNAPSHOT (b130-d73192f)), uno-sleep (1.0)
-[14:40:45 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[14:40:45 INFO]: Found non-pack entry './world/datapacks/.DS_Store', ignoring
-[14:40:48 INFO]: Loaded 1470 recipes
-[14:40:48 INFO]: Loaded 1584 advancements
-[14:40:48 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[14:40:48 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 488.6ms
-[14:40:49 INFO]: Starting minecraft server version 1.21.11
-[14:40:49 INFO]: Loading properties
-[14:40:49 INFO]: This server is running Purpur version 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[14:40:49 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:40:49 INFO]: Server Ping Player Sample Count: 12
-[14:40:49 INFO]: Using 4 threads for Netty based IO
-[14:40:51 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[14:40:51 INFO]: Default game type: SURVIVAL
-[14:40:51 INFO]: Generating keypair
-[14:40:51 INFO]: Starting Minecraft server on *:25565
-[14:40:51 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:40:51 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[14:40:52 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
-[14:40:52 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-[14:40:52 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[14:40:52 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[14:40:52 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[14:40:52 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[14:40:52 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[14:40:52 WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[14:41:06 WARN]: Legacy plugin AntiSpam v3.0.0 does not specify an api-version.
-[14:41:06 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
-[14:41:06 INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
-[14:41:07 INFO]: [ViaVersion] Loading block connection mappings ...
-[14:41:08 INFO]: [ViaBackwards] Loading translations...
-[14:41:08 INFO]: [ViaBackwards] Registering protocols...
-[14:41:08 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b130-d73192f)
-[14:41:10 INFO]: [floodgate] Took 1,356ms to boot Floodgate
-[14:41:10 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
-[14:41:10 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
-[14:41:10 INFO]: [Geyser-Spigot] Loading extensions...
-[14:41:10 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[14:41:10 INFO]: [uno-sleep] Loading server plugin uno-sleep v1.0
-[14:41:10 INFO]: [ThunderOfGod] Loading server plugin ThunderOfGod v1.0
-[14:41:10 INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
-[14:41:10 INFO]: [Skript] Loading server plugin Skript v2.15.2
-[14:41:10 INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.9.1
-[14:41:10 INFO]: [MusicOnDisk] Loading server plugin MusicOnDisk v1.0.0
-[14:41:10 INFO]: [AntiSpam] Loading server plugin AntiSpam v3.0.0
-[14:41:10 INFO]: [BossBarUltra] Loading server plugin BossBarUltra v3.1
-[14:41:10 INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:41:10 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
-[14:41:12 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.11[32;1m.[0;39m
-[14:41:12 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFloodgate skin listener registered[0;39m
-[14:41:12 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
-[14:41:12 INFO]: [MusicOnDisk] Enabling MusicOnDisk v1.0.0
-[14:41:12 INFO]: [MusicOnDisk]   __  __           _      ___       ____  _     _    
-[14:41:12 INFO]: [MusicOnDisk]  |  \/  |_   _ ___(_) ___|/ _ \_ __ |  _ \(_)___| | __
-[14:41:12 INFO]: [MusicOnDisk]  | |\/| | | | / __| |/ __| | | | '_ \| | | | / __| |/ /
-[14:41:12 INFO]: [MusicOnDisk]  | |  | | |_| \__ \ | (__| |_| | | | | |_| | \__ \   < 
-[14:41:12 INFO]: [MusicOnDisk]  |_|  |_|\__,_|___/_|\___|\___/|_| |_|____/|_|___/_|\_\
-[14:41:12 INFO]: [MusicOnDisk]                                               v1.0.0
-[14:41:12 INFO]: [MusicOnDisk]  Custom Music Discs from YouTube | Paper Plugin
-[14:41:12 INFO]: [MusicOnDisk] Starting MusicOnDisk v1.0.0...
-[14:41:13 INFO]: [MusicOnDisk] 
-[14:41:13 INFO]: [MusicOnDisk] [MusicOnDisk] [ToolManager]
-[14:41:13 INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Starting...
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer   |[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |-------------------|[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m  |[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.5[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m98b9488[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
-[14:41:13 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
-[14:41:13 INFO]: [com.musicondisk.libs.hikari.pool.HikariPool] MusicOnDisk-DB - Added connection org.sqlite.jdbc4.JDBC4Connection@78571cfb
-[14:41:13 INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Start completed.
-[14:41:13 INFO]: [MusicOnDisk] Database initialized successfully.
-[14:41:13 INFO]: [MusicOnDisk] Loaded 1 music disc(s) into registry.
-[14:41:13 INFO]: [MusicOnDisk] [ResourcePack] Building resource pack...
-[14:41:13 INFO]: [MusicOnDisk] [ResourcePack] Built-in HTTP server started on port 8765
-[14:41:13 INFO]: [MusicOnDisk] ✓ MusicOnDisk enabled successfully in 427ms!
-[14:41:13 INFO]: [MusicOnDisk]   Loaded 1 custom music disc(s).
-[14:41:13 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:41:13 WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:41:13 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:41:13 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:41:13 INFO]: Preparing level "world"
-[14:41:13 INFO]: [MusicOnDisk] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
-[14:41:13 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[14:41:13 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[14:41:13 INFO]: [MusicOnDisk] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
-[14:41:13 INFO]: [MusicOnDisk] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
-[14:41:14 INFO]: [MusicOnDisk] yt-dlp
-[14:41:14 INFO]: [MusicOnDisk] Source  : Plugin Managed
-[14:41:14 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
-[14:41:14 INFO]: [MusicOnDisk] Version : 2026.08.19
-[14:41:14 INFO]: [MusicOnDisk] Verified: YES
-[14:41:14 INFO]: [MusicOnDisk] -----------------------------------------
-[14:41:14 INFO]: [MusicOnDisk] FFmpeg
-[14:41:14 INFO]: [MusicOnDisk] Source  : Plugin Managed
-[14:41:14 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
-[14:41:14 INFO]: [MusicOnDisk] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
-[14:41:14 INFO]: [MusicOnDisk] Verified: YES
-[14:41:14 INFO]: [MusicOnDisk] -----------------------------------------
-[14:41:14 INFO]: [MusicOnDisk] FFprobe
-[14:41:14 INFO]: [MusicOnDisk] Source  : Plugin Managed
-[14:41:14 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
-[14:41:14 INFO]: [MusicOnDisk] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
-[14:41:14 INFO]: [MusicOnDisk] Verified: YES
-[14:41:14 INFO]: [MusicOnDisk] -----------------------------------------
-[14:41:14 INFO]: [MusicOnDisk] ngrok
-[14:41:14 INFO]: [MusicOnDisk] Source  : Plugin Managed
-[14:41:14 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
-[14:41:14 INFO]: [MusicOnDisk] Version : ngrok version 3.39.11
-[14:41:14 INFO]: [MusicOnDisk] Verified: YES
-[14:41:14 INFO]: [MusicOnDisk] -----------------------------------------
-[14:41:14 INFO]: [MusicOnDisk] ✓ Media tools verified and ready.
-[14:41:14 INFO]: [MusicOnDisk] [ResourcePack] Resolving public address...
-[14:41:14 INFO]: [MusicOnDisk] [ResourcePack] Port: 8765
-[14:41:14 INFO]: [MusicOnDisk] [ResourcePack] Detecting public IP...
-[14:41:15 INFO]: Loading 297 persistent chunks for world 'minecraft:overworld'...
-[14:41:15 INFO]: Preparing spawn area: 3%
-[14:41:15 INFO]: [MusicOnDisk] [ResourcePack] Detected public IP: 49.207.215.211
-[14:41:15 INFO]: [MusicOnDisk] [ResourcePack] Testing endpoint: http://49.207.215.211:8765/pack.zip
-[14:41:15 INFO]: Preparing spawn area: 3%
-[14:41:16 INFO]: Preparing spawn area: 3%
-[14:41:18 INFO]: Prepared spawn area in 2890 ms
-[14:41:18 INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[14:41:18 INFO]: Prepared spawn area in 0 ms
-[14:41:18 INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[14:41:18 INFO]: Prepared spawn area in 0 ms
-[14:41:18 INFO]: Done preparing level "world" (4.723s)
-[14:41:18 INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
-[14:41:18 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
-[14:41:18 INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
-[14:41:18 INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
-[14:41:18 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
-[14:41:20 INFO]: [uno-sleep] Enabling uno-sleep v1.0
-[14:41:20 INFO]: [uno-sleep] UnoSleep has been enabled!
-[14:41:20 INFO]: [ThunderOfGod] Enabling ThunderOfGod v1.0
-[14:41:20 INFO]: [ThunderOfGod] ThunderOfGod Enabled!
-[14:41:20 INFO]: [Skript] Enabling Skript v2.15.2
-[14:41:21 INFO]: [MusicOnDisk] [ResourcePack] Public endpoint appears unreachable.
-[14:41:21 INFO]: [MusicOnDisk] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
-[14:41:21 INFO]: [MusicOnDisk] [ResourcePack] Starting tunnel provider: ngrok
-[14:41:21 INFO]: [MusicOnDisk] [Ngrok] ngrok binary already present and verified.
-[14:41:21 INFO]: [MusicOnDisk] [Ngrok] Launching ngrok on port 8765...
-[14:41:21 INFO]: [MusicOnDisk] [Ngrok] Waiting for tunnel URL (up to 20s)...
-[14:41:22 INFO]: [MusicOnDisk] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
-[14:41:22 INFO]: [MusicOnDisk] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
-[14:41:22 INFO]: [MusicOnDisk] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
-[14:41:22 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0mA new version of Skript is available: [38;5;3m2.16.2[0m (you're currently running [38;5;3m2.15.2[0m)
-[14:41:22 INFO]: Download it at: [4m[38;5;14mhttps://github.com/SkriptLang/Skript/releases/download/2.16.2/Skript-2.16.2.jar[0m
-[14:41:24 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0m ~ created by & © Peter Güttinger aka Njol ~
-[14:41:24 INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.9.1
-[14:41:24 INFO]: [GraveStonesPlus] Loaded 3 NBT ignore rules.
-[14:41:24 INFO]: [GraveStonesPlus] Loaded 3 NBT keep rules.
-[14:41:24 INFO]: [GraveStonesPlus] Loaded 3 NBT grave rules.
-[14:41:25 INFO]: [GraveStonesPlus] NBTAPI not found, some features may not work.
-[14:41:25 INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
-[14:41:25 INFO]: [AntiSpam] Enabling AntiSpam v3.0.0*
-[14:41:25 INFO]: [AntiSpam] Connected to database (SQLITE).
-[14:41:25 INFO]: [AntiSpam] §6AntiSpam §8» Plugin Enabled
-[14:41:25 INFO]: [BossBarUltra] Enabling BossBarUltra v3.1
-[14:41:25 INFO]: [spark] Starting background profiler...
-[14:41:26 INFO]: [Geyser-Spigot] ******************************************
-[14:41:26 INFO]: [Geyser-Spigot] 
-[14:41:26 INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1144 (git-master-9b42045)
-[14:41:26 INFO]: [Geyser-Spigot] 
-[14:41:26 INFO]: [Geyser-Spigot] ******************************************
-[14:41:27 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0mLoaded 5684 aliases in 3054ms
-[14:41:31 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[14:41:31 INFO]: [Geyser-Spigot] Done (4.632s)! Run /geyser help for help!
-[14:41:31 INFO]: Running delayed init tasks
-[14:41:31 INFO]: [MusicOnDisk] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
-[14:41:31 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[14:41:31 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0mLoading variables...
-[14:41:31 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0mLoaded 5 variables in 0.0 seconds
-[14:41:31 INFO]: [Geyser-Spigot] [38;5;10mThere's a new Geyser update available to support Bedrock version 26.40. Download it here: [4m[38;5;12mhttps://geysermc.org/download[0m
-[14:41:32 INFO]: [GraveStonesPlus] GraveStonesPlus has an update available! Your Version: 1.9.1 New Version: 2.0
-[14:41:32 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0mAll scripts loaded without errors.
-[14:41:32 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0mLoaded 2 scripts with a total of 21 structures in 0.69 seconds
-[14:41:32 INFO]: [38;5;7m[[38;5;3mSkript[38;5;7m] [0mFinished loading.
-[14:41:32 WARN]: [ViaVersion] There is a newer plugin version available: 5.11.0, you're on: 5.9.1
-[14:41:32 INFO]: Done (55.826s)! For help, type "help"
-[14:41:32 WARN]: [AntiSpam] Cannot check for updates: https://api.spigotmc.org/legacy/org.bukkit/resources/118730/versions/latest
-[14:41:36 INFO]: [MusicOnDisk] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-07T20:54:52.390501935Z ServerMain WARN Advanced terminal features are not available in this environment
+[20:54:52 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12+8-1-26.04-Ubuntu; Ubuntu null) on Linux 7.0.0-31-generic (amd64)
+[20:54:52 INFO]: [bootstrap] Loading Purpur 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) for Minecraft 1.21.11
+[20:54:53 INFO]: [PluginInitializerManager] Initializing plugins...
+[20:54:54 INFO]: [PluginInitializerManager] Initialized 12 plugins
+[20:54:54 INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - AntiSpam (3.0.0), BossBarUltra (3.1), Geyser-Spigot (2.11.2-SNAPSHOT), GraveStonesPlus (1.9.1), MusicOnDisk (1.0.0), SkinsRestorer (15.12.5), Skript (2.15.2), ThunderOfGod (1.0), ViaBackwards (5.11.0), ViaVersion (5.11.0), floodgate (2.2.5-SNAPSHOT (b130-d73192f)), uno-sleep (1.0)
+[20:55:01 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:55:01 INFO]: Found non-pack entry './world/datapacks/.DS_Store', ignoring
+[20:55:04 INFO]: Loaded 1470 recipes
+[20:55:04 INFO]: Loaded 1584 advancements
+[20:55:04 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:55:05 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 637.9ms
+[20:55:05 INFO]: Starting minecraft server version 1.21.11
+[20:55:05 INFO]: Loading properties
+[20:55:05 INFO]: This server is running Purpur version 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[20:55:05 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:55:05 INFO]: Server Ping Player Sample Count: 12
+[20:55:05 INFO]: Using 4 threads for Netty based IO
+[20:55:07 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:55:07 INFO]: Default game type: SURVIVAL
+[20:55:07 INFO]: Generating keypair
+[20:55:07 INFO]: Starting Minecraft server on *:25565
+[20:55:07 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:55:07 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:55:08 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
+[20:55:08 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[20:55:08 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[20:55:08 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[20:55:08 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[20:55:08 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[20:55:08 INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /home/aushaif/haggasmp/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[20:55:08 WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:55:22 WARN]: Legacy plugin AntiSpam v3.0.0 does not specify an api-version.
+[20:55:22 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[20:55:22 INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[20:55:24 INFO]: [ViaBackwards] Loading translations...
+[20:55:24 INFO]: [ViaBackwards] Registering protocols...
+[20:55:24 INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[20:55:25 INFO]: [floodgate] Took 1,051ms to boot Floodgate
+[20:55:25 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[20:55:25 INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.2-SNAPSHOT
+[20:55:26 INFO]: [Geyser-Spigot] Loading extensions...
+[20:55:26 INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:55:26 INFO]: [uno-sleep] Loading server plugin uno-sleep v1.0
+[20:55:26 INFO]: [ThunderOfGod] Loading server plugin ThunderOfGod v1.0
+[20:55:26 INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[20:55:26 INFO]: [Skript] Loading server plugin Skript v2.15.2
+[20:55:26 INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.9.1
+[20:55:26 INFO]: [MusicOnDisk] Loading server plugin MusicOnDisk v1.0.0
+[20:55:26 INFO]: [AntiSpam] Loading server plugin AntiSpam v3.0.0
+[20:55:26 INFO]: [BossBarUltra] Loading server plugin BossBarUltra v3.1
+[20:55:26 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:55:26 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[20:55:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.21.11[32;1m.[0;39m
+[20:55:27 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFloodgate skin listener registered[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[20:55:28 INFO]: [MusicOnDisk] Enabling MusicOnDisk v1.0.0
+[20:55:28 INFO]: [MusicOnDisk]   __  __           _      ___       ____  _     _    
+[20:55:28 INFO]: [MusicOnDisk]  |  \/  |_   _ ___(_) ___|/ _ \_ __ |  _ \(_)___| | __
+[20:55:28 INFO]: [MusicOnDisk]  | |\/| | | | / __| |/ __| | | | '_ \| | | | / __| |/ /
+[20:55:28 INFO]: [MusicOnDisk]  | |  | | |_| \__ \ | (__| |_| | | | | |_| | \__ \   < 
+[20:55:28 INFO]: [MusicOnDisk]  |_|  |_|\__,_|___/_|\___|\___/|_| |_|____/|_|___/_|\_\
+[20:55:28 INFO]: [MusicOnDisk]                                               v1.0.0
+[20:55:28 INFO]: [MusicOnDisk]  Custom Music Discs from YouTube | Paper Plugin
+[20:55:28 INFO]: [MusicOnDisk] Starting MusicOnDisk v1.0.0...
+[20:55:28 INFO]: [MusicOnDisk] 
+[20:55:28 INFO]: [MusicOnDisk] [MusicOnDisk] [ToolManager]
+[20:55:28 INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Starting...
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer   |[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |-------------------|[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m  |[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.5[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m98b9488[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[20:55:28 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
+[20:55:28 INFO]: [com.musicondisk.libs.hikari.pool.HikariPool] MusicOnDisk-DB - Added connection org.sqlite.jdbc4.JDBC4Connection@659ea90b
+[20:55:28 INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Start completed.
+[20:55:28 INFO]: [MusicOnDisk] Database initialized successfully.
+[20:55:28 INFO]: [MusicOnDisk] Loaded 1 music disc(s) into registry.
+[20:55:28 INFO]: [MusicOnDisk] [ResourcePack] Building resource pack...
+[20:55:28 INFO]: [MusicOnDisk] ✓ MusicOnDisk enabled successfully in 451ms!
+[20:55:29 INFO]: [MusicOnDisk]   Loaded 1 custom music disc(s).
+[20:55:29 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:55:29 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:55:29 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:55:29 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:55:29 INFO]: Preparing level "world"
+[20:55:29 INFO]: [MusicOnDisk] [ResourcePack] Built-in HTTP server started on port 8765
+[20:55:29 INFO]: [MusicOnDisk] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+[20:55:29 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[20:55:29 INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[20:55:29 INFO]: [MusicOnDisk] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+[20:55:29 INFO]: [MusicOnDisk] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+[20:55:30 INFO]: [MusicOnDisk] [ResourcePack] Resolving public address...
+[20:55:30 INFO]: [MusicOnDisk] [ResourcePack] Port: 8765
+[20:55:30 INFO]: [MusicOnDisk] [ResourcePack] Detecting public IP...
+[20:55:30 INFO]: [MusicOnDisk] yt-dlp
+[20:55:30 INFO]: [MusicOnDisk] Source  : Plugin Managed
+[20:55:30 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+[20:55:30 INFO]: [MusicOnDisk] Version : 2026.08.19
+[20:55:30 INFO]: [MusicOnDisk] Verified: YES
+[20:55:30 INFO]: [MusicOnDisk] -----------------------------------------
+[20:55:30 INFO]: [MusicOnDisk] FFmpeg
+[20:55:30 INFO]: [MusicOnDisk] Source  : Plugin Managed
+[20:55:30 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+[20:55:30 INFO]: [MusicOnDisk] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+[20:55:30 INFO]: [MusicOnDisk] Verified: YES
+[20:55:30 INFO]: [MusicOnDisk] -----------------------------------------
+[20:55:30 INFO]: [MusicOnDisk] FFprobe
+[20:55:30 INFO]: [MusicOnDisk] Source  : Plugin Managed
+[20:55:30 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+[20:55:30 INFO]: [MusicOnDisk] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+[20:55:30 INFO]: [MusicOnDisk] Verified: YES
+[20:55:30 INFO]: [MusicOnDisk] -----------------------------------------
+[20:55:30 INFO]: [MusicOnDisk] ngrok
+[20:55:30 INFO]: [MusicOnDisk] Source  : Plugin Managed
+[20:55:30 INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+[20:55:30 INFO]: [MusicOnDisk] Version : ngrok version 3.39.11
+[20:55:30 INFO]: [MusicOnDisk] Verified: YES
+[20:55:30 INFO]: [MusicOnDisk] -----------------------------------------
+[20:55:30 INFO]: [MusicOnDisk] ✓ Media tools verified and ready.
+[20:55:30 INFO]: [MusicOnDisk] [ResourcePack] Detected public IP: 49.207.214.147
+[20:55:30 INFO]: [MusicOnDisk] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+[20:55:30 INFO]: Loading 297 persistent chunks for world 'minecraft:overworld'...
+[20:55:30 INFO]: Preparing spawn area: 3%
+[20:55:31 INFO]: Preparing spawn area: 3%
+[20:55:31 INFO]: Preparing spawn area: 3%
+[20:55:32 INFO]: Preparing spawn area: 3%
+[20:55:34 INFO]: Prepared spawn area in 3384 ms
+[20:55:34 INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[20:55:34 INFO]: Preparing spawn area: 100%
+[20:55:34 INFO]: Prepared spawn area in 1 ms
+[20:55:34 INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[20:55:34 INFO]: Prepared spawn area in 0 ms
+[20:55:34 INFO]: Done preparing level "world" (5.273s)
+[20:55:34 INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[20:55:34 INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[20:55:34 INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[20:55:34 INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[20:55:34 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.2-SNAPSHOT
+[20:55:36 INFO]: [uno-sleep] Enabling uno-sleep v1.0
+[20:55:36 INFO]: [uno-sleep] UnoSleep has been enabled!
+[20:55:36 INFO]: [ThunderOfGod] Enabling ThunderOfGod v1.0
+[20:55:36 INFO]: [ThunderOfGod] ThunderOfGod Enabled!
+[20:55:36 INFO]: [Skript] Enabling Skript v2.15.2
+[20:55:36 INFO]: [MusicOnDisk] [ResourcePack] Public endpoint appears unreachable.
+[20:55:36 INFO]: [MusicOnDisk] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+[20:55:36 INFO]: [MusicOnDisk] [ResourcePack] Starting tunnel provider: ngrok
+[20:55:36 INFO]: [MusicOnDisk] [Ngrok] ngrok binary already present and verified.
+[20:55:36 INFO]: [MusicOnDisk] [Ngrok] Launching ngrok on port 8765...
+[20:55:36 INFO]: [MusicOnDisk] [Ngrok] Waiting for tunnel URL (up to 20s)...
+[20:55:37 INFO]: [MusicOnDisk] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+[20:55:37 INFO]: [MusicOnDisk] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+[20:55:37 INFO]: [MusicOnDisk] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+[20:55:38 INFO]: [37m[[33mSkript[37m] [0mA new version of Skript is available: [33m2.16.2[0m (you're currently running [33m2.15.2[0m)
+[20:55:38 INFO]: Download it at: [4m[96mhttps://github.com/SkriptLang/Skript/releases/download/2.16.2/Skript-2.16.2.jar[0m
+[20:55:41 INFO]: [37m[[33mSkript[37m] [0m ~ created by & © Peter Güttinger aka Njol ~
+[20:55:41 INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.9.1
+[20:55:41 INFO]: [GraveStonesPlus] Loaded 3 NBT ignore rules.
+[20:55:41 INFO]: [GraveStonesPlus] Loaded 3 NBT keep rules.
+[20:55:41 INFO]: [GraveStonesPlus] Loaded 3 NBT grave rules.
+[20:55:41 INFO]: [GraveStonesPlus] NBTAPI not found, some features may not work.
+[20:55:41 INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
+[20:55:41 INFO]: [AntiSpam] Enabling AntiSpam v3.0.0*
+[20:55:41 INFO]: [AntiSpam] Connected to database (SQLITE).
+[20:55:41 INFO]: [AntiSpam] §6AntiSpam §8» Plugin Enabled
+[20:55:41 INFO]: [BossBarUltra] Enabling BossBarUltra v3.1
+[20:55:42 INFO]: [spark] Starting background profiler...
+[20:55:43 INFO]: [Geyser-Spigot] ******************************************
+[20:55:43 INFO]: [Geyser-Spigot] 
+[20:55:43 INFO]: [Geyser-Spigot] Loading Geyser version 2.11.2-b1234 (git-master-9b65a39)
+[20:55:43 INFO]: [Geyser-Spigot] 
+[20:55:43 INFO]: [Geyser-Spigot] ******************************************
+[20:55:44 INFO]: [37m[[33mSkript[37m] [0mLoaded 5684 aliases in 3099ms
+[20:55:45 INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[20:55:45 INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[20:55:45 INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[20:55:47 INFO]: [Geyser-Spigot] Registered 1 custom items
+[20:55:49 INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[20:55:49 INFO]: [Geyser-Spigot] Done (5.753s)! Run /geyser help for help!
+[20:55:49 INFO]: Running delayed init tasks
+[20:55:49 INFO]: [MusicOnDisk] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+[20:55:49 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:55:49 INFO]: [37m[[33mSkript[37m] [0mLoading variables...
+[20:55:49 INFO]: [37m[[33mSkript[37m] [0mLoaded 5 variables in 0.0 seconds
+[20:55:50 WARN]: [AntiSpam] Cannot check for updates: https://api.spigotmc.org/legacy/org.bukkit/resources/118730/versions/latest
+[20:55:50 INFO]: [GraveStonesPlus] GraveStonesPlus has an update available! Your Version: 1.9.1 New Version: 2.0
+[20:55:50 INFO]: [37m[[33mSkript[37m] [0mAll scripts loaded without errors.
+[20:55:50 INFO]: [37m[[33mSkript[37m] [0mLoaded 2 scripts with a total of 21 structures in 1.22 seconds
+[20:55:50 INFO]: [37m[[33mSkript[37m] [0mFinished loading.
+[20:55:50 INFO]: Done (59.326s)! For help, type "help"
+[20:55:55 INFO]: [MusicOnDisk] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+[21:21:46 INFO]: [Geyser-Spigot] Player connected with username Aushaif (924)
+[21:21:46 INFO]: [Geyser-Spigot] Aushaif (logged in as: Aushaif) has connected to the Java server
+[21:21:47 INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
+[21:21:47 INFO]: [floodgate] Floodgate player logged in as .Aushaif joined (UUID: 00000000-0000-0000-0009-01fc6cbdeba3)
+[21:21:47 INFO]: [93m.Aushaif joined the game[0m
+[21:21:47 INFO]: .Aushaif[/192.168.0.3:0] logged in with entity id 382 at ([world]1759.354, 73.81753, -484.21204)
+[21:22:12 INFO]: [Geyser-Spigot] Aushaif has disconnected from the Java server because of §rBedrock client disconnected
+[21:22:12 INFO]: .Aushaif lost connection: Disconnected
+[21:22:12 INFO]: [floodgate] Floodgate player logged in as .Aushaif disconnected
+[21:22:12 INFO]: [93m.Aushaif left the game[0m
+[21:27:15 INFO]: [Geyser-Spigot] Player connected with username Aushaif (924)
+[21:27:15 INFO]: [Geyser-Spigot] Aushaif (logged in as: Aushaif) has connected to the Java server
+[21:27:15 INFO]: [floodgate] Floodgate player logged in as .Aushaif joined (UUID: 00000000-0000-0000-0009-01fc6cbdeba3)
+[21:27:15 INFO]: [93m.Aushaif joined the game[0m
+[21:27:15 INFO]: .Aushaif[/192.168.0.10:0] logged in with entity id 611 at ([world]1759.354, 73.81753, -484.21204)
+[21:27:15 INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
+[21:27:54 INFO]: [Geyser-Spigot] Aushaif has disconnected from the Java server because of §rBedrock client disconnected
+[21:27:54 INFO]: [floodgate] Floodgate player logged in as .Aushaif disconnected
+[21:27:54 INFO]: .Aushaif lost connection: Disconnected
+[21:27:54 INFO]: [93m.Aushaif left the game[0m
+[00:00:02 INFO]: [GraveStonesPlus] Detected day changed, processing...
+[00:00:02 INFO]: [GraveStonesPlus] Time change event: DAY, Fake: false
+[00:00:02 INFO]: [GraveStonesPlus] Finished processing day changes
+[17:00:38 INFO]: Stopping server
+[17:00:38 INFO]: [BossBarUltra] Disabling BossBarUltra v3.1
+[17:00:38 INFO]: [AntiSpam] Disabling AntiSpam v3.0.0
+[17:00:38 INFO]: [AntiSpam] §6AntiSpam §8» Plugin Disabled
+[17:00:38 INFO]: [MusicOnDisk] Disabling MusicOnDisk v1.0.0
+[17:00:38 INFO]: [MusicOnDisk] Shutting down MusicOnDisk...
+[17:00:38 INFO]: [MusicOnDisk] [Ngrok] Tunnel stopped.
+[17:00:38 INFO]: [MusicOnDisk] [ResourcePack] Built-in HTTP server stopped.
+[17:00:38 INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Shutdown initiated...
+[17:00:38 INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Shutdown completed.
+[17:00:38 INFO]: [MusicOnDisk] Database connection closed.
+[17:00:38 INFO]: [MusicOnDisk] MusicOnDisk disabled. Goodbye!
+[17:00:38 INFO]: [GraveStonesPlus] Disabling GraveStonesPlus v1.9.1
+[17:00:38 INFO]: [GraveStonesPlus] Allowing background tasks to finish, this could take up to 5 seconds
+[17:00:38 INFO]: Named entity ArmorStand['BHUMIHAR died here!'/312, uuid='8e94e76a-b064-46fe-a480-3262b4af6275', l='ServerLevel[world]', x=2110.50, y=-53.50, z=-416.50, cpos=[131, -27], tl=1445742, v=true] died: BHUMIHAR died here! died
+[17:00:38 INFO]: Named entity ArmorStand['Died at Fri Dec 05 13:22:21 UTC 2025'/313, uuid='39d4d30f-8a61-433d-b6ed-97853a4d6913', l='ServerLevel[world]', x=2110.50, y=-53.75, z=-416.50, cpos=[131, -27], tl=1445742, v=true] died: Died at Fri Dec 05 13:22:21 UTC 2025 died
+[17:00:38 INFO]: Named entity ArmorStand['Reason: BHUMIHAR was blown up by Creeper'/314, uuid='1a5b0555-e833-4059-8e76-17e582eb2ca3', l='ServerLevel[world]', x=2110.50, y=-54.00, z=-416.50, cpos=[131, -27], tl=1445742, v=true] died: Reason: BHUMIHAR was blown up by Creeper died
+[17:00:38 INFO]: Named entity ArmorStand['.Ankit_gamer2227 died here!'/315, uuid='51c68906-6e3f-4e5e-983f-7a879783a4ff', l='ServerLevel[world]', x=1936.50, y=65.50, z=-84.50, cpos=[121, -6], tl=1445742, v=true] died: .Ankit_gamer2227 died here! died
+[17:00:38 INFO]: Named entity ArmorStand['Died at Tue Mar 10 08:01:14 UTC 2026'/316, uuid='01af7cb0-92bf-40d1-ba84-e89266e32c8e', l='ServerLevel[world]', x=1936.50, y=65.25, z=-84.50, cpos=[121, -6], tl=1445742, v=true] died: Died at Tue Mar 10 08:01:14 UTC 2026 died
+[17:00:38 INFO]: Named entity ArmorStand['Reason: .Ankit_gamer2227 was slain by .Haras124'/317, uuid='707bafad-a29b-4594-94f1-6c47d4273cc4', l='ServerLevel[world]', x=1936.50, y=65.00, z=-84.50, cpos=[121, -6], tl=1445742, v=true] died: Reason: .Ankit_gamer2227 was slain by .Haras124 died
+[17:00:38 INFO]: Named entity ArmorStand['.Blaize1155 died here!'/318, uuid='678aae38-c86f-4b21-8d25-a5a6f008c582', l='ServerLevel[world]', x=1977.50, y=65.50, z=-225.50, cpos=[123, -15], tl=1445742, v=true] died: .Blaize1155 died here! died
+[17:00:38 INFO]: Named entity ArmorStand['Died at Thu Mar 19 09:43:31 UTC 2026'/319, uuid='81858a7a-9db8-4619-8640-c642a30ecaa8', l='ServerLevel[world]', x=1977.50, y=65.25, z=-225.50, cpos=[123, -15], tl=1445742, v=true] died: Died at Thu Mar 19 09:43:31 UTC 2026 died
+[17:00:38 INFO]: Named entity ArmorStand['Reason: .Blaize1155 was slain by Zombie'/320, uuid='4f18a13d-2fdf-48f6-b729-d1e199cd5d03', l='ServerLevel[world]', x=1977.50, y=65.00, z=-225.50, cpos=[123, -15], tl=1445742, v=true] died: Reason: .Blaize1155 was slain by Zombie died
+[17:00:38 INFO]: Named entity ArmorStand['.Blaize1155 died here!'/321, uuid='eafa308f-ac11-4c47-8814-17e9d02430a5', l='ServerLevel[world]', x=1745.50, y=64.50, z=-340.50, cpos=[109, -22], tl=1445742, v=true] died: .Blaize1155 died here! died
+[17:00:38 INFO]: Named entity ArmorStand['Died at Tue May 12 13:36:26 UTC 2026'/322, uuid='f552250b-98d2-4acd-82d4-7a1d5cf1f08e', l='ServerLevel[world]', x=1745.50, y=64.25, z=-340.50, cpos=[109, -22], tl=1445742, v=true] died: Died at Tue May 12 13:36:26 UTC 2026 died
+[17:00:38 INFO]: Named entity ArmorStand['Reason: .Blaize1155 was shot by Skeleton'/323, uuid='2a1e1c1c-a7ff-429b-a32c-8cac7342bd04', l='ServerLevel[world]', x=1745.50, y=64.00, z=-340.50, cpos=[109, -22], tl=1445742, v=true] died: Reason: .Blaize1155 was shot by Skeleton died
+[17:00:38 INFO]: Named entity ArmorStand['.Blaize1155 died here!'/324, uuid='710431e7-85cd-416b-a886-7d7d219d6853', l='ServerLevel[world]', x=1765.50, y=65.50, z=-350.50, cpos=[110, -22], tl=1445742, v=true] died: .Blaize1155 died here! died
+[17:00:38 INFO]: Named entity ArmorStand['Died at Tue May 12 13:37:16 UTC 2026'/325, uuid='9c539c6a-ce04-4c06-913c-369579f81a2b', l='ServerLevel[world]', x=1765.50, y=65.25, z=-350.50, cpos=[110, -22], tl=1445742, v=true] died: Died at Tue May 12 13:37:16 UTC 2026 died
+[17:00:38 INFO]: Named entity ArmorStand['Reason: .Blaize1155 was slain by InfinityNoob using [Thunder of God]'/326, uuid='03ac0e28-07fc-4c84-af39-0e1100d611c8', l='ServerLevel[world]', x=1765.50, y=65.00, z=-350.50, cpos=[110, -22], tl=1445742, v=true] died: Reason: .Blaize1155 was slain by InfinityNoob using [Thunder of God] died
+[17:00:38 INFO]: [Skript] Disabling Skript v2.15.2
+[17:00:38 INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
+[17:00:38 INFO]: [ThunderOfGod] Disabling ThunderOfGod v1.0
+[17:00:38 INFO]: [ThunderOfGod] ThunderOfGod Disabled — data saved.
+[17:00:38 INFO]: [uno-sleep] Disabling uno-sleep v1.0
+[17:00:38 INFO]: [uno-sleep] UnoSleep has been disabled!
+[17:00:38 INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.11.2-SNAPSHOT
+[17:00:38 INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:00:38 INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:00:38 INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
+[17:00:38 INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
+[17:00:38 INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
+[17:00:38 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[17:00:38 INFO]: Saving players
+[17:00:38 INFO]: Saving worlds
+[17:00:38 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:00:38 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:00:38 INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:00:38 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:00:39 INFO]: [Geyser-Spigot] The skin uploader has been closed
+[17:00:39 INFO]: [ChunkHolderManager] Saved 1 block chunks, 185 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[17:00:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:00:39 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:00:39 INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:00:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:00:39 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:00:39 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:00:39 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:00:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:00:39 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:00:39 INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:00:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:00:39 INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:00:39 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:00:39 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:00:39 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:00:39 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:00:39 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:00:39 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:00:39 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:00:39 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:00:39 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:00:39 INFO]: All RegionFile I/O tasks to complete
+[17:00:39 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:00:39 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

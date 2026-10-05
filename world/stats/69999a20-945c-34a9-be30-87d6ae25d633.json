@@ -1,1 +1,28 @@
-{"stats":{"minecraft:custom":{"minecraft:sprint_one_cm":2466,"minecraft:time_since_rest":4199,"minecraft:fall_one_cm":1225,"minecraft:walk_one_cm":2112,"minecraft:total_world_time":4199,"minecraft:leave_game":10,"minecraft:fly_one_cm":3068,"minecraft:damage_taken":130,"minecraft:play_time":4199,"minecraft:jump":28,"minecraft:time_since_death":4199},"minecraft:picked_up":{"minecraft:dirt":4},"minecraft:mined":{"minecraft:dirt":2,"minecraft:grass_block":2},"minecraft:used":{"minecraft:dirt":4}},"DataVersion":4554}
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:dirt": 2,
+      "minecraft:grass_block": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 4
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2466,
+      "minecraft:time_since_rest": 4513,
+      "minecraft:fall_one_cm": 1225,
+      "minecraft:walk_one_cm": 3105,
+      "minecraft:total_world_time": 4513,
+      "minecraft:leave_game": 11,
+      "minecraft:fly_one_cm": 3068,
+      "minecraft:damage_taken": 130,
+      "minecraft:play_time": 4513,
+      "minecraft:jump": 31,
+      "minecraft:time_since_death": 4513
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 4
+    }
+  },
+  "DataVersion": 4671
+}

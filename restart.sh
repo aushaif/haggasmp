@@ -6,6 +6,6 @@ echo "Restarting Minecraft server..."
 
 ./stop.sh
 
-sleep 3
+sleep 1
 
 ./start.sh

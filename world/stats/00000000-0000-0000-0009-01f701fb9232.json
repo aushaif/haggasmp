@@ -1,16 +1,25 @@
 {
   "stats": {
+    "minecraft:killed_by": {
+      "minecraft:ravager": 2,
+      "minecraft:skeleton": 3,
+      "minecraft:player": 10,
+      "minecraft:zombie": 4
+    },
+    "minecraft:dropped": {
+      "minecraft:saddle": 3
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 4353,
-      "minecraft:leave_game": 16,
+      "minecraft:time_since_rest": 6564,
+      "minecraft:leave_game": 17,
       "minecraft:damage_taken": 6268,
       "minecraft:mob_kills": 8,
       "minecraft:damage_absorbed": 233,
       "minecraft:open_shulker_box": 2,
-      "minecraft:time_since_death": 220,
+      "minecraft:time_since_death": 2431,
       "minecraft:aviate_one_cm": 42440,
       "minecraft:damage_dealt_absorbed": 122,
-      "minecraft:total_world_time": 189562,
+      "minecraft:total_world_time": 191773,
       "minecraft:swim_one_cm": 466,
       "minecraft:crouch_one_cm": 228,
       "minecraft:deaths": 20,
@@ -18,7 +27,7 @@
       "minecraft:walk_one_cm": 1005040,
       "minecraft:horse_one_cm": 192682,
       "minecraft:walk_under_water_one_cm": 12465,
-      "minecraft:play_time": 189562,
+      "minecraft:play_time": 191773,
       "minecraft:damage_dealt": 2748,
       "minecraft:jump": 1182,
       "minecraft:play_record": 3,
@@ -29,14 +38,25 @@
       "minecraft:walk_on_water_one_cm": 9123,
       "minecraft:sneak_time": 139
     },
-    "minecraft:killed": {
-      "minecraft:zombie": 2,
-      "minecraft:skeleton": 1,
-      "minecraft:enderman": 1,
-      "minecraft:ravager": 3
+    "minecraft:used": {
+      "minecraft:netherite_helmet": 1,
+      "minecraft:trident": 12,
+      "minecraft:wind_charge": 7,
+      "minecraft:netherite_sword": 131,
+      "minecraft:birch_sign": 1,
+      "minecraft:netherite_axe": 63,
+      "minecraft:firework_rocket": 3,
+      "minecraft:golden_apple": 10,
+      "minecraft:netherite_boots": 1,
+      "minecraft:netherite_leggings": 1,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:netherite_pickaxe": 24,
+      "minecraft:torch": 5,
+      "minecraft:quartz_block": 107,
+      "minecraft:ender_pearl": 1
     },
-    "minecraft:dropped": {
-      "minecraft:saddle": 3
+    "minecraft:crafted": {
+      "minecraft:quartz_bricks": 8
     },
     "minecraft:mined": {
       "minecraft:tall_grass": 1,
@@ -93,31 +113,11 @@
       "minecraft:pink_petals": 1,
       "minecraft:netherite_sword": 2
     },
-    "minecraft:crafted": {
-      "minecraft:quartz_bricks": 8
-    },
-    "minecraft:used": {
-      "minecraft:netherite_helmet": 1,
-      "minecraft:trident": 12,
-      "minecraft:wind_charge": 7,
-      "minecraft:netherite_sword": 131,
-      "minecraft:birch_sign": 1,
-      "minecraft:netherite_axe": 63,
-      "minecraft:firework_rocket": 3,
-      "minecraft:golden_apple": 10,
-      "minecraft:netherite_boots": 1,
-      "minecraft:netherite_leggings": 1,
-      "minecraft:netherite_chestplate": 1,
-      "minecraft:netherite_pickaxe": 24,
-      "minecraft:torch": 5,
-      "minecraft:quartz_block": 107,
-      "minecraft:ender_pearl": 1
-    },
-    "minecraft:killed_by": {
-      "minecraft:ravager": 2,
-      "minecraft:skeleton": 3,
-      "minecraft:player": 10,
-      "minecraft:zombie": 4
+    "minecraft:killed": {
+      "minecraft:zombie": 2,
+      "minecraft:skeleton": 1,
+      "minecraft:enderman": 1,
+      "minecraft:ravager": 3
     }
   },
   "DataVersion": 4671

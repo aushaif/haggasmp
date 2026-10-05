@@ -1345,3 +1345,1303 @@ ERROR: Interrupted by user
 2026-09-02 14:41:22 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
 2026-09-02 14:41:31 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
 2026-09-02 14:41:36 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-02 14:57:16 [INFO] Shutting down MusicOnDisk...
+2026-09-02 14:57:16 [INFO] [Ngrok] Tunnel stopped.
+2026-09-02 14:57:16 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-02 14:57:16 [INFO] Database connection closed.
+2026-09-02 14:57:16 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-02 14:58:00 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-02 14:58:00 [INFO] 
+2026-09-02 14:58:00 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-02 14:58:01 [INFO] Database initialized successfully.
+2026-09-02 14:58:01 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-02 14:58:01 [INFO] [ResourcePack] Building resource pack...
+2026-09-02 14:58:01 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-02 14:58:01 [INFO] ✓ MusicOnDisk enabled successfully in 651ms!
+2026-09-02 14:58:01 [INFO]   Loaded 1 custom music disc(s).
+2026-09-02 14:58:01 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-02 14:58:02 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-02 14:58:02 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-02 14:58:02 [INFO] yt-dlp
+2026-09-02 14:58:02 [INFO] Source  : Plugin Managed
+2026-09-02 14:58:02 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-02 14:58:02 [INFO] Version : 2026.08.19
+2026-09-02 14:58:02 [INFO] Verified: YES
+2026-09-02 14:58:02 [INFO] -----------------------------------------
+2026-09-02 14:58:02 [INFO] FFmpeg
+2026-09-02 14:58:02 [INFO] Source  : Plugin Managed
+2026-09-02 14:58:02 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-02 14:58:02 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-02 14:58:02 [INFO] Verified: YES
+2026-09-02 14:58:02 [INFO] -----------------------------------------
+2026-09-02 14:58:02 [INFO] FFprobe
+2026-09-02 14:58:02 [INFO] Source  : Plugin Managed
+2026-09-02 14:58:02 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-02 14:58:02 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-02 14:58:02 [INFO] Verified: YES
+2026-09-02 14:58:02 [INFO] -----------------------------------------
+2026-09-02 14:58:02 [INFO] ngrok
+2026-09-02 14:58:02 [INFO] Source  : Plugin Managed
+2026-09-02 14:58:02 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-02 14:58:02 [INFO] Version : ngrok version 3.39.11
+2026-09-02 14:58:02 [INFO] Verified: YES
+2026-09-02 14:58:02 [INFO] -----------------------------------------
+2026-09-02 14:58:02 [INFO] ✓ Media tools verified and ready.
+2026-09-02 14:58:02 [INFO] [ResourcePack] Resolving public address...
+2026-09-02 14:58:02 [INFO] [ResourcePack] Port: 8765
+2026-09-02 14:58:02 [INFO] [ResourcePack] Detecting public IP...
+2026-09-02 14:58:03 [INFO] [ResourcePack] Detected public IP: 49.207.215.211
+2026-09-02 14:58:03 [INFO] [ResourcePack] Testing endpoint: http://49.207.215.211:8765/pack.zip
+2026-09-02 14:58:09 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-02 14:58:09 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-02 14:58:09 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-02 14:58:09 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-02 14:58:09 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-02 14:58:09 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-02 14:58:10 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-02 14:58:10 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 14:58:10 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 14:58:20 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-02 14:58:26 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-02 14:59:37 [INFO] Shutting down MusicOnDisk...
+2026-09-02 14:59:37 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-02 14:59:37 [INFO] Database connection closed.
+2026-09-02 14:59:37 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-02 15:00:22 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-02 15:00:22 [INFO] 
+2026-09-02 15:00:22 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-02 15:00:22 [INFO] Database initialized successfully.
+2026-09-02 15:00:22 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-02 15:00:22 [INFO] [ResourcePack] Building resource pack...
+2026-09-02 15:00:22 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-02 15:00:22 [INFO] ✓ MusicOnDisk enabled successfully in 629ms!
+2026-09-02 15:00:22 [INFO]   Loaded 1 custom music disc(s).
+2026-09-02 15:00:22 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-02 15:00:23 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-02 15:00:23 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-02 15:00:23 [INFO] yt-dlp
+2026-09-02 15:00:23 [INFO] Source  : Plugin Managed
+2026-09-02 15:00:23 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-02 15:00:23 [INFO] Version : 2026.08.19
+2026-09-02 15:00:23 [INFO] Verified: YES
+2026-09-02 15:00:23 [INFO] -----------------------------------------
+2026-09-02 15:00:23 [INFO] FFmpeg
+2026-09-02 15:00:23 [INFO] Source  : Plugin Managed
+2026-09-02 15:00:23 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-02 15:00:23 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-02 15:00:23 [INFO] Verified: YES
+2026-09-02 15:00:23 [INFO] -----------------------------------------
+2026-09-02 15:00:23 [INFO] FFprobe
+2026-09-02 15:00:23 [INFO] Source  : Plugin Managed
+2026-09-02 15:00:23 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-02 15:00:23 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-02 15:00:23 [INFO] Verified: YES
+2026-09-02 15:00:23 [INFO] -----------------------------------------
+2026-09-02 15:00:23 [INFO] ngrok
+2026-09-02 15:00:23 [INFO] Source  : Plugin Managed
+2026-09-02 15:00:23 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-02 15:00:23 [INFO] Version : ngrok version 3.39.11
+2026-09-02 15:00:23 [INFO] Verified: YES
+2026-09-02 15:00:23 [INFO] -----------------------------------------
+2026-09-02 15:00:23 [INFO] ✓ Media tools verified and ready.
+2026-09-02 15:00:24 [INFO] [ResourcePack] Resolving public address...
+2026-09-02 15:00:24 [INFO] [ResourcePack] Port: 8765
+2026-09-02 15:00:24 [INFO] [ResourcePack] Detecting public IP...
+2026-09-02 15:00:24 [INFO] [ResourcePack] Detected public IP: 49.207.215.211
+2026-09-02 15:00:24 [INFO] [ResourcePack] Testing endpoint: http://49.207.215.211:8765/pack.zip
+2026-09-02 15:00:30 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-02 15:00:30 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-02 15:00:30 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-02 15:00:30 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-02 15:00:30 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-02 15:00:30 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-02 15:00:31 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-02 15:00:31 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 15:00:31 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 15:00:41 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-02 15:00:47 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-02 16:57:08 [INFO] Shutting down MusicOnDisk...
+2026-09-02 16:57:08 [INFO] [Ngrok] Tunnel stopped.
+2026-09-02 16:57:08 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-02 16:57:08 [INFO] Database connection closed.
+2026-09-02 16:57:08 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-02 16:57:50 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-02 16:57:50 [INFO] 
+2026-09-02 16:57:50 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-02 16:57:50 [INFO] Database initialized successfully.
+2026-09-02 16:57:50 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-02 16:57:50 [INFO] [ResourcePack] Building resource pack...
+2026-09-02 16:57:50 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-02 16:57:50 [INFO] ✓ MusicOnDisk enabled successfully in 475ms!
+2026-09-02 16:57:50 [INFO]   Loaded 1 custom music disc(s).
+2026-09-02 16:57:50 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-02 16:57:51 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-02 16:57:51 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-02 16:57:51 [INFO] yt-dlp
+2026-09-02 16:57:51 [INFO] Source  : Plugin Managed
+2026-09-02 16:57:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-02 16:57:51 [INFO] Version : 2026.08.19
+2026-09-02 16:57:51 [INFO] Verified: YES
+2026-09-02 16:57:51 [INFO] -----------------------------------------
+2026-09-02 16:57:51 [INFO] FFmpeg
+2026-09-02 16:57:51 [INFO] Source  : Plugin Managed
+2026-09-02 16:57:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-02 16:57:51 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-02 16:57:51 [INFO] Verified: YES
+2026-09-02 16:57:51 [INFO] -----------------------------------------
+2026-09-02 16:57:51 [INFO] FFprobe
+2026-09-02 16:57:51 [INFO] Source  : Plugin Managed
+2026-09-02 16:57:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-02 16:57:51 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-02 16:57:51 [INFO] Verified: YES
+2026-09-02 16:57:51 [INFO] -----------------------------------------
+2026-09-02 16:57:51 [INFO] ngrok
+2026-09-02 16:57:51 [INFO] Source  : Plugin Managed
+2026-09-02 16:57:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-02 16:57:51 [INFO] Version : ngrok version 3.39.11
+2026-09-02 16:57:51 [INFO] Verified: YES
+2026-09-02 16:57:51 [INFO] -----------------------------------------
+2026-09-02 16:57:51 [INFO] ✓ Media tools verified and ready.
+2026-09-02 16:57:51 [INFO] [ResourcePack] Resolving public address...
+2026-09-02 16:57:51 [INFO] [ResourcePack] Port: 8765
+2026-09-02 16:57:51 [INFO] [ResourcePack] Detecting public IP...
+2026-09-02 16:57:52 [INFO] [ResourcePack] Detected public IP: 49.207.215.211
+2026-09-02 16:57:52 [INFO] [ResourcePack] Testing endpoint: http://49.207.215.211:8765/pack.zip
+2026-09-02 16:57:58 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-02 16:57:58 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-02 16:57:58 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-02 16:57:58 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-02 16:57:58 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-02 16:57:58 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-02 16:57:59 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-02 16:57:59 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 16:57:59 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 16:58:09 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-02 16:58:15 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-02 18:04:08 [INFO] Shutting down MusicOnDisk...
+2026-09-02 18:04:08 [INFO] [Ngrok] Tunnel stopped.
+2026-09-02 18:04:08 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-02 18:04:09 [INFO] Database connection closed.
+2026-09-02 18:04:09 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-02 18:04:52 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-02 18:04:52 [INFO] 
+2026-09-02 18:04:52 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-02 18:04:52 [INFO] Database initialized successfully.
+2026-09-02 18:04:52 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-02 18:04:52 [INFO] [ResourcePack] Building resource pack...
+2026-09-02 18:04:52 [INFO] ✓ MusicOnDisk enabled successfully in 560ms!
+2026-09-02 18:04:52 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-02 18:04:52 [INFO]   Loaded 1 custom music disc(s).
+2026-09-02 18:04:52 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-02 18:04:53 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-02 18:04:53 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-02 18:04:54 [INFO] yt-dlp
+2026-09-02 18:04:54 [INFO] Source  : Plugin Managed
+2026-09-02 18:04:54 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-02 18:04:54 [INFO] Version : 2026.08.19
+2026-09-02 18:04:54 [INFO] Verified: YES
+2026-09-02 18:04:54 [INFO] -----------------------------------------
+2026-09-02 18:04:54 [INFO] FFmpeg
+2026-09-02 18:04:54 [INFO] Source  : Plugin Managed
+2026-09-02 18:04:54 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-02 18:04:54 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-02 18:04:54 [INFO] Verified: YES
+2026-09-02 18:04:54 [INFO] -----------------------------------------
+2026-09-02 18:04:54 [INFO] FFprobe
+2026-09-02 18:04:54 [INFO] Source  : Plugin Managed
+2026-09-02 18:04:54 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-02 18:04:54 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-02 18:04:54 [INFO] Verified: YES
+2026-09-02 18:04:54 [INFO] -----------------------------------------
+2026-09-02 18:04:54 [INFO] ngrok
+2026-09-02 18:04:54 [INFO] Source  : Plugin Managed
+2026-09-02 18:04:54 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-02 18:04:54 [INFO] Version : ngrok version 3.39.11
+2026-09-02 18:04:54 [INFO] Verified: YES
+2026-09-02 18:04:54 [INFO] -----------------------------------------
+2026-09-02 18:04:54 [INFO] ✓ Media tools verified and ready.
+2026-09-02 18:04:54 [INFO] [ResourcePack] Resolving public address...
+2026-09-02 18:04:54 [INFO] [ResourcePack] Port: 8765
+2026-09-02 18:04:54 [INFO] [ResourcePack] Detecting public IP...
+2026-09-02 18:04:54 [INFO] [ResourcePack] Detected public IP: 49.207.215.211
+2026-09-02 18:04:54 [INFO] [ResourcePack] Testing endpoint: http://49.207.215.211:8765/pack.zip
+2026-09-02 18:05:00 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-02 18:05:00 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-02 18:05:00 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-02 18:05:00 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-02 18:05:00 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-02 18:05:00 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-02 18:05:01 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-02 18:05:01 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 18:05:01 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-02 18:05:12 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-02 18:05:18 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-03 18:54:40 [INFO] Shutting down MusicOnDisk...
+2026-09-03 18:54:40 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-03 18:54:40 [INFO] Database connection closed.
+2026-09-03 18:54:40 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-03 19:38:40 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-03 19:38:40 [INFO] 
+2026-09-03 19:38:40 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-03 19:38:40 [INFO] Database initialized successfully.
+2026-09-03 19:38:41 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-03 19:38:41 [INFO] [ResourcePack] Building resource pack...
+2026-09-03 19:38:41 [INFO] ✓ MusicOnDisk enabled successfully in 649ms!
+2026-09-03 19:38:41 [INFO]   Loaded 1 custom music disc(s).
+2026-09-03 19:38:41 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-03 19:38:41 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-03 19:38:41 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-03 19:38:41 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-03 19:38:42 [INFO] yt-dlp
+2026-09-03 19:38:42 [INFO] Source  : Plugin Managed
+2026-09-03 19:38:42 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-03 19:38:42 [INFO] Version : 2026.08.19
+2026-09-03 19:38:42 [INFO] Verified: YES
+2026-09-03 19:38:42 [INFO] -----------------------------------------
+2026-09-03 19:38:42 [INFO] FFmpeg
+2026-09-03 19:38:42 [INFO] Source  : Plugin Managed
+2026-09-03 19:38:42 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-03 19:38:42 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-03 19:38:42 [INFO] Verified: YES
+2026-09-03 19:38:42 [INFO] -----------------------------------------
+2026-09-03 19:38:42 [INFO] [ResourcePack] Resolving public address...
+2026-09-03 19:38:42 [INFO] [ResourcePack] Port: 8765
+2026-09-03 19:38:42 [INFO] [ResourcePack] Detecting public IP...
+2026-09-03 19:38:42 [INFO] FFprobe
+2026-09-03 19:38:42 [INFO] Source  : Plugin Managed
+2026-09-03 19:38:42 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-03 19:38:42 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-03 19:38:42 [INFO] Verified: YES
+2026-09-03 19:38:42 [INFO] -----------------------------------------
+2026-09-03 19:38:42 [INFO] ngrok
+2026-09-03 19:38:42 [INFO] Source  : Plugin Managed
+2026-09-03 19:38:42 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-03 19:38:42 [INFO] Version : ngrok version 3.39.11
+2026-09-03 19:38:42 [INFO] Verified: YES
+2026-09-03 19:38:42 [INFO] -----------------------------------------
+2026-09-03 19:38:42 [INFO] ✓ Media tools verified and ready.
+2026-09-03 19:38:43 [INFO] [ResourcePack] Detected public IP: 49.207.215.211
+2026-09-03 19:38:43 [INFO] [ResourcePack] Testing endpoint: http://49.207.215.211:8765/pack.zip
+2026-09-03 19:38:49 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-03 19:38:49 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-03 19:38:49 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-03 19:38:49 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-03 19:38:49 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-03 19:38:49 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-03 19:38:49 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-03 19:38:49 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-03 19:38:49 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-03 19:39:01 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-03 19:39:06 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-04 09:26:00 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-04 09:26:00 [INFO] 
+2026-09-04 09:26:00 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-04 09:26:00 [INFO] Database initialized successfully.
+2026-09-04 09:26:00 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-04 09:26:00 [INFO] [ResourcePack] Building resource pack...
+2026-09-04 09:26:00 [INFO] ✓ MusicOnDisk enabled successfully in 543ms!
+2026-09-04 09:26:00 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-04 09:26:00 [INFO]   Loaded 1 custom music disc(s).
+2026-09-04 09:26:00 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-04 09:26:01 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-04 09:26:01 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-04 09:26:01 [INFO] yt-dlp
+2026-09-04 09:26:01 [INFO] Source  : Plugin Managed
+2026-09-04 09:26:01 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-04 09:26:01 [INFO] Version : 2026.08.19
+2026-09-04 09:26:01 [INFO] Verified: YES
+2026-09-04 09:26:01 [INFO] -----------------------------------------
+2026-09-04 09:26:01 [INFO] FFmpeg
+2026-09-04 09:26:01 [INFO] Source  : Plugin Managed
+2026-09-04 09:26:01 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-04 09:26:01 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-04 09:26:01 [INFO] Verified: YES
+2026-09-04 09:26:01 [INFO] -----------------------------------------
+2026-09-04 09:26:02 [INFO] FFprobe
+2026-09-04 09:26:02 [INFO] Source  : Plugin Managed
+2026-09-04 09:26:02 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-04 09:26:02 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-04 09:26:02 [INFO] Verified: YES
+2026-09-04 09:26:02 [INFO] -----------------------------------------
+2026-09-04 09:26:02 [INFO] [ResourcePack] Resolving public address...
+2026-09-04 09:26:02 [INFO] [ResourcePack] Port: 8765
+2026-09-04 09:26:02 [INFO] [ResourcePack] Detecting public IP...
+2026-09-04 09:26:02 [INFO] ngrok
+2026-09-04 09:26:02 [INFO] Source  : Plugin Managed
+2026-09-04 09:26:02 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-04 09:26:02 [INFO] Version : ngrok version 3.39.11
+2026-09-04 09:26:02 [INFO] Verified: YES
+2026-09-04 09:26:02 [INFO] -----------------------------------------
+2026-09-04 09:26:02 [INFO] ✓ Media tools verified and ready.
+2026-09-04 09:26:02 [INFO] [ResourcePack] Detected public IP: 49.207.214.147
+2026-09-04 09:26:02 [INFO] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+2026-09-04 09:26:08 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-04 09:26:08 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-04 09:26:08 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-04 09:26:08 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-04 09:26:08 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-04 09:26:08 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-04 09:26:09 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-04 09:26:09 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-04 09:26:09 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-04 09:26:20 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-04 09:26:26 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-04 17:32:33 [INFO] Shutting down MusicOnDisk...
+2026-09-04 17:32:33 [INFO] [Ngrok] Tunnel stopped.
+2026-09-04 17:32:33 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-04 17:32:33 [INFO] Database connection closed.
+2026-09-04 17:32:33 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-04 17:33:15 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-04 17:33:15 [INFO] 
+2026-09-04 17:33:15 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-04 17:33:15 [INFO] Database initialized successfully.
+2026-09-04 17:33:15 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-04 17:33:15 [INFO] [ResourcePack] Building resource pack...
+2026-09-04 17:33:15 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-04 17:33:15 [INFO] ✓ MusicOnDisk enabled successfully in 524ms!
+2026-09-04 17:33:15 [INFO]   Loaded 1 custom music disc(s).
+2026-09-04 17:33:15 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-04 17:33:16 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-04 17:33:16 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-04 17:33:16 [INFO] yt-dlp
+2026-09-04 17:33:16 [INFO] Source  : Plugin Managed
+2026-09-04 17:33:16 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-04 17:33:16 [INFO] Version : 2026.08.19
+2026-09-04 17:33:16 [INFO] Verified: YES
+2026-09-04 17:33:16 [INFO] -----------------------------------------
+2026-09-04 17:33:16 [INFO] FFmpeg
+2026-09-04 17:33:16 [INFO] Source  : Plugin Managed
+2026-09-04 17:33:16 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-04 17:33:16 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-04 17:33:16 [INFO] Verified: YES
+2026-09-04 17:33:16 [INFO] -----------------------------------------
+2026-09-04 17:33:16 [INFO] FFprobe
+2026-09-04 17:33:16 [INFO] Source  : Plugin Managed
+2026-09-04 17:33:16 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-04 17:33:16 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-04 17:33:16 [INFO] Verified: YES
+2026-09-04 17:33:16 [INFO] -----------------------------------------
+2026-09-04 17:33:16 [INFO] ngrok
+2026-09-04 17:33:16 [INFO] Source  : Plugin Managed
+2026-09-04 17:33:16 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-04 17:33:16 [INFO] Version : ngrok version 3.39.11
+2026-09-04 17:33:16 [INFO] Verified: YES
+2026-09-04 17:33:16 [INFO] -----------------------------------------
+2026-09-04 17:33:16 [INFO] ✓ Media tools verified and ready.
+2026-09-04 17:33:17 [INFO] [ResourcePack] Resolving public address...
+2026-09-04 17:33:17 [INFO] [ResourcePack] Port: 8765
+2026-09-04 17:33:17 [INFO] [ResourcePack] Detecting public IP...
+2026-09-04 17:33:17 [INFO] [ResourcePack] Detected public IP: 49.207.214.147
+2026-09-04 17:33:17 [INFO] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+2026-09-04 17:33:23 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-04 17:33:23 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-04 17:33:23 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-04 17:33:23 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-04 17:33:23 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-04 17:33:23 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-04 17:33:24 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-04 17:33:24 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-04 17:33:24 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-04 17:33:35 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-04 17:33:42 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-04 18:27:09 [INFO] [Jukebox] .Aushaif ejected disc at world:1771:63:-394
+2026-09-05 20:50:55 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-05 20:50:55 [INFO] 
+2026-09-05 20:50:55 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-05 20:50:55 [INFO] Database initialized successfully.
+2026-09-05 20:50:56 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-05 20:50:56 [INFO] [ResourcePack] Building resource pack...
+2026-09-05 20:50:56 [INFO] ✓ MusicOnDisk enabled successfully in 528ms!
+2026-09-05 20:50:56 [INFO]   Loaded 1 custom music disc(s).
+2026-09-05 20:50:56 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-05 20:50:56 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-05 20:50:56 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-05 20:50:56 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-05 20:50:57 [INFO] yt-dlp
+2026-09-05 20:50:57 [INFO] Source  : Plugin Managed
+2026-09-05 20:50:57 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-05 20:50:57 [INFO] Version : 2026.08.19
+2026-09-05 20:50:57 [INFO] Verified: YES
+2026-09-05 20:50:57 [INFO] -----------------------------------------
+2026-09-05 20:50:57 [INFO] [ResourcePack] Resolving public address...
+2026-09-05 20:50:57 [INFO] [ResourcePack] Port: 8765
+2026-09-05 20:50:57 [INFO] [ResourcePack] Detecting public IP...
+2026-09-05 20:50:57 [INFO] FFmpeg
+2026-09-05 20:50:57 [INFO] Source  : Plugin Managed
+2026-09-05 20:50:57 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-05 20:50:57 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-05 20:50:57 [INFO] Verified: YES
+2026-09-05 20:50:57 [INFO] -----------------------------------------
+2026-09-05 20:50:57 [INFO] FFprobe
+2026-09-05 20:50:57 [INFO] Source  : Plugin Managed
+2026-09-05 20:50:57 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-05 20:50:57 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-05 20:50:57 [INFO] Verified: YES
+2026-09-05 20:50:57 [INFO] -----------------------------------------
+2026-09-05 20:50:57 [INFO] ngrok
+2026-09-05 20:50:57 [INFO] Source  : Plugin Managed
+2026-09-05 20:50:57 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-05 20:50:57 [INFO] Version : ngrok version 3.39.11
+2026-09-05 20:50:57 [INFO] Verified: YES
+2026-09-05 20:50:57 [INFO] -----------------------------------------
+2026-09-05 20:50:57 [INFO] ✓ Media tools verified and ready.
+2026-09-05 20:50:57 [INFO] [ResourcePack] Detected public IP: 49.207.214.147
+2026-09-05 20:50:57 [INFO] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+2026-09-05 20:51:03 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-05 20:51:03 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-05 20:51:03 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-05 20:51:04 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-05 20:51:04 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-05 20:51:04 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-05 20:51:04 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-05 20:51:04 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-05 20:51:04 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-05 20:51:16 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-05 20:51:23 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-07 20:55:28 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-07 20:55:28 [INFO] 
+2026-09-07 20:55:28 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-07 20:55:28 [INFO] Database initialized successfully.
+2026-09-07 20:55:28 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-07 20:55:28 [INFO] [ResourcePack] Building resource pack...
+2026-09-07 20:55:28 [INFO] ✓ MusicOnDisk enabled successfully in 451ms!
+2026-09-07 20:55:29 [INFO]   Loaded 1 custom music disc(s).
+2026-09-07 20:55:29 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-07 20:55:29 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-07 20:55:29 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-07 20:55:29 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-07 20:55:30 [INFO] [ResourcePack] Resolving public address...
+2026-09-07 20:55:30 [INFO] [ResourcePack] Port: 8765
+2026-09-07 20:55:30 [INFO] [ResourcePack] Detecting public IP...
+2026-09-07 20:55:30 [INFO] yt-dlp
+2026-09-07 20:55:30 [INFO] Source  : Plugin Managed
+2026-09-07 20:55:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-07 20:55:30 [INFO] Version : 2026.08.19
+2026-09-07 20:55:30 [INFO] Verified: YES
+2026-09-07 20:55:30 [INFO] -----------------------------------------
+2026-09-07 20:55:30 [INFO] FFmpeg
+2026-09-07 20:55:30 [INFO] Source  : Plugin Managed
+2026-09-07 20:55:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-07 20:55:30 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-07 20:55:30 [INFO] Verified: YES
+2026-09-07 20:55:30 [INFO] -----------------------------------------
+2026-09-07 20:55:30 [INFO] FFprobe
+2026-09-07 20:55:30 [INFO] Source  : Plugin Managed
+2026-09-07 20:55:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-07 20:55:30 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-07 20:55:30 [INFO] Verified: YES
+2026-09-07 20:55:30 [INFO] -----------------------------------------
+2026-09-07 20:55:30 [INFO] ngrok
+2026-09-07 20:55:30 [INFO] Source  : Plugin Managed
+2026-09-07 20:55:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-07 20:55:30 [INFO] Version : ngrok version 3.39.11
+2026-09-07 20:55:30 [INFO] Verified: YES
+2026-09-07 20:55:30 [INFO] -----------------------------------------
+2026-09-07 20:55:30 [INFO] ✓ Media tools verified and ready.
+2026-09-07 20:55:30 [INFO] [ResourcePack] Detected public IP: 49.207.214.147
+2026-09-07 20:55:30 [INFO] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+2026-09-07 20:55:36 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-07 20:55:36 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-07 20:55:36 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-07 20:55:36 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-07 20:55:36 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-07 20:55:36 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-07 20:55:37 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-07 20:55:37 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-07 20:55:37 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-07 20:55:49 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-07 20:55:55 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-08 17:00:38 [INFO] Shutting down MusicOnDisk...
+2026-09-08 17:00:38 [INFO] [Ngrok] Tunnel stopped.
+2026-09-08 17:00:38 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-08 17:00:38 [INFO] Database connection closed.
+2026-09-08 17:00:38 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-08 17:02:56 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-08 17:02:56 [INFO] 
+2026-09-08 17:02:56 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-08 17:02:56 [INFO] Database initialized successfully.
+2026-09-08 17:02:57 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-08 17:02:57 [INFO] [ResourcePack] Building resource pack...
+2026-09-08 17:02:57 [INFO] ✓ MusicOnDisk enabled successfully in 448ms!
+2026-09-08 17:02:57 [INFO]   Loaded 1 custom music disc(s).
+2026-09-08 17:02:57 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-08 17:02:57 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-08 17:02:57 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-08 17:02:57 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-08 17:02:58 [INFO] yt-dlp
+2026-09-08 17:02:58 [INFO] Source  : Plugin Managed
+2026-09-08 17:02:58 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-08 17:02:58 [INFO] Version : 2026.08.19
+2026-09-08 17:02:58 [INFO] Verified: YES
+2026-09-08 17:02:58 [INFO] -----------------------------------------
+2026-09-08 17:02:58 [INFO] FFmpeg
+2026-09-08 17:02:58 [INFO] Source  : Plugin Managed
+2026-09-08 17:02:58 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-08 17:02:58 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-08 17:02:58 [INFO] Verified: YES
+2026-09-08 17:02:58 [INFO] -----------------------------------------
+2026-09-08 17:02:58 [INFO] FFprobe
+2026-09-08 17:02:58 [INFO] Source  : Plugin Managed
+2026-09-08 17:02:58 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-08 17:02:58 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-08 17:02:58 [INFO] Verified: YES
+2026-09-08 17:02:58 [INFO] -----------------------------------------
+2026-09-08 17:02:58 [INFO] [ResourcePack] Resolving public address...
+2026-09-08 17:02:58 [INFO] [ResourcePack] Port: 8765
+2026-09-08 17:02:58 [INFO] [ResourcePack] Detecting public IP...
+2026-09-08 17:02:58 [INFO] ngrok
+2026-09-08 17:02:58 [INFO] Source  : Plugin Managed
+2026-09-08 17:02:58 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-08 17:02:58 [INFO] Version : ngrok version 3.39.11
+2026-09-08 17:02:58 [INFO] Verified: YES
+2026-09-08 17:02:58 [INFO] -----------------------------------------
+2026-09-08 17:02:58 [INFO] ✓ Media tools verified and ready.
+2026-09-08 17:02:58 [INFO] [ResourcePack] Detected public IP: 49.207.214.147
+2026-09-08 17:02:58 [INFO] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+2026-09-08 17:03:04 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-08 17:03:04 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-08 17:03:04 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-08 17:03:04 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-08 17:03:04 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-08 17:03:04 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-08 17:03:05 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-08 17:03:05 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-08 17:03:05 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-08 17:03:18 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-08 17:03:25 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-08 17:28:08 [INFO] Shutting down MusicOnDisk...
+2026-09-08 17:28:08 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-08 17:28:09 [INFO] Database connection closed.
+2026-09-08 17:28:09 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-08 17:28:49 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-08 17:28:49 [INFO] 
+2026-09-08 17:28:49 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-08 17:28:49 [INFO] Database initialized successfully.
+2026-09-08 17:28:49 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-08 17:28:49 [INFO] [ResourcePack] Building resource pack...
+2026-09-08 17:28:49 [INFO] ✓ MusicOnDisk enabled successfully in 604ms!
+2026-09-08 17:28:49 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-08 17:28:49 [INFO]   Loaded 1 custom music disc(s).
+2026-09-08 17:28:49 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-08 17:28:50 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-08 17:28:50 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-08 17:28:50 [INFO] yt-dlp
+2026-09-08 17:28:50 [INFO] Source  : Plugin Managed
+2026-09-08 17:28:50 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-08 17:28:50 [INFO] Version : 2026.08.19
+2026-09-08 17:28:50 [INFO] Verified: YES
+2026-09-08 17:28:50 [INFO] -----------------------------------------
+2026-09-08 17:28:50 [INFO] FFmpeg
+2026-09-08 17:28:50 [INFO] Source  : Plugin Managed
+2026-09-08 17:28:50 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-08 17:28:50 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-08 17:28:50 [INFO] Verified: YES
+2026-09-08 17:28:50 [INFO] -----------------------------------------
+2026-09-08 17:28:50 [INFO] FFprobe
+2026-09-08 17:28:50 [INFO] Source  : Plugin Managed
+2026-09-08 17:28:50 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-08 17:28:50 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-08 17:28:50 [INFO] Verified: YES
+2026-09-08 17:28:50 [INFO] -----------------------------------------
+2026-09-08 17:28:50 [INFO] ngrok
+2026-09-08 17:28:50 [INFO] Source  : Plugin Managed
+2026-09-08 17:28:50 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-08 17:28:50 [INFO] Version : ngrok version 3.39.11
+2026-09-08 17:28:50 [INFO] Verified: YES
+2026-09-08 17:28:50 [INFO] -----------------------------------------
+2026-09-08 17:28:50 [INFO] ✓ Media tools verified and ready.
+2026-09-08 17:28:51 [INFO] [ResourcePack] Resolving public address...
+2026-09-08 17:28:51 [INFO] [ResourcePack] Port: 8765
+2026-09-08 17:28:51 [INFO] [ResourcePack] Detecting public IP...
+2026-09-08 17:28:51 [INFO] [ResourcePack] Detected public IP: 49.207.214.147
+2026-09-08 17:28:51 [INFO] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+2026-09-08 17:28:57 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-08 17:28:57 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-08 17:28:57 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-08 17:28:57 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-08 17:28:57 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-08 17:28:57 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-08 17:28:58 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-08 17:28:58 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-08 17:28:58 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-08 17:29:11 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-08 17:29:17 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-08 17:55:51 [INFO] Shutting down MusicOnDisk...
+2026-09-08 17:55:51 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-08 17:55:51 [INFO] Database connection closed.
+2026-09-08 17:55:51 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-08 17:56:32 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-08 17:56:32 [INFO] 
+2026-09-08 17:56:32 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-08 17:56:33 [INFO] Database initialized successfully.
+2026-09-08 17:56:33 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-08 17:56:33 [INFO] [ResourcePack] Building resource pack...
+2026-09-08 17:56:33 [INFO] ✓ MusicOnDisk enabled successfully in 645ms!
+2026-09-08 17:56:33 [INFO]   Loaded 1 custom music disc(s).
+2026-09-08 17:56:33 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-08 17:56:33 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-08 17:56:34 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-08 17:56:34 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-08 17:56:34 [INFO] yt-dlp
+2026-09-08 17:56:34 [INFO] Source  : Plugin Managed
+2026-09-08 17:56:34 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-08 17:56:34 [INFO] Version : 2026.08.19
+2026-09-08 17:56:34 [INFO] Verified: YES
+2026-09-08 17:56:34 [INFO] -----------------------------------------
+2026-09-08 17:56:34 [INFO] FFmpeg
+2026-09-08 17:56:34 [INFO] Source  : Plugin Managed
+2026-09-08 17:56:34 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-08 17:56:34 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-08 17:56:34 [INFO] Verified: YES
+2026-09-08 17:56:34 [INFO] -----------------------------------------
+2026-09-08 17:56:34 [INFO] FFprobe
+2026-09-08 17:56:34 [INFO] Source  : Plugin Managed
+2026-09-08 17:56:34 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-08 17:56:34 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-08 17:56:34 [INFO] Verified: YES
+2026-09-08 17:56:34 [INFO] -----------------------------------------
+2026-09-08 17:56:34 [INFO] ngrok
+2026-09-08 17:56:34 [INFO] Source  : Plugin Managed
+2026-09-08 17:56:34 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-08 17:56:34 [INFO] Version : ngrok version 3.39.11
+2026-09-08 17:56:34 [INFO] Verified: YES
+2026-09-08 17:56:34 [INFO] -----------------------------------------
+2026-09-08 17:56:34 [INFO] ✓ Media tools verified and ready.
+2026-09-08 17:56:34 [INFO] [ResourcePack] Resolving public address...
+2026-09-08 17:56:34 [INFO] [ResourcePack] Port: 8765
+2026-09-08 17:56:34 [INFO] [ResourcePack] Detecting public IP...
+2026-09-08 17:56:35 [INFO] [ResourcePack] Detected public IP: 49.207.214.147
+2026-09-08 17:56:35 [INFO] [ResourcePack] Testing endpoint: http://49.207.214.147:8765/pack.zip
+2026-09-08 17:56:41 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-08 17:56:41 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-08 17:56:41 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-08 17:56:41 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-08 17:56:41 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-08 17:56:41 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-08 17:56:41 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-08 17:56:41 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-08 17:56:41 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-08 17:56:54 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-08 17:57:00 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-10 16:07:28 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-10 16:07:28 [INFO] 
+2026-09-10 16:07:28 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-10 16:07:29 [INFO] Database initialized successfully.
+2026-09-10 16:07:29 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-10 16:07:29 [INFO] [ResourcePack] Building resource pack...
+2026-09-10 16:07:29 [INFO] ✓ MusicOnDisk enabled successfully in 511ms!
+2026-09-10 16:07:29 [INFO]   Loaded 1 custom music disc(s).
+2026-09-10 16:07:29 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-10 16:07:29 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-10 16:07:29 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-10 16:07:29 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-10 16:07:30 [INFO] yt-dlp
+2026-09-10 16:07:30 [INFO] Source  : Plugin Managed
+2026-09-10 16:07:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-10 16:07:30 [INFO] Version : 2026.08.19
+2026-09-10 16:07:30 [INFO] Verified: YES
+2026-09-10 16:07:30 [INFO] -----------------------------------------
+2026-09-10 16:07:30 [INFO] FFmpeg
+2026-09-10 16:07:30 [INFO] Source  : Plugin Managed
+2026-09-10 16:07:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-10 16:07:30 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-10 16:07:30 [INFO] Verified: YES
+2026-09-10 16:07:30 [INFO] -----------------------------------------
+2026-09-10 16:07:30 [INFO] [ResourcePack] Resolving public address...
+2026-09-10 16:07:30 [INFO] [ResourcePack] Port: 8765
+2026-09-10 16:07:30 [INFO] [ResourcePack] Detecting public IP...
+2026-09-10 16:07:30 [INFO] FFprobe
+2026-09-10 16:07:30 [INFO] Source  : Plugin Managed
+2026-09-10 16:07:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-10 16:07:30 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-10 16:07:30 [INFO] Verified: YES
+2026-09-10 16:07:30 [INFO] -----------------------------------------
+2026-09-10 16:07:30 [INFO] ngrok
+2026-09-10 16:07:30 [INFO] Source  : Plugin Managed
+2026-09-10 16:07:30 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-10 16:07:30 [INFO] Version : ngrok version 3.39.11
+2026-09-10 16:07:30 [INFO] Verified: YES
+2026-09-10 16:07:30 [INFO] -----------------------------------------
+2026-09-10 16:07:30 [INFO] ✓ Media tools verified and ready.
+2026-09-10 16:07:31 [INFO] [ResourcePack] Detected public IP: 49.207.221.169
+2026-09-10 16:07:31 [INFO] [ResourcePack] Testing endpoint: http://49.207.221.169:8765/pack.zip
+2026-09-10 16:07:37 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-10 16:07:37 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-10 16:07:37 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-10 16:07:37 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-10 16:07:37 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-10 16:07:37 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-10 16:07:37 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-10 16:07:37 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-10 16:07:37 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-10 16:07:49 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-10 16:07:55 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-10 16:23:20 [INFO] Shutting down MusicOnDisk...
+2026-09-10 16:23:20 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-10 16:23:20 [INFO] Database connection closed.
+2026-09-10 16:23:20 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-12 11:34:18 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-12 11:34:18 [INFO] 
+2026-09-12 11:34:18 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-12 11:34:19 [INFO] Database initialized successfully.
+2026-09-12 11:34:19 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-12 11:34:19 [INFO] [ResourcePack] Building resource pack...
+2026-09-12 11:34:19 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-12 11:34:19 [INFO] ✓ MusicOnDisk enabled successfully in 582ms!
+2026-09-12 11:34:19 [INFO]   Loaded 1 custom music disc(s).
+2026-09-12 11:34:19 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-12 11:34:19 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-12 11:34:19 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-12 11:34:20 [INFO] yt-dlp
+2026-09-12 11:34:20 [INFO] Source  : Plugin Managed
+2026-09-12 11:34:20 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-12 11:34:20 [INFO] Version : 2026.08.19
+2026-09-12 11:34:20 [INFO] Verified: YES
+2026-09-12 11:34:20 [INFO] -----------------------------------------
+2026-09-12 11:34:20 [INFO] FFmpeg
+2026-09-12 11:34:20 [INFO] Source  : Plugin Managed
+2026-09-12 11:34:20 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-12 11:34:20 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-12 11:34:20 [INFO] Verified: YES
+2026-09-12 11:34:20 [INFO] -----------------------------------------
+2026-09-12 11:34:20 [INFO] [ResourcePack] Resolving public address...
+2026-09-12 11:34:20 [INFO] [ResourcePack] Port: 8765
+2026-09-12 11:34:20 [INFO] [ResourcePack] Detecting public IP...
+2026-09-12 11:34:20 [INFO] FFprobe
+2026-09-12 11:34:20 [INFO] Source  : Plugin Managed
+2026-09-12 11:34:20 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-12 11:34:20 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-12 11:34:20 [INFO] Verified: YES
+2026-09-12 11:34:20 [INFO] -----------------------------------------
+2026-09-12 11:34:20 [INFO] ngrok
+2026-09-12 11:34:20 [INFO] Source  : Plugin Managed
+2026-09-12 11:34:20 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-12 11:34:20 [INFO] Version : ngrok version 3.39.11
+2026-09-12 11:34:20 [INFO] Verified: YES
+2026-09-12 11:34:20 [INFO] -----------------------------------------
+2026-09-12 11:34:20 [INFO] ✓ Media tools verified and ready.
+2026-09-12 11:34:20 [INFO] [ResourcePack] Detected public IP: 49.207.231.92
+2026-09-12 11:34:20 [INFO] [ResourcePack] Testing endpoint: http://49.207.231.92:8765/pack.zip
+2026-09-12 11:34:26 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-12 11:34:26 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-12 11:34:26 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-12 11:34:26 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-12 11:34:26 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-12 11:34:26 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-12 11:34:27 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-12 11:34:27 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-12 11:34:27 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-12 11:34:40 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-12 11:34:46 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-12 13:15:33 [INFO] Shutting down MusicOnDisk...
+2026-09-12 13:15:33 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-12 13:15:33 [INFO] Database connection closed.
+2026-09-12 13:15:33 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-12 13:16:13 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-12 13:16:13 [INFO] 
+2026-09-12 13:16:13 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-12 13:16:14 [INFO] Database initialized successfully.
+2026-09-12 13:16:14 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-12 13:16:14 [INFO] [ResourcePack] Building resource pack...
+2026-09-12 13:16:14 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-12 13:16:14 [INFO] ✓ MusicOnDisk enabled successfully in 543ms!
+2026-09-12 13:16:14 [INFO]   Loaded 1 custom music disc(s).
+2026-09-12 13:16:14 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-12 13:16:14 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-12 13:16:14 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-12 13:16:15 [INFO] yt-dlp
+2026-09-12 13:16:15 [INFO] Source  : Plugin Managed
+2026-09-12 13:16:15 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-12 13:16:15 [INFO] Version : 2026.08.19
+2026-09-12 13:16:15 [INFO] Verified: YES
+2026-09-12 13:16:15 [INFO] -----------------------------------------
+2026-09-12 13:16:15 [INFO] FFmpeg
+2026-09-12 13:16:15 [INFO] Source  : Plugin Managed
+2026-09-12 13:16:15 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-12 13:16:15 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-12 13:16:15 [INFO] Verified: YES
+2026-09-12 13:16:15 [INFO] -----------------------------------------
+2026-09-12 13:16:15 [INFO] FFprobe
+2026-09-12 13:16:15 [INFO] Source  : Plugin Managed
+2026-09-12 13:16:15 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-12 13:16:15 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-12 13:16:15 [INFO] Verified: YES
+2026-09-12 13:16:15 [INFO] -----------------------------------------
+2026-09-12 13:16:15 [INFO] ngrok
+2026-09-12 13:16:15 [INFO] Source  : Plugin Managed
+2026-09-12 13:16:15 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-12 13:16:15 [INFO] Version : ngrok version 3.39.11
+2026-09-12 13:16:15 [INFO] Verified: YES
+2026-09-12 13:16:15 [INFO] -----------------------------------------
+2026-09-12 13:16:15 [INFO] ✓ Media tools verified and ready.
+2026-09-12 13:16:15 [INFO] [ResourcePack] Resolving public address...
+2026-09-12 13:16:15 [INFO] [ResourcePack] Port: 8765
+2026-09-12 13:16:15 [INFO] [ResourcePack] Detecting public IP...
+2026-09-12 13:16:15 [INFO] [ResourcePack] Detected public IP: 49.207.231.92
+2026-09-12 13:16:15 [INFO] [ResourcePack] Testing endpoint: http://49.207.231.92:8765/pack.zip
+2026-09-12 13:16:22 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-12 13:16:22 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-12 13:16:22 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-12 13:16:22 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-12 13:16:22 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-12 13:16:22 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-12 13:16:22 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-12 13:16:22 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-12 13:16:22 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-12 13:16:34 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-12 13:16:40 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-14 13:25:58 [INFO] Shutting down MusicOnDisk...
+2026-09-14 13:25:58 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-14 13:25:58 [INFO] Database connection closed.
+2026-09-14 13:25:58 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-14 13:26:37 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-14 13:26:37 [INFO] 
+2026-09-14 13:26:37 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-14 13:26:38 [INFO] Database initialized successfully.
+2026-09-14 13:26:38 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-14 13:26:38 [INFO] [ResourcePack] Building resource pack...
+2026-09-14 13:26:38 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-14 13:26:38 [INFO] ✓ MusicOnDisk enabled successfully in 713ms!
+2026-09-14 13:26:38 [INFO]   Loaded 1 custom music disc(s).
+2026-09-14 13:26:38 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-14 13:26:39 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-14 13:26:39 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-14 13:26:39 [INFO] yt-dlp
+2026-09-14 13:26:39 [INFO] Source  : Plugin Managed
+2026-09-14 13:26:39 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-14 13:26:39 [INFO] Version : 2026.08.19
+2026-09-14 13:26:39 [INFO] Verified: YES
+2026-09-14 13:26:39 [INFO] -----------------------------------------
+2026-09-14 13:26:39 [INFO] FFmpeg
+2026-09-14 13:26:39 [INFO] Source  : Plugin Managed
+2026-09-14 13:26:39 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-14 13:26:39 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-14 13:26:39 [INFO] Verified: YES
+2026-09-14 13:26:39 [INFO] -----------------------------------------
+2026-09-14 13:26:39 [INFO] FFprobe
+2026-09-14 13:26:39 [INFO] Source  : Plugin Managed
+2026-09-14 13:26:39 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-14 13:26:39 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-14 13:26:39 [INFO] Verified: YES
+2026-09-14 13:26:39 [INFO] -----------------------------------------
+2026-09-14 13:26:39 [INFO] ngrok
+2026-09-14 13:26:39 [INFO] Source  : Plugin Managed
+2026-09-14 13:26:39 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-14 13:26:39 [INFO] Version : ngrok version 3.39.11
+2026-09-14 13:26:39 [INFO] Verified: YES
+2026-09-14 13:26:39 [INFO] -----------------------------------------
+2026-09-14 13:26:39 [INFO] ✓ Media tools verified and ready.
+2026-09-14 13:26:39 [INFO] [ResourcePack] Resolving public address...
+2026-09-14 13:26:39 [INFO] [ResourcePack] Port: 8765
+2026-09-14 13:26:39 [INFO] [ResourcePack] Detecting public IP...
+2026-09-14 13:26:40 [INFO] [ResourcePack] Detected public IP: 49.207.231.92
+2026-09-14 13:26:40 [INFO] [ResourcePack] Testing endpoint: http://49.207.231.92:8765/pack.zip
+2026-09-14 13:26:46 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-14 13:26:46 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-14 13:26:46 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-14 13:26:46 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-14 13:26:46 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-14 13:26:46 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-14 13:26:46 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-14 13:26:46 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-14 13:26:46 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-14 13:26:58 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-14 13:27:04 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-18 15:57:26 [INFO] Shutting down MusicOnDisk...
+2026-09-18 15:57:26 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-18 15:57:27 [INFO] Database connection closed.
+2026-09-18 15:57:27 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-18 15:58:07 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-18 15:58:07 [INFO] 
+2026-09-18 15:58:07 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-18 15:58:08 [INFO] Database initialized successfully.
+2026-09-18 15:58:08 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-18 15:58:08 [INFO] [ResourcePack] Building resource pack...
+2026-09-18 15:58:08 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-18 15:58:08 [INFO] ✓ MusicOnDisk enabled successfully in 513ms!
+2026-09-18 15:58:08 [INFO]   Loaded 1 custom music disc(s).
+2026-09-18 15:58:08 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-18 15:58:08 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-18 15:58:08 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-18 15:58:09 [INFO] yt-dlp
+2026-09-18 15:58:09 [INFO] Source  : Plugin Managed
+2026-09-18 15:58:09 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-18 15:58:09 [INFO] Version : 2026.08.19
+2026-09-18 15:58:09 [INFO] Verified: YES
+2026-09-18 15:58:09 [INFO] -----------------------------------------
+2026-09-18 15:58:09 [INFO] FFmpeg
+2026-09-18 15:58:09 [INFO] Source  : Plugin Managed
+2026-09-18 15:58:09 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-18 15:58:09 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-18 15:58:09 [INFO] Verified: YES
+2026-09-18 15:58:09 [INFO] -----------------------------------------
+2026-09-18 15:58:09 [INFO] FFprobe
+2026-09-18 15:58:09 [INFO] Source  : Plugin Managed
+2026-09-18 15:58:09 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-18 15:58:09 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-18 15:58:09 [INFO] Verified: YES
+2026-09-18 15:58:09 [INFO] -----------------------------------------
+2026-09-18 15:58:09 [INFO] ngrok
+2026-09-18 15:58:09 [INFO] Source  : Plugin Managed
+2026-09-18 15:58:09 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-18 15:58:09 [INFO] Version : ngrok version 3.39.11
+2026-09-18 15:58:09 [INFO] Verified: YES
+2026-09-18 15:58:09 [INFO] -----------------------------------------
+2026-09-18 15:58:09 [INFO] ✓ Media tools verified and ready.
+2026-09-18 15:58:09 [INFO] [ResourcePack] Resolving public address...
+2026-09-18 15:58:09 [INFO] [ResourcePack] Port: 8765
+2026-09-18 15:58:09 [INFO] [ResourcePack] Detecting public IP...
+2026-09-18 15:58:09 [INFO] [ResourcePack] Detected public IP: 49.207.231.92
+2026-09-18 15:58:09 [INFO] [ResourcePack] Testing endpoint: http://49.207.231.92:8765/pack.zip
+2026-09-18 15:58:15 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-18 15:58:15 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-18 15:58:16 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-18 15:58:16 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-18 15:58:16 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-18 15:58:16 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-18 15:58:16 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-18 15:58:16 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-18 15:58:16 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-18 15:58:27 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-18 15:58:33 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-18 17:22:03 [INFO] [Playback] Started session: x at world:1898:66:-249 (Slot: 0)
+2026-09-18 17:22:03 [INFO] [Jukebox] InfinityNoob inserted 'x' at world:1898:66:-249
+2026-09-18 17:23:02 [INFO] [Jukebox] .Haras124 ejected disc at world:1898:66:-249
+2026-09-19 11:43:37 [INFO] [Playback] Started session: x at world:1962:64:-125 (Slot: 0)
+2026-09-19 11:43:37 [INFO] [Jukebox] InfinityNoob inserted 'x' at world:1962:64:-125
+2026-09-19 11:44:22 [INFO] [Jukebox] monu ejected disc at world:1962:64:-125
+2026-09-19 11:44:48 [INFO] [Playback] Started session: x at world:1962:64:-125 (Slot: 0)
+2026-09-19 11:44:48 [INFO] [Jukebox] monu inserted 'x' at world:1962:64:-125
+2026-09-20 11:02:10 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-20 11:02:10 [INFO] 
+2026-09-20 11:02:10 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-20 11:02:11 [INFO] Database initialized successfully.
+2026-09-20 11:02:11 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-20 11:02:11 [INFO] [ResourcePack] Building resource pack...
+2026-09-20 11:02:11 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-20 11:02:11 [INFO] ✓ MusicOnDisk enabled successfully in 568ms!
+2026-09-20 11:02:11 [INFO]   Loaded 1 custom music disc(s).
+2026-09-20 11:02:11 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-20 11:02:12 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-20 11:02:12 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-20 11:02:12 [INFO] yt-dlp
+2026-09-20 11:02:12 [INFO] Source  : Plugin Managed
+2026-09-20 11:02:12 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-20 11:02:12 [INFO] Version : 2026.08.19
+2026-09-20 11:02:12 [INFO] Verified: YES
+2026-09-20 11:02:12 [INFO] -----------------------------------------
+2026-09-20 11:02:12 [INFO] FFmpeg
+2026-09-20 11:02:12 [INFO] Source  : Plugin Managed
+2026-09-20 11:02:12 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-20 11:02:12 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-20 11:02:12 [INFO] Verified: YES
+2026-09-20 11:02:12 [INFO] -----------------------------------------
+2026-09-20 11:02:12 [INFO] FFprobe
+2026-09-20 11:02:12 [INFO] Source  : Plugin Managed
+2026-09-20 11:02:12 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-20 11:02:12 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-20 11:02:12 [INFO] Verified: YES
+2026-09-20 11:02:12 [INFO] -----------------------------------------
+2026-09-20 11:02:12 [INFO] [ResourcePack] Resolving public address...
+2026-09-20 11:02:12 [INFO] [ResourcePack] Port: 8765
+2026-09-20 11:02:12 [INFO] [ResourcePack] Detecting public IP...
+2026-09-20 11:02:13 [INFO] ngrok
+2026-09-20 11:02:13 [INFO] Source  : Plugin Managed
+2026-09-20 11:02:13 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-20 11:02:13 [INFO] Version : ngrok version 3.39.11
+2026-09-20 11:02:13 [INFO] Verified: YES
+2026-09-20 11:02:13 [INFO] -----------------------------------------
+2026-09-20 11:02:13 [INFO] ✓ Media tools verified and ready.
+2026-09-20 11:02:13 [INFO] [ResourcePack] Detected public IP: 49.207.200.98
+2026-09-20 11:02:13 [INFO] [ResourcePack] Testing endpoint: http://49.207.200.98:8765/pack.zip
+2026-09-20 11:02:19 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-20 11:02:19 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-20 11:02:19 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-20 11:02:19 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-20 11:02:19 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-20 11:02:19 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-20 11:02:19 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-20 11:02:19 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-20 11:02:19 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-20 11:02:32 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-20 11:02:38 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-20 19:32:33 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-20 19:32:33 [INFO] 
+2026-09-20 19:32:33 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-20 19:32:33 [INFO] Database initialized successfully.
+2026-09-20 19:32:33 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-20 19:32:33 [INFO] [ResourcePack] Building resource pack...
+2026-09-20 19:32:33 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-20 19:32:33 [INFO] ✓ MusicOnDisk enabled successfully in 708ms!
+2026-09-20 19:32:33 [INFO]   Loaded 1 custom music disc(s).
+2026-09-20 19:32:34 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-20 19:32:34 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-20 19:32:34 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-20 19:32:34 [INFO] yt-dlp
+2026-09-20 19:32:34 [INFO] Source  : Plugin Managed
+2026-09-20 19:32:34 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-20 19:32:34 [INFO] Version : 2026.08.19
+2026-09-20 19:32:34 [INFO] Verified: YES
+2026-09-20 19:32:34 [INFO] -----------------------------------------
+2026-09-20 19:32:35 [INFO] FFmpeg
+2026-09-20 19:32:35 [INFO] Source  : Plugin Managed
+2026-09-20 19:32:35 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-20 19:32:35 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-20 19:32:35 [INFO] Verified: YES
+2026-09-20 19:32:35 [INFO] -----------------------------------------
+2026-09-20 19:32:35 [INFO] FFprobe
+2026-09-20 19:32:35 [INFO] Source  : Plugin Managed
+2026-09-20 19:32:35 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-20 19:32:35 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-20 19:32:35 [INFO] Verified: YES
+2026-09-20 19:32:35 [INFO] -----------------------------------------
+2026-09-20 19:32:35 [INFO] ngrok
+2026-09-20 19:32:35 [INFO] Source  : Plugin Managed
+2026-09-20 19:32:35 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-20 19:32:35 [INFO] Version : ngrok version 3.39.11
+2026-09-20 19:32:35 [INFO] Verified: YES
+2026-09-20 19:32:35 [INFO] -----------------------------------------
+2026-09-20 19:32:35 [INFO] ✓ Media tools verified and ready.
+2026-09-20 19:32:35 [INFO] [ResourcePack] Resolving public address...
+2026-09-20 19:32:35 [INFO] [ResourcePack] Port: 8765
+2026-09-20 19:32:35 [INFO] [ResourcePack] Detecting public IP...
+2026-09-20 19:32:35 [INFO] [ResourcePack] Detected public IP: 49.207.220.40
+2026-09-20 19:32:35 [INFO] [ResourcePack] Testing endpoint: http://49.207.220.40:8765/pack.zip
+2026-09-20 19:32:41 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-20 19:32:41 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-20 19:32:41 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-20 19:32:41 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-20 19:32:41 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-20 19:32:41 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-20 19:32:42 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-20 19:32:42 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-20 19:32:42 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-20 19:32:52 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-20 19:32:58 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-09-24 17:20:48 [INFO] Shutting down MusicOnDisk...
+2026-09-24 17:20:48 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-09-24 17:20:49 [INFO] Database connection closed.
+2026-09-24 17:20:49 [INFO] MusicOnDisk disabled. Goodbye!
+2026-09-24 17:21:34 [INFO] Starting MusicOnDisk v1.0.0...
+2026-09-24 17:21:34 [INFO] 
+2026-09-24 17:21:34 [INFO] [MusicOnDisk] [ToolManager]
+2026-09-24 17:21:34 [INFO] Database initialized successfully.
+2026-09-24 17:21:34 [INFO] Loaded 1 music disc(s) into registry.
+2026-09-24 17:21:34 [INFO] [ResourcePack] Building resource pack...
+2026-09-24 17:21:34 [INFO] ✓ MusicOnDisk enabled successfully in 432ms!
+2026-09-24 17:21:34 [INFO]   Loaded 1 custom music disc(s).
+2026-09-24 17:21:34 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-09-24 17:21:34 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-09-24 17:21:35 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-09-24 17:21:35 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-09-24 17:21:35 [INFO] yt-dlp
+2026-09-24 17:21:35 [INFO] Source  : Plugin Managed
+2026-09-24 17:21:35 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-09-24 17:21:35 [INFO] Version : 2026.08.19
+2026-09-24 17:21:35 [INFO] Verified: YES
+2026-09-24 17:21:35 [INFO] -----------------------------------------
+2026-09-24 17:21:35 [INFO] FFmpeg
+2026-09-24 17:21:35 [INFO] Source  : Plugin Managed
+2026-09-24 17:21:35 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-09-24 17:21:35 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-09-24 17:21:35 [INFO] Verified: YES
+2026-09-24 17:21:35 [INFO] -----------------------------------------
+2026-09-24 17:21:35 [INFO] FFprobe
+2026-09-24 17:21:35 [INFO] Source  : Plugin Managed
+2026-09-24 17:21:35 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-09-24 17:21:35 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-09-24 17:21:35 [INFO] Verified: YES
+2026-09-24 17:21:35 [INFO] -----------------------------------------
+2026-09-24 17:21:36 [INFO] ngrok
+2026-09-24 17:21:36 [INFO] Source  : Plugin Managed
+2026-09-24 17:21:36 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-09-24 17:21:36 [INFO] Version : ngrok version 3.39.11
+2026-09-24 17:21:36 [INFO] Verified: YES
+2026-09-24 17:21:36 [INFO] -----------------------------------------
+2026-09-24 17:21:36 [INFO] ✓ Media tools verified and ready.
+2026-09-24 17:21:36 [INFO] [ResourcePack] Resolving public address...
+2026-09-24 17:21:36 [INFO] [ResourcePack] Port: 8765
+2026-09-24 17:21:36 [INFO] [ResourcePack] Detecting public IP...
+2026-09-24 17:21:36 [INFO] [ResourcePack] Detected public IP: 49.207.220.40
+2026-09-24 17:21:36 [INFO] [ResourcePack] Testing endpoint: http://49.207.220.40:8765/pack.zip
+2026-09-24 17:21:42 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-09-24 17:21:42 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-09-24 17:21:42 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-09-24 17:21:42 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-09-24 17:21:42 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-09-24 17:21:42 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-09-24 17:21:43 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-09-24 17:21:43 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-24 17:21:43 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-09-24 17:21:53 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-09-24 17:22:00 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-10-01 12:48:34 [WARN] AlphaPlayer1284 FAILED to download the resource pack. Ensure your server IP is public and port 8765 is port-forwarded. Current URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-10-03 09:44:51 [INFO] Starting MusicOnDisk v1.0.0...
+2026-10-03 09:44:51 [INFO] 
+2026-10-03 09:44:51 [INFO] [MusicOnDisk] [ToolManager]
+2026-10-03 09:44:52 [INFO] Database initialized successfully.
+2026-10-03 09:44:52 [INFO] Loaded 1 music disc(s) into registry.
+2026-10-03 09:44:52 [INFO] [ResourcePack] Building resource pack...
+2026-10-03 09:44:52 [INFO] ✓ MusicOnDisk enabled successfully in 637ms!
+2026-10-03 09:44:52 [INFO]   Loaded 1 custom music disc(s).
+2026-10-03 09:44:52 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-10-03 09:44:52 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-10-03 09:44:52 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-10-03 09:44:52 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-10-03 09:44:53 [INFO] yt-dlp
+2026-10-03 09:44:53 [INFO] Source  : Plugin Managed
+2026-10-03 09:44:53 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-10-03 09:44:53 [INFO] Version : 2026.08.19
+2026-10-03 09:44:53 [INFO] Verified: YES
+2026-10-03 09:44:53 [INFO] -----------------------------------------
+2026-10-03 09:44:53 [INFO] FFmpeg
+2026-10-03 09:44:53 [INFO] Source  : Plugin Managed
+2026-10-03 09:44:53 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-10-03 09:44:53 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-10-03 09:44:53 [INFO] Verified: YES
+2026-10-03 09:44:53 [INFO] -----------------------------------------
+2026-10-03 09:44:53 [INFO] [ResourcePack] Resolving public address...
+2026-10-03 09:44:53 [INFO] [ResourcePack] Port: 8765
+2026-10-03 09:44:53 [INFO] [ResourcePack] Detecting public IP...
+2026-10-03 09:44:53 [INFO] FFprobe
+2026-10-03 09:44:53 [INFO] Source  : Plugin Managed
+2026-10-03 09:44:53 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-10-03 09:44:53 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-10-03 09:44:53 [INFO] Verified: YES
+2026-10-03 09:44:53 [INFO] -----------------------------------------
+2026-10-03 09:44:53 [INFO] ngrok
+2026-10-03 09:44:53 [INFO] Source  : Plugin Managed
+2026-10-03 09:44:53 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-10-03 09:44:53 [INFO] Version : ngrok version 3.39.11
+2026-10-03 09:44:53 [INFO] Verified: YES
+2026-10-03 09:44:53 [INFO] -----------------------------------------
+2026-10-03 09:44:53 [INFO] ✓ Media tools verified and ready.
+2026-10-03 09:44:53 [INFO] [ResourcePack] Detected public IP: 49.207.225.212
+2026-10-03 09:44:53 [INFO] [ResourcePack] Testing endpoint: http://49.207.225.212:8765/pack.zip
+2026-10-03 09:44:59 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-10-03 09:44:59 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-10-03 09:44:59 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-10-03 09:45:00 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-10-03 09:45:00 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-10-03 09:45:00 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-10-03 09:45:01 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-10-03 09:45:01 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-10-03 09:45:01 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-10-03 09:45:35 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-10-03 09:45:49 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-10-03 10:42:27 [INFO] [Playback] Started session: x at world:1962:64:-125 (Slot: 0)
+2026-10-03 10:42:27 [INFO] [Jukebox] InfinityNoob inserted 'x' at world:1962:64:-125
+2026-10-04 08:22:06 [INFO] Shutting down MusicOnDisk...
+2026-10-04 08:22:06 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-10-04 08:22:07 [INFO] Database connection closed.
+2026-10-04 08:22:07 [INFO] MusicOnDisk disabled. Goodbye!
+2026-10-04 08:22:49 [INFO] Starting MusicOnDisk v1.0.0...
+2026-10-04 08:22:49 [INFO] 
+2026-10-04 08:22:49 [INFO] [MusicOnDisk] [ToolManager]
+2026-10-04 08:22:49 [INFO] Database initialized successfully.
+2026-10-04 08:22:49 [INFO] Loaded 1 music disc(s) into registry.
+2026-10-04 08:22:49 [INFO] [ResourcePack] Building resource pack...
+2026-10-04 08:22:49 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-10-04 08:22:49 [INFO] ✓ MusicOnDisk enabled successfully in 635ms!
+2026-10-04 08:22:49 [INFO]   Loaded 1 custom music disc(s).
+2026-10-04 08:22:50 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-10-04 08:22:50 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-10-04 08:22:50 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-10-04 08:22:51 [INFO] yt-dlp
+2026-10-04 08:22:51 [INFO] Source  : Plugin Managed
+2026-10-04 08:22:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-10-04 08:22:51 [INFO] Version : 2026.08.19
+2026-10-04 08:22:51 [INFO] Verified: YES
+2026-10-04 08:22:51 [INFO] -----------------------------------------
+2026-10-04 08:22:51 [INFO] FFmpeg
+2026-10-04 08:22:51 [INFO] Source  : Plugin Managed
+2026-10-04 08:22:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-10-04 08:22:51 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-10-04 08:22:51 [INFO] Verified: YES
+2026-10-04 08:22:51 [INFO] -----------------------------------------
+2026-10-04 08:22:51 [INFO] FFprobe
+2026-10-04 08:22:51 [INFO] Source  : Plugin Managed
+2026-10-04 08:22:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-10-04 08:22:51 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-10-04 08:22:51 [INFO] Verified: YES
+2026-10-04 08:22:51 [INFO] -----------------------------------------
+2026-10-04 08:22:51 [INFO] ngrok
+2026-10-04 08:22:51 [INFO] Source  : Plugin Managed
+2026-10-04 08:22:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-10-04 08:22:51 [INFO] Version : ngrok version 3.39.11
+2026-10-04 08:22:51 [INFO] Verified: YES
+2026-10-04 08:22:51 [INFO] -----------------------------------------
+2026-10-04 08:22:51 [INFO] ✓ Media tools verified and ready.
+2026-10-04 08:22:51 [INFO] [ResourcePack] Resolving public address...
+2026-10-04 08:22:51 [INFO] [ResourcePack] Port: 8765
+2026-10-04 08:22:51 [INFO] [ResourcePack] Detecting public IP...
+2026-10-04 08:22:51 [INFO] [ResourcePack] Detected public IP: 49.207.225.212
+2026-10-04 08:22:51 [INFO] [ResourcePack] Testing endpoint: http://49.207.225.212:8765/pack.zip
+2026-10-04 08:22:57 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-10-04 08:22:57 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-10-04 08:22:57 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-10-04 08:22:57 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-10-04 08:22:57 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-10-04 08:22:57 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-10-04 08:22:58 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-10-04 08:22:58 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-10-04 08:22:58 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-10-04 08:23:11 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-10-04 08:23:18 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
+2026-10-05 15:19:07 [INFO] Shutting down MusicOnDisk...
+2026-10-05 15:19:07 [INFO] [ResourcePack] Built-in HTTP server stopped.
+2026-10-05 15:19:08 [INFO] Database connection closed.
+2026-10-05 15:19:08 [INFO] MusicOnDisk disabled. Goodbye!
+2026-10-05 15:19:50 [INFO] Starting MusicOnDisk v1.0.0...
+2026-10-05 15:19:50 [INFO] 
+2026-10-05 15:19:50 [INFO] [MusicOnDisk] [ToolManager]
+2026-10-05 15:19:50 [INFO] Database initialized successfully.
+2026-10-05 15:19:50 [INFO] Loaded 1 music disc(s) into registry.
+2026-10-05 15:19:50 [INFO] [ResourcePack] Building resource pack...
+2026-10-05 15:19:50 [INFO] [ResourcePack] Built-in HTTP server started on port 8765
+2026-10-05 15:19:50 [INFO] ✓ MusicOnDisk enabled successfully in 479ms!
+2026-10-05 15:19:50 [INFO]   Loaded 1 custom music disc(s).
+2026-10-05 15:19:50 [INFO] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
+2026-10-05 15:19:50 [INFO] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
+2026-10-05 15:19:50 [INFO] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
+2026-10-05 15:19:51 [INFO] yt-dlp
+2026-10-05 15:19:51 [INFO] Source  : Plugin Managed
+2026-10-05 15:19:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
+2026-10-05 15:19:51 [INFO] Version : 2026.08.19
+2026-10-05 15:19:51 [INFO] Verified: YES
+2026-10-05 15:19:51 [INFO] -----------------------------------------
+2026-10-05 15:19:51 [INFO] FFmpeg
+2026-10-05 15:19:51 [INFO] Source  : Plugin Managed
+2026-10-05 15:19:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
+2026-10-05 15:19:51 [INFO] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
+2026-10-05 15:19:51 [INFO] Verified: YES
+2026-10-05 15:19:51 [INFO] -----------------------------------------
+2026-10-05 15:19:51 [INFO] FFprobe
+2026-10-05 15:19:51 [INFO] Source  : Plugin Managed
+2026-10-05 15:19:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
+2026-10-05 15:19:51 [INFO] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
+2026-10-05 15:19:51 [INFO] Verified: YES
+2026-10-05 15:19:51 [INFO] -----------------------------------------
+2026-10-05 15:19:51 [INFO] ngrok
+2026-10-05 15:19:51 [INFO] Source  : Plugin Managed
+2026-10-05 15:19:51 [INFO] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
+2026-10-05 15:19:51 [INFO] Version : ngrok version 3.39.11
+2026-10-05 15:19:51 [INFO] Verified: YES
+2026-10-05 15:19:51 [INFO] -----------------------------------------
+2026-10-05 15:19:51 [INFO] ✓ Media tools verified and ready.
+2026-10-05 15:19:51 [INFO] [ResourcePack] Resolving public address...
+2026-10-05 15:19:51 [INFO] [ResourcePack] Port: 8765
+2026-10-05 15:19:51 [INFO] [ResourcePack] Detecting public IP...
+2026-10-05 15:19:52 [INFO] [ResourcePack] Detected public IP: 49.207.225.212
+2026-10-05 15:19:52 [INFO] [ResourcePack] Testing endpoint: http://49.207.225.212:8765/pack.zip
+2026-10-05 15:19:58 [INFO] [ResourcePack] Public endpoint appears unreachable.
+2026-10-05 15:19:58 [INFO] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
+2026-10-05 15:19:58 [INFO] [ResourcePack] Starting tunnel provider: ngrok
+2026-10-05 15:19:58 [INFO] [Ngrok] ngrok binary already present and verified.
+2026-10-05 15:19:58 [INFO] [Ngrok] Launching ngrok on port 8765...
+2026-10-05 15:19:58 [INFO] [Ngrok] Waiting for tunnel URL (up to 20s)...
+2026-10-05 15:19:59 [INFO] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
+2026-10-05 15:19:59 [INFO] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-10-05 15:19:59 [INFO] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
+2026-10-05 15:20:09 [INFO] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
+2026-10-05 15:20:15 [INFO] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).

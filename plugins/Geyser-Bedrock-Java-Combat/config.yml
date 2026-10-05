@@ -1,0 +1,103 @@
+# ---------------------------------------------
+# Geyser Bedrock & Java Combat Plugin
+# Made with ♥ by nexio
+# ---------------------------------------------
+
+# ---------------------------------------------
+# Combat system for joining players
+# Options: auto, java, bedrock
+# auto → detects platform automatically
+default-combat-group:
+  java-user: auto
+  bedrock-user: auto
+
+# ---------------------------------------------
+# PvP Detection
+# true → players are temporarily set to Java combat for PvP
+# false → players remain in their combat group = unfair PvP
+pvp-detection: true
+
+# PvP reset ticks (after how many ticks the temporary PvP group resets)
+# 20 ticks = 1 second
+pvp-reset-ticks: 100  # 5 seconds
+
+# ---------------------------------------------
+# [Bedrock Combat]
+bedrock-combat:
+  # Disable sweeping attacks for Bedrock combat / no AOE damage
+  disable-sweep: true
+
+  # Weapon damage table, only for [Bedrock Combat]
+  weapon-damage:
+    DIAMOND_SWORD: 7.0
+    IRON_SWORD: 6.0
+    STONE_SWORD: 5.0
+    GOLDEN_SWORD: 4.0
+    WOODEN_SWORD: 4.0
+    NETHERITE_SWORD: 8.0
+    DIAMOND_AXE: 7.0
+    IRON_AXE: 6.0
+    STONE_AXE: 5.0
+    GOLDEN_AXE: 4.0
+    WOODEN_AXE: 4.0
+    NETHERITE_AXE: 8.0
+    DEFAULT: 1.0  # fists / other items
+
+# ---------------------------------------------
+# Floodgate Bedrock Detection
+floodgate:
+  check-for-api: true
+  # fallback if API unavailable
+  prefix: "."
+  case-sensitive: false
+
+# ---------------------------------------------
+# Messages for player
+# true → messages are displayed
+# false → messages disabled
+# Empty "" will hide the message completely
+messages:
+  enabled: true
+  check:
+    bedrock: "§fCurrently in §7[Bedrock Combat]"
+    java: "§fCurrently in §6[Java Combat]"
+  set:
+    self: "§fYour combat mode has been set to §e%group%"
+    other: "§fYour combat mode was set to §e%group% §fby an admin"
+    other.sender: "§fSet %player%'s combat mode to §e%group%"
+  join:
+    bedrock: "§fWelcome! You are in §7[Bedrock Combat]"
+    java: "§fWelcome! You are in §6[Java Combat]"
+  pvp:
+    start: "§cPvP started! §fTemporary §6[Java Combat] §factive"
+    end: "§aPvP ended! §fBack to §7[Bedrock Combat]"
+
+# ---------------------------------------------
+# Commands & Force Settings
+   #gbjc.check.self     -  /gbjc check
+   #gbjc.check.other    -  /gbjc check <player>
+   #gbjc.set.self       -  /gbjc set <java-bedrock-auto>
+   #gbjc.set.other      -  /gbjc set <player> <java-bedrock-auto>
+   #gbjc.reload         -  /gbjc reload
+permissions:
+  allow-force-self: true
+  # If set force-save to true, every player will get an entry in playerdata.yml
+  force-save-on-join: false
+
+# ---------------------------------------------
+# Persistent Player Data
+playerdata:
+  persistent-mode: true
+  storage-file: "playerdata.yml"
+
+# ---------------------------------------------
+# Worlds Settings
+# true → plugin will only work in those worlds
+# false → plugin will work EVERYWHERE
+worlds:
+  enabled: false
+  list:
+    - world_nether
+    - world_the_end
+
+# ---------------------------------------------
