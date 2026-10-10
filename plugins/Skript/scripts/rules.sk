@@ -1,0 +1,10 @@
+command /rules:
+    trigger:
+        send "&6===== SMP Rules ====="
+        send "&a1. Respect all players."
+        send "&a2. No griefing — destroying bases, stealing, or ruining the SMP is strictly forbidden."
+        send "   &7(If both players agree, they can do anything on each other's property.)"
+        send "&a3. No hacking, cheating, or exploiting bugs."
+        send "&a4. Keep chat clean — no spamming or inappropriate content."
+        send "&a5. Follow staff instructions at all times."
+        send "&6====================="

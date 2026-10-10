@@ -1,0 +1,54 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:chicken": 1,
+      "minecraft:porkchop": 1,
+      "minecraft:allium": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 9621,
+      "minecraft:walk_one_cm": 4954,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 2,
+      "minecraft:walk_under_water_one_cm": 169,
+      "minecraft:damage_taken": 130,
+      "minecraft:damage_dealt": 200,
+      "minecraft:play_time": 9621,
+      "minecraft:jump": 211,
+      "minecraft:time_since_death": 9621,
+      "minecraft:drop": 4,
+      "minecraft:sprint_one_cm": 17151,
+      "minecraft:fall_one_cm": 7494,
+      "minecraft:swim_one_cm": 167,
+      "minecraft:total_world_time": 9621,
+      "minecraft:fly_one_cm": 35772,
+      "minecraft:walk_on_water_one_cm": 230
+    },
+    "minecraft:dropped": {
+      "minecraft:allium": 1,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:player_head": 1,
+      "minecraft:azure_bluet": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 1,
+      "minecraft:allium": 4,
+      "minecraft:wheat_seeds": 2,
+      "minecraft:chicken": 1,
+      "minecraft:player_head": 2,
+      "minecraft:azure_bluet": 2
+    },
+    "minecraft:killed": {
+      "minecraft:chicken": 1,
+      "minecraft:pig": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 17,
+      "minecraft:oak_leaves": 3,
+      "minecraft:player_head": 1,
+      "minecraft:azure_bluet": 3,
+      "minecraft:allium": 4
+    }
+  },
+  "DataVersion": 4671
+}

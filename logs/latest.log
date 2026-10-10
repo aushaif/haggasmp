@@ -1,212 +1,825 @@
-[15:19:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12.1+1-1-26.04.4-Ubuntu; Ubuntu null) on Linux 7.0.0-34-generic (amd64)
-[15:19:11] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) for Minecraft 1.21.11
-[15:19:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:19:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[15:19:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
- - AntiSpam (3.0.0), BossBarUltra (3.1), Geyser-Bedrock-Java-Combat (1.0.0), Geyser-Spigot (2.11.3-SNAPSHOT), MusicOnDisk (1.0.0), SkinsRestorer (15.12.6), Skript (2.15.2), ThunderOfGod (1.0), ViaBackwards (5.11.0), ViaVersion (5.11.0), floodgate (2.2.5-SNAPSHOT (b130-d73192f)), uno-sleep (1.0)
-[15:19:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:19:22] [ServerMain/INFO]: Found non-pack entry './world/datapacks/.DS_Store', ignoring
-[15:19:25] [ServerMain/INFO]: Loaded 1470 recipes
-[15:19:25] [ServerMain/INFO]: Loaded 1584 advancements
-[15:19:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:19:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 546.1ms
-[15:19:25] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[15:19:25] [Server thread/INFO]: Loading properties
-[15:19:26] [Server thread/INFO]: This server is running Purpur version 1.21.11-2566-HEAD@0fbf8d2 (2026-03-03T03:49:17Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[15:19:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:19:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:19:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:19:28] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:19:28] [Server thread/INFO]: Default game type: SURVIVAL
-[15:19:28] [Server thread/INFO]: Generating keypair
-[15:19:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:19:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:19:28] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:19:29] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[15:19:43] [Server thread/WARN]: Legacy plugin AntiSpam v3.0.0 does not specify an api-version.
-[15:19:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[15:19:43] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[15:19:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:19:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:19:45] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b130-d73192f)
-[15:19:47] [Server thread/INFO]: [floodgate] Took 1,399ms to boot Floodgate
-[15:19:47] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[15:19:47] [Server thread/INFO]: [Geyser-Bedrock-Java-Combat] Loading server plugin Geyser-Bedrock-Java-Combat v1.0.0
-[15:19:47] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.3-SNAPSHOT
-[15:19:47] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:19:47] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:19:47] [Server thread/INFO]: [uno-sleep] Loading server plugin uno-sleep v1.0
-[15:19:47] [Server thread/INFO]: [ThunderOfGod] Loading server plugin ThunderOfGod v1.0
-[15:19:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.6
-[15:19:47] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.15.2
-[15:19:47] [Server thread/INFO]: [MusicOnDisk] Loading server plugin MusicOnDisk v1.0.0
-[15:19:47] [Server thread/INFO]: [AntiSpam] Loading server plugin AntiSpam v3.0.0
-[15:19:47] [Server thread/INFO]: [BossBarUltra] Loading server plugin BossBarUltra v3.1
-[15:19:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:19:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.6
-[15:19:49] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
-[15:19:49] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[15:19:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:19:49] [Server thread/INFO]: [MusicOnDisk] Enabling MusicOnDisk v1.0.0
-[15:19:49] [Server thread/INFO]: [MusicOnDisk]   __  __           _      ___       ____  _     _    
-[15:19:49] [Server thread/INFO]: [MusicOnDisk]  |  \/  |_   _ ___(_) ___|/ _ \_ __ |  _ \(_)___| | __
-[15:19:49] [Server thread/INFO]: [MusicOnDisk]  | |\/| | | | / __| |/ __| | | | '_ \| | | | / __| |/ /
-[15:19:49] [Server thread/INFO]: [MusicOnDisk]  | |  | | |_| \__ \ | (__| |_| | | | | |_| | \__ \   < 
-[15:19:49] [Server thread/INFO]: [MusicOnDisk]  |_|  |_|\__,_|___/_|\___|\___/|_| |_|____/|_|___/_|\_\
-[15:19:49] [Server thread/INFO]: [MusicOnDisk]                                               v1.0.0
-[15:19:49] [Server thread/INFO]: [MusicOnDisk]  Custom Music Discs from YouTube | Paper Plugin
-[15:19:50] [Server thread/INFO]: [MusicOnDisk] Starting MusicOnDisk v1.0.0...
-[15:19:50] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] 
-[15:19:50] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [MusicOnDisk] [ToolManager]
-[15:19:50] [Server thread/INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Starting...
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.6
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: c8c321f
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:19:50] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[15:19:50] [Server thread/INFO]: [com.musicondisk.libs.hikari.pool.HikariPool] MusicOnDisk-DB - Added connection org.sqlite.jdbc4.JDBC4Connection@ce0186b
-[15:19:50] [Server thread/INFO]: [com.musicondisk.libs.hikari.HikariDataSource] MusicOnDisk-DB - Start completed.
-[15:19:50] [Server thread/INFO]: [MusicOnDisk] Database initialized successfully.
-[15:19:50] [Server thread/INFO]: [MusicOnDisk] Loaded 1 music disc(s) into registry.
-[15:19:50] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Building resource pack...
-[15:19:50] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Built-in HTTP server started on port 8765
-[15:19:50] [Server thread/INFO]: [MusicOnDisk] ✓ MusicOnDisk enabled successfully in 479ms!
-[15:19:50] [Server thread/INFO]: [MusicOnDisk]   Loaded 1 custom music disc(s).
-[15:19:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:19:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:19:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:19:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:19:50] [Server thread/INFO]: Preparing level "world"
-[15:19:50] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Wrote music_disc_cat.json with 1 override(s).
-[15:19:50] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Pack built. SHA1: c51f6678... Size: 4.2 MB
-[15:19:50] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Pack URL: resolving... (check startup logs for the final URL)
-[15:19:51] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[15:19:51] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] yt-dlp
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Source  : Plugin Managed
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/yt-dlp
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Version : 2026.08.19
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Verified: YES
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] -----------------------------------------
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] FFmpeg
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Source  : Plugin Managed
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffmpeg
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Version : ffmpeg version 9.0.1-https://www.martin-riedl.de Copyright (...
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Verified: YES
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] -----------------------------------------
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] FFprobe
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Source  : Plugin Managed
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ffprobe
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Version : ffprobe version 9.0.1-https://www.martin-riedl.de Copyright ...
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Verified: YES
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] -----------------------------------------
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] ngrok
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Source  : Plugin Managed
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Path    : /home/aushaif/haggasmp/plugins/MusicOnDisk/bin/ngrok
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Version : ngrok version 3.39.11
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] Verified: YES
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] -----------------------------------------
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] ✓ Media tools verified and ready.
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Resolving public address...
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Port: 8765
-[15:19:51] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Detecting public IP...
-[15:19:52] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Detected public IP: 49.207.225.212
-[15:19:52] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Testing endpoint: http://49.207.225.212:8765/pack.zip
-[15:19:52] [Server thread/INFO]: Loading 297 persistent chunks for world 'minecraft:overworld'...
-[15:19:52] [Server thread/INFO]: Preparing spawn area: 3%
-[15:19:52] [Server thread/INFO]: Preparing spawn area: 3%
-[15:19:53] [Server thread/INFO]: Preparing spawn area: 3%
-[15:19:55] [Server thread/INFO]: Prepared spawn area in 3095 ms
-[15:19:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[15:19:55] [Server thread/INFO]: Prepared spawn area in 0 ms
-[15:19:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[15:19:55] [Server thread/INFO]: Prepared spawn area in 0 ms
-[15:19:55] [Server thread/INFO]: Done preparing level "world" (4.969s)
-[15:19:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[15:19:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
-[15:19:55] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b130-d73192f)
-[15:19:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[15:19:56] [Server thread/INFO]: [Geyser-Bedrock-Java-Combat] Enabling Geyser-Bedrock-Java-Combat v1.0.0
-[15:19:56] [Server thread/INFO]: [Geyser-Bedrock-Java-Combat]        loaded successfully! ♥
-[15:19:56] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.3-SNAPSHOT
-[15:19:57] [Server thread/INFO]: [uno-sleep] Enabling uno-sleep v1.0
-[15:19:58] [Server thread/INFO]: [uno-sleep] UnoSleep has been enabled!
-[15:19:58] [Server thread/INFO]: [ThunderOfGod] Enabling ThunderOfGod v1.0
-[15:19:58] [Server thread/INFO]: [ThunderOfGod] ThunderOfGod Enabled!
-[15:19:58] [Server thread/INFO]: [Skript] Enabling Skript v2.15.2
-[15:19:58] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Public endpoint appears unreachable.
-[15:19:58] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack]   Port 8765 may be blocked by a firewall or router NAT.
-[15:19:58] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Starting tunnel provider: ngrok
-[15:19:58] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Ngrok] ngrok binary already present and verified.
-[15:19:58] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Ngrok] Launching ngrok on port 8765...
-[15:19:58] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Ngrok] Waiting for tunnel URL (up to 20s)...
-[15:19:59] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [Ngrok] ✓ Tunnel active: https://dreadful-unpaved-annotate.ngrok-free.dev
-[15:19:59] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] Tunnel URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
-[15:19:59] [MusicOnDisk-Worker/INFO]: [MusicOnDisk] [ResourcePack] ✓ Active Resource Pack URL: https://dreadful-unpaved-annotate.ngrok-free.dev/pack.zip
-[15:19:59] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.16.2 (you're currently running 2.15.2)
-[15:19:59] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: https://github.com/SkriptLang/Skript/releases/download/2.16.2/Skript-2.16.2.jar
-[15:20:02] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[15:20:02] [Server thread/INFO]: [AntiSpam] Enabling AntiSpam v3.0.0*
-[15:20:02] [Server thread/INFO]: [AntiSpam] Connected to database (SQLITE).
-[15:20:02] [Server thread/INFO]: [AntiSpam] §6AntiSpam §8» Plugin Enabled
-[15:20:02] [Server thread/INFO]: [BossBarUltra] Enabling BossBarUltra v3.1
-[15:20:03] [Server thread/INFO]: [spark] Starting background profiler...
-[15:20:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:20:03] [Server thread/INFO]: [Geyser-Spigot] 
-[15:20:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.3-b1245 (git-master-2808f7d)
-[15:20:03] [Server thread/INFO]: [Geyser-Spigot] 
-[15:20:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:20:05] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 3080ms
-[15:20:06] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
-[15:20:06] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
-[15:20:06] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
-[15:20:08] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
-[15:20:09] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[15:20:09] [Server thread/INFO]: [Geyser-Spigot] Done (5.609s)! Run /geyser help for help!
-[15:20:09] [Server thread/INFO]: Running delayed init tasks
-[15:20:09] [Server thread/INFO]: [MusicOnDisk] [ProximityManager] Pack updated — 0 player(s) will receive the new pack near a jukebox.
-[15:20:09] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:20:09] [Server thread/INFO]: [Skript] Loading variables...
-[15:20:09] [Server thread/INFO]: [Skript] Loaded 7 variables in 0.0 seconds
-[15:20:10] [Craft Scheduler Thread - 6 - AntiSpam/WARN]: [AntiSpam] Cannot check for updates: https://api.spigotmc.org/legacy/org.bukkit/resources/118730/versions/latest
-[15:20:10] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[15:20:10] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 21 structures in 0.94 seconds
-[15:20:10] [Server thread/INFO]: [Skript] Finished loading.
-[15:20:10] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.0, you're on: 5.11.0
-[15:20:10] [Server thread/INFO]: Done (60.225s)! For help, type "help"
-[15:20:15] [Server thread/INFO]: [MusicOnDisk] [ProximityManager] Started jukebox proximity scanner (interval=40 ticks, radius=4.0 blocks).
-[16:04:56] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2193)
-[16:04:56] [localSession-7-2/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to the Java server
-[16:04:57] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
-[16:04:57] [Server thread/INFO]: .Haras124 joined the game
-[16:04:57] [WebSocketConnectReadThread-209/INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
-[16:04:57] [Server thread/INFO]: .Haras124[/127.0.0.1:0] logged in with entity id 443 at ([world]1682.1406, 66.0, -349.72916)
-[16:06:09] [Server thread/INFO]: .Haras124 issued server command: /time set day
-[16:06:09] [Server thread/INFO]: [.Haras124: Set the time to 1000]
-[16:06:11] [Server thread/INFO]: .Haras124 issued server command: /weather clear
-[16:06:11] [Server thread/INFO]: [.Haras124: Set the weather to clear]
-[16:06:30] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Haras124 has disconnected from the Java server because of §rBedrock client disconnected
-[16:06:30] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
-[16:06:30] [Server thread/INFO]: .Haras124 lost connection: Disconnected
-[16:06:31] [Server thread/INFO]: .Haras124 left the game
-[16:34:30] [User Authenticator #0/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
-[16:34:32] [Server thread/INFO]: Everyone welcome omarsenpai to our SMP!
-[16:34:32] [Server thread/INFO]: omarsenpai joined the game
-[16:34:32] [Server thread/INFO]: omarsenpai[/127.0.0.1:59842] logged in with entity id 1092 at ([world]2723.5, 72.0, -429.5)
-[16:34:46] [Server thread/INFO]: omarsenpai issued server command: /cmd
-[16:35:26] [Server thread/INFO]: omarsenpai lost connection: Disconnected
-[16:35:27] [Server thread/INFO]: omarsenpai left the game
-[16:39:48] [User Authenticator #1/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
-[16:39:49] [Server thread/INFO]: omarsenpai joined the game
-[16:39:49] [Server thread/INFO]: omarsenpai[/127.0.0.1:45868] logged in with entity id 1598 at ([world]2721.300000011921, 70.0, -429.30000001192093)
-[16:40:29] [Server thread/INFO]: omarsenpai has made the advancement [Stone Age]
-[16:43:06] [Server thread/INFO]: omarsenpai has made the advancement [Getting an Upgrade]
-[16:43:42] [Server thread/INFO]: omarsenpai issued server command: /plugins
+[00:09:16] [User Authenticator #65/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[00:09:42] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:52214): Took too long to log in
+[00:09:42] [Server thread/INFO]: FishNet (/127.0.0.1:52214) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[00:12:22] [User Authenticator #66/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[00:12:50] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:54950): Took too long to log in
+[00:12:50] [Server thread/INFO]: FishNet (/127.0.0.1:54950) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[00:23:11] [User Authenticator #67/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[00:23:36] [Server thread/INFO]: FishNet (/127.0.0.1:49944) lost connection: Timed out
+[00:47:54] [User Authenticator #68/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[00:48:18] [Server thread/INFO]: FishNet (/127.0.0.1:56010) lost connection: Timed out
+[00:55:27] [User Authenticator #69/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[00:55:56] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:40504): Took too long to log in
+[00:55:56] [Server thread/INFO]: FishNet (/127.0.0.1:40504) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[01:18:38] [User Authenticator #70/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[01:19:06] [Server thread/INFO]: FishNet (/127.0.0.1:49610) lost connection: Timed out
+[01:23:08] [User Authenticator #71/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[01:23:36] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:36712): Took too long to log in
+[01:23:36] [Server thread/INFO]: FishNet (/127.0.0.1:36712) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[01:57:07] [User Authenticator #72/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[01:57:35] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:59022): Took too long to log in
+[01:57:35] [Server thread/INFO]: FishNet (/127.0.0.1:59022) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[02:03:20] [User Authenticator #73/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[02:03:49] [Server thread/INFO]: FishNet (/127.0.0.1:35832) lost connection: Timed out
+[02:09:36] [User Authenticator #74/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[02:10:03] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:37156): Took too long to log in
+[02:10:03] [Server thread/INFO]: FishNet (/127.0.0.1:37156) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[02:44:57] [User Authenticator #75/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[02:45:25] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:39482): Took too long to log in
+[02:45:25] [Server thread/INFO]: FishNet (/127.0.0.1:39482) lost connection: Disconnected
+[03:09:40] [User Authenticator #76/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[03:10:08] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:54028): Took too long to log in
+[03:10:08] [Server thread/INFO]: FishNet (/127.0.0.1:54028) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[03:15:56] [User Authenticator #77/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[03:16:25] [Server thread/INFO]: FishNet (/127.0.0.1:40804) lost connection: Timed out
+[03:22:03] [User Authenticator #78/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[03:22:31] [Server thread/INFO]: FishNet (/127.0.0.1:36796) lost connection: Timed out
+[04:18:41] [User Authenticator #79/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[04:19:10] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:40342): Took too long to log in
+[04:19:10] [Server thread/INFO]: FishNet (/127.0.0.1:40342) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[05:23:40] [User Authenticator #80/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[05:24:09] [Server thread/INFO]: FishNet (/127.0.0.1:51140) lost connection: Timed out
+[05:59:18] [User Authenticator #81/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[05:59:46] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:49122): Took too long to log in
+[05:59:46] [Server thread/INFO]: FishNet (/127.0.0.1:49122) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[06:55:23] [User Authenticator #82/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[06:55:51] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:59280): Took too long to log in
+[06:55:51] [Server thread/INFO]: FishNet (/127.0.0.1:59280) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[07:44:52] [User Authenticator #83/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[07:45:21] [Server thread/INFO]: FishNet (/127.0.0.1:45462) lost connection: Timed out
+[07:48:06] [User Authenticator #84/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[07:48:35] [Server thread/INFO]: FishNet (/127.0.0.1:49870) lost connection: Timed out
+[07:51:13] [User Authenticator #85/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[07:51:42] [Server thread/INFO]: FishNet (/127.0.0.1:58356) lost connection: Timed out
+[08:09:44] [User Authenticator #86/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[08:10:13] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:39300): Took too long to log in
+[08:10:13] [Server thread/INFO]: FishNet (/127.0.0.1:39300) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[08:51:24] [User Authenticator #87/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[08:51:54] [Server thread/INFO]: FishNet (/127.0.0.1:59630) lost connection: Timed out
+[10:02:48] [User Authenticator #88/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[10:03:17] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:45006): Took too long to log in
+[10:03:17] [Server thread/INFO]: FishNet (/127.0.0.1:45006) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[10:13:52] [User Authenticator #89/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[10:14:21] [Server thread/INFO]: FishNet (/127.0.0.1:56290) lost connection: Timed out
+[10:32:34] [User Authenticator #90/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[10:32:57] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:33832): Took too long to log in
+[10:32:57] [Server thread/INFO]: FishNet (/127.0.0.1:33832) lost connection: Disconnected
+[10:52:36] [User Authenticator #91/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
+[10:53:05] [Server thread/INFO]: Disconnecting FishNet (/127.0.0.1:51846): Took too long to log in
+[10:53:05] [Server thread/INFO]: FishNet (/127.0.0.1:51846) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
+[10:56:34] [User Authenticator #92/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
+[10:56:35] [Server thread/INFO]: omarsenpai joined the game
+[10:56:35] [Server thread/INFO]: omarsenpai[/127.0.0.1:41026] logged in with entity id 62115 at ([world]-612.5082311795013, 64.0, 11778.533157355367)
+[11:35:35] [Server thread/INFO]: omarsenpai lost connection: Disconnected
+[11:35:35] [Server thread/INFO]: omarsenpai left the game
+[12:01:24] [User Authenticator #93/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:01:24] [Server thread/INFO]: InfinityNoob joined the game
+[12:01:24] [Server thread/INFO]: InfinityNoob[/127.0.0.1:40188] logged in with entity id 68741 at ([world]1759.3500060008266, 73.0, -493.38127101780987)
+[12:02:18] [Server thread/INFO]: InfinityNoob issued server command: /weather clear
+[12:02:18] [Server thread/INFO]: [InfinityNoob: Set the weather to clear]
+[12:02:23] [Server thread/INFO]: InfinityNoob issued server command: /time set day
+[12:02:23] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
+[12:02:58] [Server thread/INFO]: InfinityNoob issued server command: /cmd
+[12:03:03] [Server thread/INFO]: InfinityNoob issued server command: /discord
+[12:08:30] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[12:08:36] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[12:10:03] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hi
+[12:11:16] [Server thread/INFO]: InfinityNoob issued server command: /rules
+[12:11:23] [Server thread/INFO]: InfinityNoob issued server command: /cmd
+[12:11:39] [Server thread/INFO]: InfinityNoob issued server command: /help
+[12:18:01] [Server thread/INFO]: InfinityNoob issued server command: /sk reload admin-command-hide
+[12:18:01] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'gamerule broadcastAdminCommands false' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(gamerule)
+[12:18:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:966)
+[12:18:01] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1828)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:82)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.runTrigger(EvtScript.java:70)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.postLoad(EvtScript.java:43)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.structures.StructEvent.postLoad(StructEvent.java:111)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$8(ScriptLoader.java:598)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1755)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1743)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$2(ScriptLoader.java:589)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:516)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:458)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.SkriptCommand.onCommand(SkriptCommand.java:189)
+[12:18:01] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[12:18:01] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[12:18:01] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:477)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:382)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:370)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2456)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$15(ServerGamePacketListenerImpl.java:2429)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1561)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1541)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1535)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1240)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1377)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:18:01] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Incorrect argument for command at position 9: gamerule <--[HERE]
+[12:18:01] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'gamerule commandBlockOutput false' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(gamerule)
+[12:18:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:966)
+[12:18:01] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1828)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:82)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.runTrigger(EvtScript.java:70)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.postLoad(EvtScript.java:43)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.structures.StructEvent.postLoad(StructEvent.java:111)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$8(ScriptLoader.java:598)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1755)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1743)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$2(ScriptLoader.java:589)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:516)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:458)
+[12:18:01] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.SkriptCommand.onCommand(SkriptCommand.java:189)
+[12:18:01] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[12:18:01] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[12:18:01] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:477)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:382)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:370)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2456)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$15(ServerGamePacketListenerImpl.java:2429)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1561)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1541)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1535)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1240)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1377)
+[12:18:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392)
+[12:18:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:18:01] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Incorrect argument for command at position 9: gamerule <--[HERE]
+[12:18:01] [Server thread/INFO]: [Hagga SMP] Admin command visibility settings applied.
+[12:19:11] [User Authenticator #94/INFO]: UUID of player aushaif is ef33d636-d515-3dcb-bb69-c5dd80778119
+[12:19:12] [Server thread/INFO]: aushaif joined the game
+[12:19:12] [Server thread/INFO]: aushaif[/127.0.0.1:55702] logged in with entity id 71898 at ([world_nether]469.68523863762516, 255.0, -506.5339847524724)
+[12:19:19] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[12:19:28] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[12:20:12] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[12:20:13] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[12:20:42] [Server thread/INFO]: InfinityNoob issued server command: /sk reload admin-command-hide
+[12:20:42] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'gamerule broadcastAdminCommands false' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(gamerule)
+[12:20:42] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:966)
+[12:20:42] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1828)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:82)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.runTrigger(EvtScript.java:70)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.postLoad(EvtScript.java:43)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.structures.StructEvent.postLoad(StructEvent.java:111)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$8(ScriptLoader.java:598)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1755)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1743)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$2(ScriptLoader.java:589)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:516)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:458)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.SkriptCommand.onCommand(SkriptCommand.java:189)
+[12:20:42] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[12:20:42] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[12:20:42] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:477)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:382)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:370)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2456)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$15(ServerGamePacketListenerImpl.java:2429)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1561)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1541)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1535)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1240)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1377)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:20:42] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Incorrect argument for command at position 9: gamerule <--[HERE]
+[12:20:42] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'gamerule commandBlockOutput false' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(gamerule)
+[12:20:42] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:966)
+[12:20:42] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1828)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:82)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.runTrigger(EvtScript.java:70)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.events.EvtScript.postLoad(EvtScript.java:43)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.structures.StructEvent.postLoad(StructEvent.java:111)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$8(ScriptLoader.java:598)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1755)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1743)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.lambda$loadScripts$2(ScriptLoader.java:589)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyNow(CompletableFuture.java:684)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniApplyStage(CompletableFuture.java:662)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenApply(CompletableFuture.java:2200)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:516)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.ScriptLoader.loadScripts(ScriptLoader.java:458)
+[12:20:42] [Server thread/WARN]: 	at Skript-2.15.2.jar//ch.njol.skript.SkriptCommand.onCommand(SkriptCommand.java:189)
+[12:20:42] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[12:20:42] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[12:20:42] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:477)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:382)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:370)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2456)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$15(ServerGamePacketListenerImpl.java:2429)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1561)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1541)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1535)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1240)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1377)
+[12:20:42] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:392)
+[12:20:42] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:20:42] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Incorrect argument for command at position 9: gamerule <--[HERE]
+[12:20:42] [Server thread/INFO]: [Hagga SMP] Admin command visibility settings applied.
+[12:22:21] [Server thread/INFO]: InfinityNoob issued server command: /sk reload discord.sk
+[12:22:24] [Server thread/INFO]: InfinityNoob issued server command: /discord
+[12:22:45] [Server thread/INFO]: aushaif lost connection: Disconnected
+[12:22:45] [Server thread/INFO]: aushaif left the game
+[12:23:54] [Server thread/INFO]: InfinityNoob issued server command: /discord
+[12:28:35] [Server thread/INFO]: InfinityNoob issued server command: /sk reload discord.sk
+[12:28:38] [Server thread/INFO]: InfinityNoob issued server command: /dis
+[12:28:42] [Server thread/INFO]: InfinityNoob issued server command: /discord
+[12:28:48] [User Authenticator #95/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
+[12:28:50] [Server thread/INFO]: omarsenpai joined the game
+[12:28:50] [Server thread/INFO]: omarsenpai[/127.0.0.1:45844] logged in with entity id 77522 at ([world]-612.8569199661601, 64.0, 11782.346365215126)
+[12:28:55] [Server thread/INFO]: omarsenpai: hello
+[12:28:59] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hey
+[12:29:13] [Server thread/INFO]: InfinityNoob issued server command: /discord
+[12:29:14] [Server thread/INFO]: omarsenpai: come see what i done
+[12:29:34] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ok
+[12:29:50] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: where bro
+[12:29:55] [Server thread/INFO]: omarsenpai: tpa
+[12:30:07] [Server thread/INFO]: InfinityNoob issued server command: /tpa omarsenpai
+[12:30:17] [Server thread/INFO]: omarsenpai issued server command: /tpaaccept
+[12:30:20] [Server thread/INFO]: omarsenpai issued server command: /tpaaccept InfinityNoob
+[12:30:26] [Server thread/INFO]: omarsenpai: don't blow anything
+[12:30:42] [Server thread/INFO]: omarsenpai: we are two here
+[12:30:45] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: nice man
+[12:30:45] [Server thread/INFO]: omarsenpai: two teamte
+[12:31:29] [Server thread/INFO]: omarsenpai: ima do a bamboo auto fael
+[12:31:33] [Server thread/INFO]: omarsenpai: fuel
+[12:31:46] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ohhh
+[12:31:50] [Server thread/INFO]: omarsenpai: do you have bamboo
+[12:32:01] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: right now i dont have
+[12:32:06] [Server thread/INFO]: omarsenpai: ok
+[12:32:35] [Server thread/INFO]: omarsenpai: there was villagers
+[12:32:40] [Server thread/INFO]: omarsenpai: but someone killed them
+[12:32:50] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ohhh very sad
+[12:32:59] [Server thread/INFO]: omarsenpai: hhh
+[12:33:03] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: btw base is very nice bro
+[12:33:09] [Server thread/INFO]: omarsenpai: it was me btw
+[12:33:20] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhhh
+[12:33:31] [Server thread/INFO]: omarsenpai: i was raiding
+[12:33:51] [Server thread/INFO]: omarsenpai: pillagers
+[12:33:59] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[12:34:18] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: this place is very far from spawn
+[12:34:32] [Server thread/INFO]: omarsenpai: you have the one on one armor i have seen it in donut smp
+[12:34:37] [Server thread/INFO]: omarsenpai: yp
+[12:34:46] [Server thread/INFO]: omarsenpai: i walked for two days in reality
+[12:35:12] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmmm
+[12:35:20] [Server thread/WARN]: InfinityNoob moved wrongly!, (-0.04480694388357165)
+[12:35:33] [Server thread/INFO]: omarsenpai: i swear
+[12:36:35] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm bro
+[12:36:51] [Server thread/INFO]: omarsenpai: lol
+[12:37:02] [Server thread/INFO]: omarsenpai: can you help me with anything?
+[12:37:10] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: what?
+[12:37:26] [Server thread/INFO]: omarsenpai: like blocks or duplicate my farm
+[12:38:14] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: which blocks?
+[12:38:18] [Server thread/INFO]: omarsenpai: irons
+[12:38:27] [Server thread/INFO]: omarsenpai: 3
+[12:38:29] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: u want irons
+[12:38:33] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ingot
+[12:38:44] [Server thread/INFO]: omarsenpai: 3 iron blocks pls
+[12:39:03] [Server thread/INFO]: omarsenpai: is it possible
+[12:39:07] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yup
+[12:39:25] [User Authenticator #96/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:39:25] [Server thread/INFO]: InfinityNoob lost connection: You logged in from another location
+[12:39:25] [Server thread/INFO]: InfinityNoob left the game
+[12:39:28] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2193)
+[12:39:28] [localSession-7-2/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to the Java server
+[12:39:28] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[12:39:28] [Server thread/INFO]: .Haras124 joined the game
+[12:39:28] [Server thread/INFO]: .Haras124[/127.0.0.1:0] logged in with entity id 79586 at ([world]1918.2568, 66.0, -295.73187)
+[12:39:40] [User Authenticator #96/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:39:40] [Netty Epoll IO #0/WARN]: [ViaVersion] Duplicate UUID on frontend connection! (36f382f4-4a78-33f1-b542-73c52f07c10b)
+[12:39:40] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Timed out
+[12:39:40] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Timed out
+[12:39:41] [User Authenticator #96/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:39:41] [Netty Epoll IO #1/WARN]: [ViaVersion] Duplicate UUID on frontend connection! (36f382f4-4a78-33f1-b542-73c52f07c10b)
+[12:39:41] [Server thread/INFO]: InfinityNoob joined the game
+[12:39:41] [Server thread/INFO]: InfinityNoob[/127.0.0.1:60946] logged in with entity id 79737 at ([world]-570.5360311027931, 75.0, 11766.727904173438)
+[12:39:48] [Server thread/INFO]: omarsenpai: so what?
+[12:39:55] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Timed out
+[12:39:55] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Timed out
+[12:39:55] [User Authenticator #96/INFO]: UUID of player bchyaorsjtumjkfu is edc96fec-d4ad-3c0e-a072-be5052c6d3e9
+[12:39:57] [Server thread/INFO]: Everyone welcome bchyaorsjtumjkfu to our SMP!
+[12:39:57] [Server thread/INFO]: bchyaorsjtumjkfu joined the game
+[12:39:57] [Server thread/INFO]: bchyaorsjtumjkfu[/127.0.0.1:44646] logged in with entity id 79843 at ([world]2716.5, 74.0, -418.5)
+[12:39:57] [Server thread/INFO]: bchyaorsjtumjkfu lost connection: Disconnected
+[12:39:57] [Server thread/INFO]: bchyaorsjtumjkfu left the game
+[12:39:57] [Server thread/INFO]: omarsenpai: can give or no
+[12:40:19] [Server thread/INFO]: omarsenpai: thx
+[12:40:22] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wlcom
+[12:40:26] [Server thread/INFO]: ⚡ [Admin] .Haras124: hi aushu
+[12:40:38] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hiii
+[12:40:41] [Server thread/WARN]: .Haras124 moved wrongly!, (0.33320000000000505)
+[12:40:50] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: bhai 1 banda hai jo badmasi kr rha h
+[12:40:58] [Server thread/INFO]: ⚡ [Admin] .Haras124: kon?
+[12:41:05] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: pta nhi
+[12:41:17] [Server thread/INFO]: ⚡ [Admin] .Haras124: kuch destroy ho gaya kya ?
+[12:41:17] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: mera account hack kr liya tha
+[12:41:24] [Server thread/INFO]: ⚡ [Admin] .Haras124: ore baba
+[12:41:31] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ab kuch krna hoga
+[12:41:38] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: koi na
+[12:41:39] [Server thread/INFO]: ⚡ [Admin] .Haras124: password change karlo
+[12:41:39] [User Authenticator #97/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:41:39] [Server thread/INFO]: InfinityNoob lost connection: You logged in from another location
+[12:41:39] [Server thread/INFO]: InfinityNoob left the game
+[12:41:43] [User Authenticator #97/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:41:43] [Netty Epoll IO #2/WARN]: [ViaVersion] Duplicate UUID on frontend connection! (36f382f4-4a78-33f1-b542-73c52f07c10b)
+[12:41:44] [Server thread/INFO]: InfinityNoob joined the game
+[12:41:44] [Server thread/INFO]: InfinityNoob[/127.0.0.1:46988] logged in with entity id 80433 at ([world]-570.5285759005923, 65.0, 11784.264945130304)
+[12:41:44] [Server thread/INFO]: ⚡ [Admin] .Haras124: nvm
+[12:41:46] [Server thread/INFO]: omarsenpai: can you add the login plugin cuz someone on server is trying to use mine
+[12:41:54] [User Authenticator #97/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:41:54] [Server thread/INFO]: InfinityNoob lost connection: You logged in from another location
+[12:41:54] [Server thread/INFO]: InfinityNoob left the game
+[12:41:55] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Timed out
+[12:41:55] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Disconnected
+[12:41:56] [User Authenticator #97/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:41:56] [Netty Epoll IO #2/WARN]: [ViaVersion] Duplicate UUID on frontend connection! (36f382f4-4a78-33f1-b542-73c52f07c10b)
+[12:41:56] [Server thread/INFO]: InfinityNoob joined the game
+[12:41:56] [Server thread/INFO]: InfinityNoob[/127.0.0.1:52122] logged in with entity id 80510 at ([world]-568.3734038153791, 65.0, 11784.453622861682)
+[12:42:02] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye infinitynoob can ig
+[12:42:03] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[12:42:08] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wait
+[12:42:10] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Timed out
+[12:42:10] [Server thread/INFO]: InfinityNoob (36f382f4-4a78-33f1-b542-73c52f07c10b) lost connection: Timed out
+[12:42:10] [User Authenticator #97/INFO]: UUID of player bcbphqwpxawhiljg is 1e1459dc-f474-338f-a2a9-a8a934ef6806
+[12:42:11] [Server thread/INFO]: Connection closed during protocol change
+[12:42:11] [Server thread/INFO]: Everyone welcome bcbphqwpxawhiljg to our SMP!
+[12:42:11] [Server thread/INFO]: bcbphqwpxawhiljg lost connection: Disconnected
+[12:42:11] [Server thread/INFO]: bcbphqwpxawhiljg left the game
+[12:42:18] [Server thread/INFO]: omarsenpai: here he is
+[12:42:26] [Server thread/INFO]: omarsenpai: the one who hacked my acc
+[12:42:38] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wait bro let me ban that ip
+[12:42:42] [Server thread/INFO]: omarsenpai: his name is axyble
+[12:42:43] [Server thread/INFO]: ⚡ [Admin] .Haras124: aushu shulker box wala glitch thek karo T_T
+[12:43:04] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[12:43:23] [Server thread/INFO]: omarsenpai: which lauguage are you talking guys
+[12:43:28] [Server thread/INFO]: ⚡ [Admin] .Haras124: hindi
+[12:43:44] [Server thread/INFO]: omarsenpai: lol i don't understand a single word
+[12:43:49] [Server thread/INFO]: ⚡ [Admin] .Haras124: its okay
+[12:43:55] [Server thread/INFO]: omarsenpai: yp
+[12:45:41] [Server thread/INFO]: ⚡ [Admin] .Haras124: who made this pink bridge ?
+[12:45:48] [Server thread/INFO]: omarsenpai: where
+[12:45:56] [Server thread/INFO]: ⚡ [Admin] .Haras124: in the main area
+[12:46:03] [Server thread/INFO]: ⚡ [Admin] .Haras124: of the server
+[12:46:08] [Server thread/INFO]: omarsenpai: idk i survived one night there
+[12:46:15] [Server thread/INFO]: ⚡ [Admin] .Haras124: oh okay
+[12:46:29] [Server thread/INFO]: omarsenpai: someone made a trap bihind me
+[12:46:37] [Server thread/INFO]: ⚡ [Admin] .Haras124: must be your friend
+[12:46:40] [Server thread/INFO]: omarsenpai: or it is natural
+[12:47:14] [Server thread/INFO]: .Haras124 issued server command: /gamemode creative
+[12:47:14] [Server thread/INFO]: [.Haras124: Set own game mode to Creative Mode]
+[12:48:11] [Server thread/INFO]: Invalid IP address or unknown player
+[12:48:17] [Server thread/INFO]: Banned bcobowylhjfnfstb: Banned by an operator.
+[12:48:46] [Server thread/INFO]: ⚡ [Admin] .Haras124: wait whos bcobow
+[12:48:55] [Server thread/INFO]: omarsenpai: idk
+[12:49:10] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: thats the one who is trying to use others accounts
+[12:49:15] [Server thread/INFO]: ⚡ [Admin] .Haras124: ohh
+[12:50:03] [Server thread/INFO]: omarsenpai: there is someone called axymble in discord server he is using a fault acc to talk with me
+[12:50:19] [Server thread/INFO]: ⚡ [Admin] .Haras124: ow
+[12:50:52] [Server thread/INFO]: omarsenpai: that means i am important lol
+[12:51:36] [Server thread/INFO]: omarsenpai: pls someone sleeep
+[12:51:45] [Server thread/INFO]: omarsenpai: skip night pls
+[12:52:08] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: is axymble the same person?
+[12:52:42] [Server thread/INFO]: omarsenpai: no he is a friend of mine who is using a fault acc idk why he is saying no idk you
+[12:52:59] [Server thread/INFO]: omarsenpai: but i 100% know that it is him
+[12:53:21] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: then its your frnd?
+[12:53:37] [Server thread/INFO]: omarsenpai: because he says plz with "z" and my friend joinned without entering the discord server
+[12:53:51] [Server thread/INFO]: omarsenpai: my friend name is k1ng_benzmozli9
+[12:53:57] [User Authenticator #98/INFO]: UUID of player k1ng_benzemozli9 is 672533e6-4d77-32ea-af15-090479dfd692
+[12:53:58] [Server thread/INFO]: k1ng_benzemozli9 joined the game
+[12:53:58] [Server thread/INFO]: k1ng_benzemozli9[/127.0.0.1:47638] logged in with entity id 86764 at ([world]2710.5497551807434, 70.9375, -436.73290681563583)
+[12:54:03] [Server thread/INFO]: omarsenpai: here he is
+[12:54:03] [Server thread/INFO]: ⚡ [Admin] .Haras124: ow
+[12:54:08] [Server thread/INFO]: omarsenpai: lol
+[12:54:08] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhhh
+[12:54:18] [Server thread/INFO]: omarsenpai: at the same time
+[12:54:21] [Server thread/INFO]: k1ng_benzemozli9: yo guys
+[12:54:27] [Server thread/INFO]: omarsenpai: what that fuck
+[12:54:42] [Server thread/INFO]: k1ng_benzemozli9: can i team with any of yall pls
+[12:54:47] [Server thread/INFO]: omarsenpai: what going with you
+[12:54:59] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[12:54:59] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[12:55:05] [Server thread/INFO]: omarsenpai: i mean what going on with you
+[12:55:09] [Server thread/INFO]: k1ng_benzemozli9: who
+[12:55:14] [Server thread/INFO]: omarsenpai: you
+[12:55:14] [Server thread/INFO]: k1ng_benzemozli9 issued server command: /pl
+[12:55:27] [Server thread/INFO]: omarsenpai: using a fault acc
+[12:55:33] [Server thread/INFO]: k1ng_benzemozli9: what fault acc
+[12:55:38] [Server thread/INFO]: k1ng_benzemozli9: bro
+[12:55:42] [Server thread/INFO]: omarsenpai: what
+[12:55:42] [Server thread/INFO]: k1ng_benzemozli9: its not me
+[12:55:49] [Server thread/INFO]: omarsenpai: how dare you
+[12:56:12] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: let it bro it might not be him
+[12:56:18] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i will find out
+[12:56:20] [Server thread/INFO]: k1ng_benzemozli9 was shot by Skeleton
+[12:56:24] [Server thread/INFO]: omarsenpai: hm
+[12:56:34] [Server thread/INFO]: k1ng_benzemozli9: what hm
+[12:56:56] [Server thread/INFO]: k1ng_benzemozli9: can i team with someone
+[12:57:01] [Server thread/INFO]: k1ng_benzemozli9: please
+[12:57:08] [Server thread/INFO]: k1ng_benzemozli9: im very good at pvp
+[12:57:12] [Server thread/INFO]: k1ng_benzemozli9: trust
+[12:57:18] [Server thread/INFO]: omarsenpai: yes someone is in the discord server talk with him
+[12:57:48] [Server thread/INFO]: omarsenpai: someone still didn't join
+[12:57:59] [Server thread/INFO]: omarsenpai: he is just in the discord server
+[12:58:13] [Server thread/INFO]: k1ng_benzemozli9: someone like the guy from your mc server ?
+[12:58:19] [Server thread/INFO]: omarsenpai: yp
+[12:58:25] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: what usernname bro
+[12:58:27] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ?
+[12:58:30] [Server thread/INFO]: k1ng_benzemozli9: someone
+[12:58:36] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ohh
+[12:58:36] [Server thread/INFO]: k1ng_benzemozli9: thats his ign
+[12:59:09] [Server thread/INFO]: k1ng_benzemozli9: infinity
+[12:59:13] [Server thread/INFO]: k1ng_benzemozli9: can i team with you
+[12:59:18] [Server thread/INFO]: omarsenpai: he is admin
+[12:59:36] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i dont play all the time bro
+[12:59:40] [Server thread/INFO]: ⚡ [Admin] .Haras124: you can team with anyone
+[12:59:45] [Server thread/INFO]: k1ng_benzemozli9: who ?
+[13:00:12] [Server thread/INFO]: ⚡ [Admin] .Haras124: like some random players etc
+[13:00:43] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[13:00:43] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[13:00:54] [Server thread/INFO]: k1ng_benzemozli9: there isnt any ppl
+[13:01:00] [Server thread/INFO]: omarsenpai: did someone just leave the server
+[13:01:04] [Server thread/INFO]: k1ng_benzemozli9: like ijs see omar and the ii67 guy
+[13:01:13] [Server thread/INFO]: k1ng_benzemozli9 was shot by Skeleton
+[13:01:22] [Server thread/INFO]: k1ng_benzemozli9: any ways
+[13:01:26] [Server thread/INFO]: k1ng_benzemozli9: i gtg
+[13:01:27] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: dk bro
+[13:01:28] [Server thread/INFO]: k1ng_benzemozli9 lost connection: Disconnected
+[13:01:28] [Server thread/INFO]: k1ng_benzemozli9 left the game
+[13:01:46] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[13:01:49] [Server thread/INFO]: ⚡ [Admin] .Haras124: mh how am i gonna fix this house
+[13:01:58] [Server thread/INFO]: omarsenpai: which house
+[13:02:10] [Server thread/INFO]: ⚡ [Admin] .Haras124: we have some house in the main area
+[13:02:20] [Server thread/INFO]: omarsenpai: ah yes
+[13:02:22] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: mere pas iska ss hai
+[13:02:26] [Server thread/INFO]: ⚡ [Admin] .Haras124: someone destroyed one of them
+[13:02:33] [Server thread/INFO]: ⚡ [Admin] .Haras124: oh okay pls fix this
+[13:02:49] [Server thread/INFO]: omarsenpai: did you ban someone
+[13:03:00] [Server thread/INFO]: ⚡ [Admin] .Haras124: infinity noob did
+[13:03:06] [Server thread/INFO]: omarsenpai: what
+[13:03:07] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: nope
+[13:03:17] [Server thread/INFO]: omarsenpai: why
+[13:03:25] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i didnt ban anyone
+[13:03:37] [Server thread/INFO]: ⚡ [Admin] .Haras124: someone named bcobow got banned
+[13:03:44] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: from dc server od smp?
+[13:03:47] [Server thread/INFO]: ⚡ [Admin] .Haras124: smp
+[13:03:53] [Server thread/INFO]: omarsenpai: ok ok
+[13:03:59] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ohh
+[13:04:07] [Server thread/INFO]: omarsenpai: but therre was a guy named soemone in the discord server
+[13:04:09] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: that was the bad guy
+[13:04:22] [Server thread/INFO]: omarsenpai: i think he left or he was banned
+[13:04:28] [Server thread/INFO]: ⚡ [Admin] .Haras124: dk we didn't ban anyone in the server yet
+[13:04:34] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yeah someone has left the server i guess
+[13:04:41] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: no one has banned anyone
+[13:04:54] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: he left
+[13:05:00] [Server thread/INFO]: omarsenpai: ok i nneed bamboo i just searched the whole smp for it
+[13:05:04] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[13:05:04] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[13:05:15] [Server thread/INFO]: ⚡ [Admin] .Haras124: oh we have some in the main area
+[13:05:24] [Server thread/INFO]: omarsenpai: can you bring me one
+[13:05:38] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmm where are you
+[13:05:43] [Server thread/INFO]: omarsenpai: so far
+[13:05:52] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: bruh he is 10k blocks away
+[13:06:00] [Server thread/INFO]: ⚡ [Admin] .Haras124: you sholdve made a house in the main area
+[13:06:17] [Server thread/INFO]: omarsenpai: naah
+[13:06:24] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: his wish
+[13:06:34] [Server thread/INFO]: omarsenpai: it more dangerous
+[13:06:49] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmm okay
+[13:07:46] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:08:15] [Server thread/INFO]: ⚡ [Admin] .Haras124: mh i cant fix this house
+[13:08:23] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[13:08:26] [Server thread/INFO]: ⚡ [Admin] .Haras124: i dont know the design
+[13:08:27] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: leave it
+[13:08:31] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wll fix later
+[13:08:35] [Server thread/INFO]: ⚡ [Admin] .Haras124: okay
+[13:08:59] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: he got bamboo?
+[13:09:06] [Server thread/INFO]: omarsenpai: no
+[13:09:07] [Server thread/INFO]: ⚡ [Admin] .Haras124: uh nope ig
+[13:09:09] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[13:09:16] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wait i will find for u
+[13:10:32] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i got some bamboo blocks
+[13:10:36] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: u want?
+[13:10:44] [Server thread/INFO]: omarsenpai: ok
+[13:10:50] [Server thread/INFO]: InfinityNoob issued server command: /tpa omarsenpai
+[13:10:53] [Server thread/INFO]: omarsenpai: and bam boo?
+[13:11:03] [Server thread/INFO]: omarsenpai issued server command: /tpaaccept InfinityNoob
+[13:11:04] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i will find
+[13:11:22] [Server thread/INFO]: omarsenpai: yay
+[13:11:51] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[13:11:51] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[13:12:35] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[13:12:49] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:12:56] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i got some bamboo
+[13:13:18] [Server thread/INFO]: omarsenpai: ok yay
+[13:13:42] [Server thread/INFO]: InfinityNoob issued server command: /tpa omarsenpai
+[13:13:51] [Server thread/INFO]: omarsenpai issued server command: /tpaaccept InfinityNoob
+[13:17:25] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[13:17:25] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[13:17:31] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: woww
+[13:17:41] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[13:18:28] [Server thread/INFO]: ⚡ [Admin] .Haras124: kinda fixed it
+[13:18:32] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: lets pvp
+[13:18:37] [Server thread/INFO]: ⚡ [Admin] .Haras124: k
+[13:19:19] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[13:19:43] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:20:11] [Server thread/INFO]: .Haras124 issued server command: /gamemode survival
+[13:20:11] [Server thread/INFO]: [.Haras124: Set own game mode to Survival Mode]
+[13:21:42] [Server thread/INFO]: ⚡ [Admin] .Haras124: yo you didn't give me my mace back
+[13:21:56] [Server thread/INFO]: ⚡ [Admin] .Haras124: thx
+[13:22:26] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[13:22:46] [Server thread/INFO]: ⚡ [Admin] .Haras124: i might die im sick
+[13:22:50] [Server thread/INFO]: ⚡ [Admin] .Haras124: in game
+[13:22:55] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: its fine
+[13:23:30] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: aaja
+[13:23:40] [Server thread/INFO]: ⚡ [Admin] .Haras124: wait
+[13:24:52] [Server thread/INFO]: ⚡ [Admin] .Haras124: let me rejoin rq
+[13:24:53] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[13:24:53] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Haras124 has disconnected from the Java server because of §rBedrock client disconnected
+[13:24:53] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[13:24:53] [Server thread/INFO]: .Haras124 left the game
+[13:25:22] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2193)
+[13:25:22] [localSession-7-3/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to the Java server
+[13:25:22] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[13:25:22] [Server thread/INFO]: .Haras124 joined the game
+[13:25:22] [Server thread/INFO]: .Haras124[/127.0.0.1:0] logged in with entity id 102421 at ([world]1960.6224, 64.0, -41.79916)
+[13:25:33] [Server thread/INFO]: omarsenpai lost connection: Disconnected
+[13:25:33] [Server thread/INFO]: omarsenpai left the game
+[13:26:24] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: aaja
+[13:27:02] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[13:27:02] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[13:27:12] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[13:27:12] [Server thread/INFO]: [.Haras124: Set the time to 1000]
+[13:27:21] [Server thread/INFO]: ⚡ [Admin] .Haras124: no rocket macing
+[13:27:28] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ok
+[13:33:26] [Server thread/INFO]: InfinityNoob was smashed by .Haras124
+[13:33:29] [Server thread/INFO]: ⚡ [Admin] .Haras124: ggs
+[13:33:32] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[13:33:32] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[13:33:39] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[13:33:50] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: mera samma
+[13:33:53] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: saman
+[13:33:58] [Server thread/INFO]: ⚡ [Admin] .Haras124: yaha hai
+[13:34:12] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[13:34:25] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:34:35] [Server thread/INFO]: ⚡ [Admin] .Haras124: itna sara arrows
+[13:34:39] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hnn
+[13:35:20] [Server thread/INFO]: ⚡ [Admin] .Haras124: hehehe
+[13:35:23] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhhh
+[13:35:37] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmm mujhe maja aya
+[13:35:43] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[13:35:49] [Server thread/INFO]: .Haras124 issued server command: /gamemode creative
+[13:35:49] [Server thread/INFO]: [.Haras124: Set own game mode to Creative Mode]
+[13:36:05] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: aaja
+[13:36:09] [Server thread/INFO]: ⚡ [Admin] .Haras124: ok
+[13:36:23] [Server thread/INFO]: .Haras124 issued server command: /gamemode survival
+[13:36:23] [Server thread/INFO]: [.Haras124: Set own game mode to Survival Mode]
+[13:36:26] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[13:36:54] [Server thread/INFO]: ⚡ [Admin] .Haras124: thorns mat use karo
+[13:37:00] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhhh
+[13:37:10] [Server thread/INFO]: ⚡ [Admin] .Haras124: usse Thumara durability aur kaam hota hai
+[13:37:12] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[13:37:20] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[13:37:20] [Server thread/INFO]: [.Haras124: Set the time to 1000]
+[13:40:49] [Server thread/WARN]: .Haras124 moved wrongly!, (0.3999900000000025)
+[13:45:54] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.0010872092912848075)
+[13:47:53] [User Authenticator #99/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
+[13:47:55] [Server thread/INFO]: omarsenpai joined the game
+[13:47:55] [Server thread/INFO]: omarsenpai[/127.0.0.1:44824] logged in with entity id 107670 at ([world]-610.6999999880791, 64.0, 11782.408935314854)
+[13:48:36] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.02311759124674495)
+[13:48:50] [Server thread/WARN]: .Haras124 moved wrongly!, (0.33320000000000505)
+[13:49:17] [Server thread/INFO]: ⚡ [Admin] .Haras124: lol my screen is all sweaty rn
+[13:49:25] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huh
+[13:52:33] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.3081122081322718)
+[13:59:41] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.04816536178996955)
+[14:00:08] [Server thread/WARN]: InfinityNoob moved wrongly!, (0.0308762585903537)
+[14:01:31] [Server thread/INFO]: omarsenpai: i think i have the best base
+[14:01:55] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: nice
+[14:04:05] [Server thread/INFO]: omarsenpai: can somebody give me iron
+[14:04:10] [Server thread/INFO]: omarsenpai: like much
+[14:04:18] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: haras
+[14:04:25] [Server thread/INFO]: ⚡ [Admin] .Haras124: hm?
+[14:04:29] [Server thread/INFO]: omarsenpai: if you want to?
+[14:04:33] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: iron mang ra h
+[14:05:49] [Server thread/INFO]: omarsenpai: guys am afk
+[14:05:53] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: k
+[14:06:06] [Server thread/INFO]: omarsenpai: if you want to tpa and give me it ok but don't destroy my base pls
+[14:06:13] [Server thread/INFO]: omarsenpai: or steal anything please
+[14:08:44] [Server thread/INFO]: omarsenpai: can you?
+[14:08:51] [Server thread/INFO]: omarsenpai: btw am back
+[14:09:14] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: u want iron
+[14:09:20] [Server thread/INFO]: omarsenpai: yes
+[14:09:41] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob omarsenpai
+[14:09:42] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to omarsenpai]
+[14:09:44] [Server thread/INFO]: ⚡ [Admin] .Haras124: im regearing
+[14:09:46] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: take
+[14:09:56] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:09:56] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[14:09:57] [Server thread/INFO]: omarsenpai: more?
+[14:10:01] [Server thread/INFO]: omarsenpai: please
+[14:10:08] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: bro iron hai?
+[14:10:11] [Server thread/INFO]: omarsenpai: i need to make a whole farm
+[14:10:27] [Server thread/INFO]: omarsenpai: ok it enough
+[14:10:36] [Server thread/INFO]: omarsenpai: i through it was 5 iron
+[14:14:35] [Server thread/WARN]: .Haras124 moved wrongly!, (0.039730000000005816)
+[14:17:02] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmm a full regear setup
+[14:17:05] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: armor chor
+[14:17:29] [Server thread/INFO]: ⚡ [Admin] .Haras124: nah you have a full regear set up thats how you are surviving
+[14:17:37] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: nah
+[14:17:43] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i dont have even helmet
+[14:17:56] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye still you ain't dying
+[14:18:10] [Server thread/WARN]: .Haras124 moved wrongly!, (0.034329999999997085)
+[14:18:12] [Server thread/WARN]: .Haras124 moved wrongly!, (0.046239999999997394)
+[14:19:58] [Server thread/INFO]: InfinityNoob was doomed to fall by .Haras124
+[14:20:01] [Server thread/INFO]: ⚡ [Admin] .Haras124: haahaha
+[14:20:03] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:20:03] [Server thread/INFO]: [InfinityNoob: Teleported InfinityNoob to .Haras124]
+[14:20:15] [Server thread/INFO]: ⚡ [Admin] .Haras124: holy egas
+[14:20:21] [Server thread/INFO]: ⚡ [Admin] .Haras124: egaps*
+[14:20:30] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: saman de
+[14:20:51] [Server thread/INFO]: ⚡ [Admin] .Haras124: lol thats how you survived
+[14:20:55] [Server thread/INFO]: ⚡ [Admin] .Haras124: egaps
+[14:21:12] [Server thread/INFO]: ⚡ [Admin] .Haras124: i dont have anything else
+[14:21:14] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hahhh
+[14:21:29] [Server thread/INFO]: ⚡ [Admin] .Haras124: holy how many egaps did you have
+[14:21:47] [Server thread/INFO]: omarsenpai: you are admin use creative
+[14:21:53] [Server thread/INFO]: ⚡ [Admin] .Haras124: huh
+[14:21:58] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: no creative
+[14:22:09] [Server thread/INFO]: omarsenpai: but you are admins
+[14:22:16] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yes
+[14:22:17] [Server thread/INFO]: ⚡ [Admin] .Haras124: wym
+[14:22:30] [Server thread/INFO]: omarsenpai: admin have the right to use creative
+[14:22:39] [Server thread/INFO]: omarsenpai: if they are security not player
+[14:22:48] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmmm
+[14:23:32] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[14:23:39] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[14:23:52] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[14:24:01] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[14:24:08] [Server thread/INFO]: ⚡ [Admin] .Haras124: its soo laggy
+[14:24:21] [Server thread/INFO]: ⚡ [Admin] .Haras124: i burned through most of my resources
+[14:24:25] [Server thread/INFO]: omarsenpai: cuz so many plugins
+[14:27:28] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: bhai
+[14:27:35] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: elytra mace kaise kr leta h
+[14:27:39] [Server thread/INFO]: ⚡ [Admin] .Haras124: heheh
+[14:27:50] [Server thread/INFO]: omarsenpai: do you have weekend?
+[14:28:04] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yeah
+[14:28:14] [Server thread/INFO]: omarsenpai: is he really 17
+[14:28:25] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[14:28:32] [Server thread/WARN]: .Haras124 moved wrongly!, (-0.07837999999999568)
+[14:28:36] [Server thread/INFO]: omarsenpai: id think so
+[14:28:53] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: he is
+[14:28:55] [Server thread/INFO]: omarsenpai: he should be in univercity
+[14:29:51] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: bro kafi h aaj ke liye
+[14:29:53] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[14:29:59] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[14:30:04] [Server thread/INFO]: omarsenpai: i don't understand
+[14:30:10] [Server thread/INFO]: omarsenpai: are you talking abt me
+[14:30:10] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmko or practise krna hoga
+[14:30:19] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: nah bro
+[14:30:28] [Server thread/INFO]: omarsenpai: hmm
+[14:30:31] [Server thread/INFO]: ⚡ [Admin] .Haras124: okay
+[14:30:52] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: lets plan to build some builds
+[14:31:14] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[14:31:20] [Server thread/INFO]: omarsenpai lost connection: Disconnected
+[14:31:20] [Server thread/INFO]: omarsenpai left the game
+[14:31:29] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmm
+[14:31:42] [Server thread/INFO]: .Haras124 issued server command: /gamemode creative
+[14:31:42] [Server thread/INFO]: [.Haras124: Set own game mode to Creative Mode]
+[14:31:45] [Server thread/INFO]: ⚡ [Admin] .Haras124: kaisa laga
+[14:31:46] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: kuchu puchu
+[14:31:52] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[14:31:56] [Server thread/INFO]: ⚡ [Admin] .Haras124: ha?
+[14:32:02] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmko or practise chahiye
+[14:32:06] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmm
+[14:32:22] [Server thread/INFO]: ⚡ [Admin] .Haras124: tum jo spam karte ho na usse damage nahi lagta
+[14:32:33] [Server thread/INFO]: ⚡ [Admin] .Haras124: isliye mein bhi spam nahi kar raha
+[14:32:40] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm pta h
+[14:32:54] [Server thread/INFO]: ⚡ [Admin] .Haras124: hm
+[14:33:17] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: boots
+[14:33:37] [Server thread/INFO]: ⚡ [Admin] .Haras124: mere pas nahi hai
+[14:33:41] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ok
+[14:33:44] [Server thread/INFO]: InfinityNoob issued server command: /time set day
+[14:33:44] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
+[14:33:52] [Server thread/INFO]: ⚡ [Admin] .Haras124: aur thumara spear koi damage nahi karta
+[14:34:05] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hnn hmko use krne nhi aata
+[14:34:10] [Server thread/INFO]: ⚡ [Admin] .Haras124: hm
+[14:34:19] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmko elytra mace sikhna h bhai
+[14:34:25] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: bhut hard hota h wo
+[14:34:42] [Server thread/INFO]: ⚡ [Admin] .Haras124: yes
+[14:34:59] [Server thread/INFO]: ⚡ [Admin] .Haras124: muje toh bada maja aya elytra mace karke
+[14:35:05] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hnn
+[14:35:08] [Server thread/INFO]: ⚡ [Admin] .Haras124: acha mein ab ja raha hu
+[14:35:13] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hm bhi seekh jyenge
+[14:35:18] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm ok
+[14:35:31] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Haras124 has disconnected from the Java server because of §rBedrock client disconnected
+[14:35:31] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[14:35:31] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[14:35:31] [Server thread/INFO]: .Haras124 left the game
+[14:37:57] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
+[14:38:34] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
+[14:40:56] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
+[14:40:56] [Server thread/INFO]: InfinityNoob left the game
+[14:48:47] [User Authenticator #100/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
+[14:48:48] [Server thread/INFO]: omarsenpai joined the game
+[14:48:48] [Server thread/INFO]: omarsenpai[/127.0.0.1:53288] logged in with entity id 128548 at ([world]-575.8787491155558, 65.0, 11778.63290008217)
+[15:33:07] [Server thread/INFO]: omarsenpai issued server command: /afk
+[15:33:07] [Server thread/INFO]: [AFK] omarsenpai is now AFK.
+[15:33:12] [Server thread/INFO]: omarsenpai issued server command: /afk
+[15:33:12] [Server thread/INFO]: omarsenpai is no longer AFK.
+[15:33:14] [Server thread/INFO]: omarsenpai issued server command: /afk
+[15:33:14] [Server thread/INFO]: [AFK] omarsenpai is now AFK.
+[16:14:25] [User Authenticator #101/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
+[16:14:25] [Server thread/INFO]: omarsenpai lost connection: You logged in from another location
+[16:14:25] [Server thread/INFO]: omarsenpai left the game
+[16:14:28] [Server thread/INFO]: omarsenpai (c29c6038-3154-31d5-a176-8030a3e2d393) lost connection: Disconnected
+[16:14:30] [User Authenticator #101/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[16:14:32] [Server thread/INFO]: InfinityNoob joined the game
+[16:14:32] [Server thread/INFO]: InfinityNoob[/127.0.0.1:37884] logged in with entity id 144202 at ([world]1960.1226497559178, 64.0, -124.07137751058654)
+[16:14:34] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
+[16:14:34] [Server thread/INFO]: InfinityNoob left the game
+[16:14:37] [User Authenticator #101/INFO]: UUID of player k1ng_benzemozli9 is 672533e6-4d77-32ea-af15-090479dfd692
+[16:14:39] [Server thread/INFO]: k1ng_benzemozli9 joined the game
+[16:14:39] [Server thread/INFO]: k1ng_benzemozli9[/127.0.0.1:53510] logged in with entity id 144266 at ([world]2729.5, 77.0, -422.5)
+[16:14:40] [Server thread/INFO]: k1ng_benzemozli9 lost connection: Disconnected
+[16:14:40] [Server thread/INFO]: k1ng_benzemozli9 left the game
+[16:14:43] [User Authenticator #101/INFO]: UUID of player asxmbly is 66be6d90-3ce0-3a11-af14-12aeb59ab2fc
+[16:14:45] [Server thread/INFO]: asxmbly joined the game
+[16:14:45] [Server thread/INFO]: asxmbly[/127.0.0.1:53546] logged in with entity id 144329 at ([world]2617.1769300997557, 63.0, -348.7527668462309)
+[16:14:45] [User Authenticator #101/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
+[16:14:46] [Server thread/INFO]: omarsenpai joined the game
+[16:14:46] [Server thread/INFO]: omarsenpai[/127.0.0.1:48530] logged in with entity id 144397 at ([world]-614.5986914219671, 64.5625, 11777.011832517237)
+[16:14:46] [Server thread/INFO]: asxmbly lost connection: Disconnected
+[16:14:46] [Server thread/INFO]: asxmbly left the game
+[16:25:02] [Server thread/INFO]: Banned asxmbly: Banned by an operator.

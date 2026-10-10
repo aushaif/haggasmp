@@ -1,0 +1,30 @@
+# ==========================================
+# SERVER COMMAND LIST
+# ==========================================
+
+command /cmd:
+    aliases: /commands, /help
+    trigger:
+
+        send "&6========== &eServer Commands &6=========="
+        send "&a/afk &7- Toggle AFK status"
+        send "&a/report <player> <reason> &7- Report a player"
+        send "&a/discord &7- Get Discord invite link"
+        send "&a/rules &7- View server rules"
+        send "&a/tpa <player> &7- Send teleport request"
+        send "&a/tpaaccept <player> &7- Accept teleport request"
+        send "&a/tpadeny <player> &7- Deny teleport request"
+        send "&a/tpastatus &7- Check pending requests"
+        send "&a/cmd &7- View this command list"
+        send "&6====================================="
+
+
+# ==========================================
+# JOIN COMMAND REMINDER
+# ==========================================
+
+on join:
+
+    wait 5 seconds
+
+    send "&7&l[&b&lTIP&7&l] &fType &a&l/cmd or /help &fto view all available server commands!" to player

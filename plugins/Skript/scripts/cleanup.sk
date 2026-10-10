@@ -1,0 +1,22 @@
+# ==========================================
+# PLAYER DATA CLEANUP
+# ==========================================
+
+on quit:
+
+    # Remove AFK data
+    delete {afk.%player%}
+    delete {original.displayname.%player%}
+
+    # Remove TPA requests TO this player
+    delete {tpa.request.%player%}
+
+    # Remove TPA requests FROM this player
+    loop {tpa.request::*}:
+
+        if loop-value is player:
+
+            delete {tpa.request::%loop-index%}
+
+            if loop-index parsed as player is online:
+                send "&7The teleport request from &c%player% &7was cancelled (player left)." to loop-index parsed as player

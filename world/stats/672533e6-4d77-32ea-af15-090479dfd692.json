@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:player_head": 1,
+      "minecraft:red_tulip": 17,
+      "minecraft:porkchop": 1,
+      "minecraft:azure_bluet": 2,
+      "minecraft:dirt": 5
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 320,
+      "minecraft:walk_one_cm": 17674,
+      "minecraft:leave_game": 5,
+      "minecraft:walk_under_water_one_cm": 121,
+      "minecraft:mob_kills": 5,
+      "minecraft:damage_taken": 2174,
+      "minecraft:play_time": 28768,
+      "minecraft:damage_dealt": 830,
+      "minecraft:jump": 721,
+      "minecraft:time_since_death": 287,
+      "minecraft:drop": 29,
+      "minecraft:sprint_one_cm": 45917,
+      "minecraft:fall_one_cm": 40160,
+      "minecraft:total_world_time": 28768,
+      "minecraft:fly_one_cm": 163322,
+      "minecraft:walk_on_water_one_cm": 127,
+      "minecraft:crouch_one_cm": 462,
+      "minecraft:sneak_time": 228,
+      "minecraft:deaths": 9
+    },
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 4,
+      "minecraft:creeper": 1,
+      "minecraft:zombie": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:wheat_seeds": 14,
+      "minecraft:feather": 2,
+      "minecraft:dirt": 13
+    },
+    "minecraft:killed": {
+      "minecraft:horse": 1,
+      "minecraft:chicken": 1,
+      "minecraft:pig": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:porkchop": 5,
+      "minecraft:dirt": 39,
+      "minecraft:feather": 2,
+      "minecraft:wheat_seeds": 18,
+      "minecraft:chicken": 1,
+      "minecraft:player_head": 4,
+      "minecraft:gravel": 1,
+      "minecraft:red_tulip": 17,
+      "minecraft:azure_bluet": 2
+    },
+    "minecraft:mined": {
+      "minecraft:gravel": 2,
+      "minecraft:short_grass": 115,
+      "minecraft:tall_grass": 19,
+      "minecraft:bee_nest": 1,
+      "minecraft:dirt_path": 2,
+      "minecraft:player_head": 4,
+      "minecraft:dirt": 2,
+      "minecraft:red_tulip": 17,
+      "minecraft:rose_bush": 2,
+      "minecraft:grass_block": 10,
+      "minecraft:azure_bluet": 5,
+      "minecraft:peony": 1
+    }
+  },
+  "DataVersion": 4671
+}

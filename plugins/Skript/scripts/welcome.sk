@@ -1,0 +1,13 @@
+# ==========================================
+# FIRST JOIN MESSAGE
+# ==========================================
+
+on first join:
+
+    send "&eWelcome &6%player%&e to the SMP for the first time!" to player
+
+    broadcast "&eEveryone welcome &6%player%&e to our SMP!"
+
+    wait 2 seconds
+
+    send "&b&l➤ &eType &a&l/cmd &eto view all server commands!" to player

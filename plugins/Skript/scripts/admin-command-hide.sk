@@ -1,0 +1,15 @@
+
+# ==========================================
+# HAGGA SMP - ADMIN COMMAND VISIBILITY
+# Minecraft: 1.21.11
+# Skript: 2.15.2
+# ==========================================
+
+on load:
+    # Hide admin command feedback broadcasts
+    execute console command "gamerule broadcastAdminCommands false"
+
+    # Hide command block output from admins
+    execute console command "gamerule commandBlockOutput false"
+
+    send "&a[Hagga SMP] Admin command visibility settings applied." to console
