@@ -458,11 +458,11 @@ while true; do
     # TABLE HEADER
     # ========================================================
 
-    echo -e "${CYAN}  ┌──────────────────────┬────────────────────┬──────────────────────────────┐${RESET}"
+    echo -e "${CYAN}  ┌──────────────────────┬────────────────────┬────────────────────────────────────────────┐${RESET}"
 
-    echo -e "${CYAN}  │${RESET} ${BOLD}PLAYER${RESET}               ${CYAN}│${RESET} ${BOLD}IP ADDRESS${RESET}         ${CYAN}│${RESET} ${BOLD}LOCATION${RESET}                    ${CYAN}│${RESET}"
+    echo -e "${CYAN}  │${RESET} ${BOLD}PLAYER${RESET}               ${CYAN}│${RESET} ${BOLD}IP ADDRESS${RESET}         ${CYAN}│${RESET} ${BOLD}LOCATION${RESET}                                            ${CYAN}│${RESET}"
 
-    echo -e "${CYAN}  ├──────────────────────┼────────────────────┼──────────────────────────────┤${RESET}"
+    echo -e "${CYAN}  ├──────────────────────┼────────────────────┼────────────────────────────────────────────┤${RESET}"
 
 
     # ========================================================
@@ -471,7 +471,7 @@ while true; do
 
     if [ "$COUNT" -eq 0 ]; then
 
-        echo -e "${CYAN}  │${RESET} ${GRAY}No players currently connected${RESET}                                    ${CYAN}│${RESET}"
+        echo -e "${CYAN}  │${RESET} ${GRAY}No players currently connected${RESET}                                                                    ${CYAN}│${RESET}"
 
     fi
 
@@ -508,14 +508,26 @@ while true; do
             IP_DISPLAY=$(printf "%-18s" "$DISPLAY_IP" | cut -c1-18)
 
 
-            # Format location
+            # Format location and wrap it across additional lines when needed.
             LOCATION="$CITY, $COUNTRY"
+            LOCATION_WIDTH=44
+            LOCATION_REMAINING="$LOCATION"
+            FIRST_LOCATION_LINE=true
 
-            LOCATION_DISPLAY=$(printf "%-28s" "$LOCATION" | cut -c1-28)
+            while [ -n "$LOCATION_REMAINING" ]; do
+                LOCATION_LINE="$(printf '%s' "$LOCATION_REMAINING" | cut -c1-${LOCATION_WIDTH})"
+                LOCATION_REMAINING="$(printf '%s' "$LOCATION_REMAINING" | cut -c$((LOCATION_WIDTH + 1))- )"
+                LOCATION_DISPLAY=$(printf "%-${LOCATION_WIDTH}s" "$LOCATION_LINE")
 
-
-            # Print player
-            echo -e "  ${CYAN}│${RESET} ${GREEN}●${RESET} ${PLAYER_DISPLAY} ${CYAN}│${RESET} ${IP_DISPLAY} ${CYAN}│${RESET} ${LOCATION_DISPLAY} ${CYAN}│${RESET}"
+                if [ "$FIRST_LOCATION_LINE" = true ]; then
+                    # First line includes player name and IP.
+                    echo -e "  ${CYAN}│${RESET} ${GREEN}●${RESET} ${PLAYER_DISPLAY} ${CYAN}│${RESET} ${IP_DISPLAY} ${CYAN}│${RESET} ${LOCATION_DISPLAY} ${CYAN}│${RESET}"
+                    FIRST_LOCATION_LINE=false
+                else
+                    # Continuation lines keep the player and IP cells blank.
+                    echo -e "  ${CYAN}│${RESET}                      ${CYAN}│${RESET}                    ${CYAN}│${RESET} ${LOCATION_DISPLAY} ${CYAN}│${RESET}"
+                fi
+            done
 
 
         done <<< "$PLAYERS"
@@ -527,7 +539,7 @@ while true; do
     # TABLE FOOTER
     # ========================================================
 
-    echo -e "${CYAN}  └──────────────────────┴────────────────────┴──────────────────────────────┘${RESET}"
+    echo -e "${CYAN}  └──────────────────────┴────────────────────┴────────────────────────────────────────────┘${RESET}"
 
     echo
 

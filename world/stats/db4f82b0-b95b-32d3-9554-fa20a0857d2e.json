@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 4
+    },
+    "minecraft:mined": {
+      "minecraft:oak_log": 6,
+      "minecraft:oak_planks": 2
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 13,
+      "minecraft:oak_log": 1,
+      "minecraft:golden_carrot": 5
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 33042,
+      "minecraft:walk_one_cm": 49190,
+      "minecraft:leave_game": 2,
+      "minecraft:walk_under_water_one_cm": 106,
+      "minecraft:damage_taken": 320,
+      "minecraft:damage_dealt": 9,
+      "minecraft:play_time": 33042,
+      "minecraft:open_shulker_box": 1,
+      "minecraft:jump": 352,
+      "minecraft:time_since_death": 33042,
+      "minecraft:open_enderchest": 6,
+      "minecraft:sprint_one_cm": 87753,
+      "minecraft:open_chest": 23,
+      "minecraft:fall_one_cm": 10495,
+      "minecraft:swim_one_cm": 7363,
+      "minecraft:total_world_time": 33042,
+      "minecraft:fly_one_cm": 87373,
+      "minecraft:walk_on_water_one_cm": 2018,
+      "minecraft:crouch_one_cm": 369,
+      "minecraft:sneak_time": 386,
+      "minecraft:climb_one_cm": 253
+    },
+    "minecraft:picked_up": {
+      "minecraft:ender_pearl": 32,
+      "minecraft:string": 4,
+      "minecraft:dirt": 128,
+      "minecraft:oak_log": 6,
+      "minecraft:grass_block": 64,
+      "minecraft:oak_planks": 2,
+      "minecraft:sandstone": 12,
+      "minecraft:bone": 2,
+      "minecraft:golden_carrot": 26,
+      "minecraft:rotten_flesh": 9
+    }
+  },
+  "DataVersion": 4671
+}

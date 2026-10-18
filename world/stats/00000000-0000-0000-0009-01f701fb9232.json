@@ -1,42 +1,7 @@
 {
   "stats": {
-    "minecraft:killed_by": {
-      "minecraft:ravager": 2,
-      "minecraft:skeleton": 3,
-      "minecraft:player": 10,
-      "minecraft:zombie": 4
-    },
     "minecraft:dropped": {
       "minecraft:saddle": 3
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 6564,
-      "minecraft:leave_game": 17,
-      "minecraft:damage_taken": 6268,
-      "minecraft:mob_kills": 8,
-      "minecraft:damage_absorbed": 233,
-      "minecraft:open_shulker_box": 2,
-      "minecraft:time_since_death": 2431,
-      "minecraft:aviate_one_cm": 42440,
-      "minecraft:damage_dealt_absorbed": 122,
-      "minecraft:total_world_time": 191773,
-      "minecraft:swim_one_cm": 466,
-      "minecraft:crouch_one_cm": 228,
-      "minecraft:deaths": 20,
-      "minecraft:climb_one_cm": 2696,
-      "minecraft:walk_one_cm": 1005040,
-      "minecraft:horse_one_cm": 192682,
-      "minecraft:walk_under_water_one_cm": 12465,
-      "minecraft:play_time": 191773,
-      "minecraft:damage_dealt": 2748,
-      "minecraft:jump": 1182,
-      "minecraft:play_record": 3,
-      "minecraft:drop": 3,
-      "minecraft:sprint_one_cm": 66136,
-      "minecraft:fall_one_cm": 21295,
-      "minecraft:fly_one_cm": 27793,
-      "minecraft:walk_on_water_one_cm": 9123,
-      "minecraft:sneak_time": 139
     },
     "minecraft:used": {
       "minecraft:netherite_helmet": 1,
@@ -55,9 +20,6 @@
       "minecraft:quartz_block": 107,
       "minecraft:ender_pearl": 1
     },
-    "minecraft:crafted": {
-      "minecraft:quartz_bricks": 8
-    },
     "minecraft:mined": {
       "minecraft:tall_grass": 1,
       "minecraft:torch": 2,
@@ -74,6 +36,12 @@
       "minecraft:wall_torch": 1,
       "minecraft:sand": 2,
       "minecraft:quartz_block": 12
+    },
+    "minecraft:killed_by": {
+      "minecraft:ravager": 2,
+      "minecraft:skeleton": 3,
+      "minecraft:player": 10,
+      "minecraft:zombie": 4
     },
     "minecraft:picked_up": {
       "minecraft:glow_item_frame": 10,
@@ -112,6 +80,38 @@
       "minecraft:elytra": 1,
       "minecraft:pink_petals": 1,
       "minecraft:netherite_sword": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:quartz_bricks": 8
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 8984,
+      "minecraft:leave_game": 19,
+      "minecraft:damage_taken": 6268,
+      "minecraft:mob_kills": 8,
+      "minecraft:damage_absorbed": 233,
+      "minecraft:open_shulker_box": 2,
+      "minecraft:time_since_death": 4851,
+      "minecraft:aviate_one_cm": 42440,
+      "minecraft:damage_dealt_absorbed": 122,
+      "minecraft:total_world_time": 194193,
+      "minecraft:swim_one_cm": 466,
+      "minecraft:crouch_one_cm": 228,
+      "minecraft:deaths": 20,
+      "minecraft:climb_one_cm": 2696,
+      "minecraft:walk_one_cm": 1005040,
+      "minecraft:horse_one_cm": 192682,
+      "minecraft:walk_under_water_one_cm": 12465,
+      "minecraft:play_time": 194193,
+      "minecraft:damage_dealt": 2748,
+      "minecraft:jump": 1182,
+      "minecraft:play_record": 3,
+      "minecraft:drop": 3,
+      "minecraft:sprint_one_cm": 66136,
+      "minecraft:fall_one_cm": 21295,
+      "minecraft:fly_one_cm": 27793,
+      "minecraft:walk_on_water_one_cm": 9123,
+      "minecraft:sneak_time": 139
     },
     "minecraft:killed": {
       "minecraft:zombie": 2,

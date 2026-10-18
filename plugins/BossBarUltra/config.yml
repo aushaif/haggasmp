@@ -10,7 +10,7 @@
 #  - look     → Show bar only when player looks at the mob
 #  - combat  → Show bar only while the mob is in combat
 #  - always  → Always visible for nearby mobs
-display-mode: always
+display-mode: combat
 
 # How long an entity stays in combat after taking damage (milliseconds)
 combat-timeout-ms: 5000
@@ -67,5 +67,6 @@ admin-join-message: '&a[BossBarUltra] &eUse &b/bb &eto open settings.'
 
 # Your Supabase publishable key for feedback
 supabase-key: sb_publishable_Ze8iY2_EPlOrS5aleFpCAw_xep9QFSA
-last-supabase-ping: 1791380118860
+last-supabase-ping: 1792247280121
 smart-colors: true
+hp-accuracy: true

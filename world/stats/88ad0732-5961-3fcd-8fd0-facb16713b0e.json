@@ -1,5 +1,42 @@
 {
   "stats": {
+    "minecraft:dropped": {
+      "minecraft:peony": 41,
+      "minecraft:poppy": 2,
+      "minecraft:wheat_seeds": 5,
+      "minecraft:sandstone": 64,
+      "minecraft:chest": 4,
+      "minecraft:cherry_trapdoor": 2,
+      "minecraft:firefly_bush": 1,
+      "minecraft:rose_bush": 2,
+      "minecraft:black_stained_glass": 2
+    },
+    "minecraft:used": {
+      "minecraft:oak_fence": 1,
+      "minecraft:sand": 64,
+      "minecraft:netherite_helmet": 1,
+      "minecraft:wind_charge": 99,
+      "minecraft:netherite_sword": 65,
+      "minecraft:netherite_axe": 145,
+      "minecraft:rose_bush": 1,
+      "minecraft:blue_shulker_box": 2,
+      "minecraft:firework_rocket": 14,
+      "minecraft:golden_carrot": 13,
+      "minecraft:golden_apple": 6,
+      "minecraft:stone_brick_slab": 33,
+      "minecraft:elytra": 8,
+      "minecraft:smooth_quartz": 2,
+      "minecraft:glass": 1,
+      "minecraft:netherite_boots": 1,
+      "minecraft:netherite_leggings": 1,
+      "minecraft:netherite_chestplate": 8,
+      "minecraft:oak_pressure_plate": 1,
+      "minecraft:totem_of_undying": 2,
+      "minecraft:netherite_pickaxe": 198,
+      "minecraft:porkchop": 1,
+      "minecraft:black_stained_glass": 2,
+      "minecraft:dirt": 5
+    },
     "minecraft:mined": {
       "minecraft:torch": 1,
       "minecraft:pink_shulker_box": 1,
@@ -62,13 +99,9 @@
       "minecraft:oak_pressure_plate": 1,
       "minecraft:oak_log": 25
     },
-    "minecraft:killed": {
-      "minecraft:zombie": 3,
-      "minecraft:skeleton": 1,
-      "minecraft:wolf": 2
-    },
-    "minecraft:crafted": {
-      "minecraft:wind_charge": 112
+    "minecraft:killed_by": {
+      "minecraft:player": 3,
+      "minecraft:creeper": 1
     },
     "minecraft:picked_up": {
       "minecraft:ender_chest": 1,
@@ -104,28 +137,31 @@
       "minecraft:chest": 4,
       "minecraft:blue_shulker_box": 2
     },
+    "minecraft:crafted": {
+      "minecraft:wind_charge": 112
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 3543,
-      "minecraft:leave_game": 4,
+      "minecraft:time_since_rest": 4386,
+      "minecraft:leave_game": 5,
       "minecraft:damage_taken": 7759,
       "minecraft:mob_kills": 7,
       "minecraft:damage_absorbed": 130,
       "minecraft:open_shulker_box": 12,
-      "minecraft:time_since_death": 3513,
+      "minecraft:time_since_death": 4356,
       "minecraft:aviate_one_cm": 103720,
       "minecraft:open_enderchest": 3,
-      "minecraft:total_world_time": 84281,
+      "minecraft:total_world_time": 85124,
       "minecraft:swim_one_cm": 4402,
       "minecraft:crouch_one_cm": 1,
       "minecraft:deaths": 15,
       "minecraft:climb_one_cm": 7595,
       "minecraft:player_kills": 4,
       "minecraft:interact_with_crafting_table": 1,
-      "minecraft:walk_one_cm": 66976,
+      "minecraft:walk_one_cm": 67042,
       "minecraft:walk_under_water_one_cm": 10333,
-      "minecraft:play_time": 84281,
+      "minecraft:play_time": 85124,
       "minecraft:damage_dealt": 3708,
-      "minecraft:jump": 1578,
+      "minecraft:jump": 1584,
       "minecraft:drop": 10,
       "minecraft:open_barrel": 4,
       "minecraft:sprint_one_cm": 198979,
@@ -135,46 +171,10 @@
       "minecraft:walk_on_water_one_cm": 1531,
       "minecraft:sneak_time": 189
     },
-    "minecraft:used": {
-      "minecraft:oak_fence": 1,
-      "minecraft:sand": 64,
-      "minecraft:netherite_helmet": 1,
-      "minecraft:wind_charge": 99,
-      "minecraft:netherite_sword": 65,
-      "minecraft:netherite_axe": 145,
-      "minecraft:rose_bush": 1,
-      "minecraft:blue_shulker_box": 2,
-      "minecraft:firework_rocket": 14,
-      "minecraft:golden_carrot": 13,
-      "minecraft:golden_apple": 6,
-      "minecraft:stone_brick_slab": 33,
-      "minecraft:elytra": 8,
-      "minecraft:smooth_quartz": 2,
-      "minecraft:glass": 1,
-      "minecraft:netherite_boots": 1,
-      "minecraft:netherite_leggings": 1,
-      "minecraft:netherite_chestplate": 8,
-      "minecraft:oak_pressure_plate": 1,
-      "minecraft:totem_of_undying": 2,
-      "minecraft:netherite_pickaxe": 198,
-      "minecraft:porkchop": 1,
-      "minecraft:black_stained_glass": 2,
-      "minecraft:dirt": 5
-    },
-    "minecraft:killed_by": {
-      "minecraft:player": 3,
-      "minecraft:creeper": 1
-    },
-    "minecraft:dropped": {
-      "minecraft:peony": 41,
-      "minecraft:poppy": 2,
-      "minecraft:wheat_seeds": 5,
-      "minecraft:sandstone": 64,
-      "minecraft:chest": 4,
-      "minecraft:cherry_trapdoor": 2,
-      "minecraft:firefly_bush": 1,
-      "minecraft:rose_bush": 2,
-      "minecraft:black_stained_glass": 2
+    "minecraft:killed": {
+      "minecraft:zombie": 3,
+      "minecraft:skeleton": 1,
+      "minecraft:wolf": 2
     }
   },
   "DataVersion": 4671

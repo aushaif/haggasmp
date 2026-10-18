@@ -185,7 +185,7 @@ gameplay:
 default-locale: system
 
 # Whether player IP addresses will be logged by the server.
-log-player-ip-addresses: true
+log-player-ip-addresses: false
 
 # For online mode authentication type only.
 # Stores a list of Bedrock player usernames that should have their Java Edition account saved after login.
