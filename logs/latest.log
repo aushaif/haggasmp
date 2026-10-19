@@ -1,316 +1,44 @@
-[00:03:25] [User Authenticator #36/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[00:03:53] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[01:12:56] [User Authenticator #37/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[01:13:24] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[01:54:36] [User Authenticator #38/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[01:55:04] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[02:33:14] [User Authenticator #39/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[02:33:42] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[02:47:14] [User Authenticator #40/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[02:47:42] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[02:54:52] [User Authenticator #41/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[02:55:20] [Server thread/INFO]: Disconnecting FishNet (/176.65.149.198:61000): Took too long to log in
-[02:55:20] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
-[03:05:39] [User Authenticator #42/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[03:06:06] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[03:22:35] [User Authenticator #43/INFO]: UUID of player shepan is 2fe7e2bc-14bd-30b9-a320-55d7e9f8569b
-[03:22:37] [Server thread/INFO]: shepan (2fe7e2bc-14bd-30b9-a320-55d7e9f8569b) lost connection: Disconnected
-[03:24:13] [User Authenticator #44/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[03:24:41] [Server thread/INFO]: Disconnecting FishNet (/176.65.149.198:61000): Took too long to log in
-[03:24:41] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
-[04:30:23] [User Authenticator #45/INFO]: UUID of player Cornbread2100_ is 0ed62306-1335-36f4-89a8-e289a75e6e54
-[04:30:23] [Server thread/INFO]: Cornbread2100_ (0ed62306-1335-36f4-89a8-e289a75e6e54) lost connection: Disconnected
-[06:09:16] [User Authenticator #46/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[06:09:44] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[07:46:16] [User Authenticator #47/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[07:46:45] [Server thread/INFO]: Disconnecting FishNet (/176.65.149.198:61000): Took too long to log in
-[07:46:45] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
-[08:15:36] [User Authenticator #48/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[08:16:01] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[08:30:43] [User Authenticator #49/INFO]: UUID of player nfyl is 54c48541-f276-35bc-a98e-34a3cecc6cee
-[08:30:45] [Server thread/INFO]: Everyone welcome nfyl to our SMP!
-[08:30:45] [Server thread/INFO]: nfyl joined the game
-[08:30:45] [Server thread/INFO]: nfyl[/75.117.190.33:56924] logged in with entity id 81662 at ([world]2726.5, 74.0, -427.5)
-[08:30:58] [Server thread/INFO]: [AuthMe] nfyl registered 75.117.190.33
-[08:30:58] [Craft Scheduler Thread - 279 - AuthMe/INFO]: [AuthMe] nfyl logged in 75.117.190.33
-[08:31:05] [Server thread/INFO]: nfyl lost connection: Disconnected
-[08:31:05] [Server thread/INFO]: nfyl left the game
-[08:32:37] [User Authenticator #50/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
-[08:32:38] [Server thread/INFO]: InfinityNoob joined the game
-[08:32:38] [Server thread/INFO]: InfinityNoob[/49.207.192.67:60680] logged in with entity id 81875 at ([world]1759.2633046856586, 72.0, -483.94290654831275)
-[08:33:11] [Craft Scheduler Thread - 282 - AuthMe/INFO]: [AuthMe] InfinityNoob logged in 49.207.192.67
-[08:33:48] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
-[08:33:48] [Server thread/INFO]: InfinityNoob left the game
-[09:09:25] [User Authenticator #51/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[09:09:53] [Server thread/INFO]: Disconnecting FishNet (/176.65.149.198:61000): Took too long to log in
-[09:09:53] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
-[10:51:12] [User Authenticator #52/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[10:51:40] [Server thread/INFO]: Disconnecting FishNet (/176.65.149.198:61000): Took too long to log in
-[10:51:41] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
-[11:22:06] [User Authenticator #53/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[11:22:35] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[12:48:42] [User Authenticator #54/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[12:49:06] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Timed out
-[13:11:52] [User Authenticator #55/INFO]: UUID of player FishNet is af1b26b4-a9c5-36af-97a9-70b2adcb490b
-[13:12:12] [Server thread/INFO]: Disconnecting FishNet (/176.65.149.198:61000): Took too long to log in
-[13:12:12] [Server thread/INFO]: FishNet (/176.65.149.198:61000) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: Pipeline has no outbound protocol configured, can't process packet ClientboundLoginDisconnectPacket[reason=translation{key='multiplayer.disconnect.slow_login', args=[]}]
-[13:20:21] [User Authenticator #56/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
-[13:20:21] [Server thread/INFO]: InfinityNoob joined the game
-[13:20:21] [Server thread/INFO]: InfinityNoob[/49.207.192.67:60631] logged in with entity id 82208 at ([world]1757.965953494348, 72.0625, -489.05831291612134)
-[13:20:26] [Craft Scheduler Thread - 338 - AuthMe/INFO]: [AuthMe] InfinityNoob logged in 49.207.192.67
-[13:22:53] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[13:22:53] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[13:23:24] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[13:23:59] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[13:24:35] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[13:25:28] [Server thread/INFO]: InfinityNoob issued server command: /fill 2182 67 2182
-[13:25:52] [Server thread/INFO]: InfinityNoob issued server command: /fill 2182 67 2182 2167 67 -414 minecraft:grass_block
-[13:26:01] [Server thread/INFO]: InfinityNoob issued server command: /fill 2182 67 2182 2167 67 -414 minecraft:grass_block
-[13:26:19] [Server thread/INFO]: InfinityNoob issued server command: /fill 2167 67 -414
-[13:26:34] [Server thread/INFO]: InfinityNoob issued server command: /fill 2167 67 -414 2182 67 -444 minecraft:grass_block
-[13:26:34] [Server thread/INFO]: [InfinityNoob: Successfully filled 425 block(s)]
-[13:31:48] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[13:32:27] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[13:32:30] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[13:32:30] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[13:41:12] [Server thread/INFO]: InfinityNoob issued server command: /fill 2180 61 -402
-[13:41:33] [Server thread/INFO]: InfinityNoob issued server command: /fill 2180 61 -402 2192 61 -389 water
-[13:41:33] [Server thread/INFO]: [InfinityNoob: Successfully filled 147 block(s)]
-[13:42:14] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[13:42:15] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[13:44:02] [Server thread/INFO]: InfinityNoob issued server command: /fill 2170 61 -396
-[13:44:18] [Server thread/INFO]: InfinityNoob issued server command: /fill 2170 61 -396 2181 61 -388 water
-[13:44:18] [Server thread/INFO]: [InfinityNoob: Successfully filled 59 block(s)]
-[13:49:41] [Server thread/INFO]: InfinityNoob issued server command: /fill 2135 67 -463
-[13:50:00] [Server thread/INFO]: InfinityNoob issued server command: /fill 2135 67 -463 2149 67 -486 minecraft:grass_block
-[13:50:00] [Server thread/INFO]: [InfinityNoob: Successfully filled 284 block(s)]
-[13:50:58] [Server thread/INFO]: InfinityNoob issued server command: /fill 2116 67 -463
-[13:51:10] [Server thread/INFO]: InfinityNoob issued server command: /fill 2116 67 -463 2129 67 -480 minecraft:grass_block
-[13:51:10] [Server thread/INFO]: [InfinityNoob: Successfully filled 103 block(s)]
-[13:51:58] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[13:51:58] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[13:56:11] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264
-[13:57:07] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:57:07] [Server thread/INFO]: [InfinityNoob: Successfully filled 852 block(s)]
-[13:58:22] [Server thread/INFO]: InfinityNoob issued server command: /gamerule command_block_output true
-[13:58:22] [Server thread/INFO]: [InfinityNoob: Gamerule command_block_output is now set to: true]
-[13:58:28] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:28] [Server thread/INFO]: [InfinityNoob: Successfully filled 657 block(s)]
-[13:58:31] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:31] [Server thread/INFO]: [InfinityNoob: Successfully filled 206 block(s)]
-[13:58:33] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:33] [Server thread/INFO]: [InfinityNoob: Successfully filled 29 block(s)]
-[13:58:34] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:34] [Server thread/INFO]: [InfinityNoob: Successfully filled 17 block(s)]
-[13:58:36] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:36] [Server thread/INFO]: [InfinityNoob: Successfully filled 9 block(s)]
-[13:58:37] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:37] [Server thread/INFO]: [InfinityNoob: Successfully filled 4 block(s)]
-[13:58:37] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:37] [Server thread/INFO]: [InfinityNoob: Successfully filled 2 block(s)]
-[13:58:39] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:39] [Server thread/INFO]: [InfinityNoob: Successfully filled 1 block(s)]
-[13:58:40] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:58:41] [Server thread/INFO]: InfinityNoob issued server command: /fill 2158 62 -264 2193 62 -321 sand
-[13:59:06] [Server thread/INFO]: InfinityNoob issued server command: /fill 2193 62 -281
-[13:59:16] [Server thread/INFO]: InfinityNoob issued server command: /fill 2193 62 -281 2198 55 -290 sand
-[13:59:16] [Server thread/INFO]: [InfinityNoob: Successfully filled 274 block(s)]
-[14:01:01] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[14:02:52] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[14:02:52] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[14:03:23] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[14:08:33] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[14:09:15] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[14:12:41] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[14:12:41] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[14:21:22] [Server thread/INFO]: InfinityNoob issued server command: /weather clear
-[14:21:22] [Server thread/INFO]: [InfinityNoob: Set the weather to clear]
-[14:23:26] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[14:23:26] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[14:33:20] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[14:33:20] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[14:42:34] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[14:42:34] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[14:51:40] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[14:51:40] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[15:04:30] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[15:04:30] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[15:15:48] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[15:15:48] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[15:16:03] [Server thread/INFO]: InfinityNoob issued server command: /time set midnight
-[15:16:03] [Server thread/INFO]: [InfinityNoob: Set the time to 18000]
-[15:23:48] [Server thread/INFO]: InfinityNoob issued server command: /setworldspawn
-[15:23:48] [Server thread/INFO]: [InfinityNoob: Set the world spawn point to 2181, 65, -295 [0.0, 0.0] in minecraft:overworld]
-[15:31:46] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[15:31:46] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[15:39:43] [Server thread/INFO]: InfinityNoob issued server command: /weather clear
-[15:39:43] [Server thread/INFO]: [InfinityNoob: Set the weather to clear]
-[15:51:10] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[15:51:17] [Server thread/INFO]: InfinityNoob issued server command: /time set midnight
-[15:51:17] [Server thread/INFO]: [InfinityNoob: Set the time to 18000]
-[15:51:56] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[15:52:07] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[15:52:26] [Server thread/INFO]: InfinityNoob issued server command: /time set day
-[15:52:26] [Server thread/INFO]: [InfinityNoob: Set the time to 1000]
-[15:56:43] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[15:57:29] [Server thread/INFO]: InfinityNoob has made the advancement [Best Friends Forever]
-[15:58:43] [User Authenticator #57/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
-[15:58:43] [Server thread/INFO]: Disconnecting InfinityNoob (/176.65.149.198:57796): The same username is already playing on the server!
-[15:58:43] [Server thread/INFO]: InfinityNoob (/176.65.149.198:57796) lost connection: The same username is already playing on the server!
-[16:03:01] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[16:06:23] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
-[16:06:23] [Server thread/INFO]: InfinityNoob left the game
-[16:16:27] [User Authenticator #58/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
-[16:16:28] [Server thread/INFO]: InfinityNoob joined the game
-[16:16:28] [Server thread/INFO]: InfinityNoob[/49.207.192.67:62395] logged in with entity id 113021 at ([world]1171.1863489837474, 88.0, -92.68910484300406)
-[16:16:40] [Craft Scheduler Thread - 371 - AuthMe/INFO]: [AuthMe] InfinityNoob logged in 49.207.192.67
-[16:19:56] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[16:22:38] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[16:22:58] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[16:23:02] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[16:26:13] [Server thread/INFO]: InfinityNoob issued server command: /give @a minecraft:oak_log 20
-[16:26:13] [Server thread/INFO]: [InfinityNoob: Gave 20 [Oak Log] to InfinityNoob]
-[16:28:51] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[16:28:57] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[16:33:37] [User Authenticator #59/INFO]: UUID of player omarsenpai is c29c6038-3154-31d5-a176-8030a3e2d393
-[16:33:39] [Server thread/INFO]: omarsenpai joined the game
-[16:33:39] [Server thread/INFO]: omarsenpai[/105.155.61.30:26303] logged in with entity id 115974 at ([world]-607.3078087308968, 64.0, 11812.33740726343)
-[16:33:46] [Craft Scheduler Thread - 382 - AuthMe/INFO]: [AuthMe] omarsenpai logged in 105.155.61.30
-[16:35:14] [User Authenticator #60/INFO]: UUID of player frsisii is 1cfd35a6-62ab-3e52-9434-eceaf4d34cab
-[16:35:16] [Server thread/INFO]: frsisii joined the game
-[16:35:16] [Server thread/INFO]: frsisii[/41.92.124.34:13363] logged in with entity id 116847 at ([world]2726.5, 75.0, -428.5)
-[16:35:22] [Server thread/INFO]: omarsenpai: hi
-[16:35:35] [Craft Scheduler Thread - 374 - AuthMe/INFO]: [AuthMe] frsisii logged in 41.92.124.34
-[16:35:39] [Server thread/INFO]: frsisii: helo
-[16:35:41] [Server thread/INFO]: omarsenpai: tpa
-[16:36:17] [Server thread/INFO]: omarsenpai: do /tpa
-[16:36:26] [Server thread/INFO]: frsisii issued server command: /tpa omarsenpai
-[16:36:31] [Server thread/INFO]: omarsenpai issued server command: /tpaaccept
-[16:36:35] [Server thread/INFO]: omarsenpai issued server command: /tpaaccept frsisii
-[16:36:49] [Server thread/INFO]: omarsenpai: come
-[16:36:54] [Server thread/INFO]: frsisii has made the advancement [Acquire Hardware]
-[16:37:03] [Server thread/INFO]: frsisii has made the advancement [Diamonds!]
-[16:37:21] [Server thread/INFO]: omarsenpai: welcome to my team
-[16:37:30] [Server thread/INFO]: frsisii: ty
-[16:37:34] [Server thread/INFO]: omarsenpai: let me show you
-[16:38:14] [Server thread/INFO]: omarsenpai: come
-[16:38:31] [Server thread/INFO]: omarsenpai: we are 4 in team it makes you 5
-[16:38:48] [Server thread/INFO]: frsisii: there are multiple teams ?
-[16:38:53] [Server thread/INFO]: omarsenpai: but most of them not active
-[16:38:59] [Server thread/INFO]: omarsenpai: yes there is 4
-[16:39:04] [Server thread/INFO]: omarsenpai: admin team
-[16:39:11] [Server thread/INFO]: omarsenpai: a nik team
-[16:39:28] [Server thread/INFO]: omarsenpai: and me and a king_benz...
-[16:39:33] [Server thread/INFO]: frsisii: interesting
-[16:39:47] [Server thread/INFO]: omarsenpai: you are welcome to gear up
-[16:40:03] [Server thread/INFO]: omarsenpai: like you can see the admin is in the server
-[16:40:11] [Server thread/INFO]: omarsenpai: his name is infinity noob
-[16:40:23] [Server thread/INFO]: frsisii: hi ig
-[16:40:34] [Server thread/INFO]: omarsenpai: i will make a group chat
-[16:40:53] [Server thread/INFO]: omarsenpai: you are in
-[16:41:30] [Server thread/INFO]: omarsenpai: so my next planing is that i am going to do a honey farm
-[16:41:56] [Server thread/INFO]: omarsenpai: and i need some space so i will delete some of the houses
-[16:42:41] [Server thread/INFO]: omarsenpai: SDO
-[16:42:48] [Server thread/INFO]: frsisii: im here
-[16:42:52] [Server thread/INFO]: omarsenpai: ok
-[16:43:55] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[16:44:32] [Server thread/INFO]: frsisii has made the advancement [Suit Up]
-[16:45:50] [Server thread/INFO]: frsisii: did u guys unlock the nether
-[16:45:59] [Server thread/INFO]: omarsenpai: yes
-[16:46:11] [Server thread/INFO]: omarsenpai: we already have netherite
-[16:46:15] [Server thread/INFO]: omarsenpai: one guy
-[16:46:32] [Server thread/INFO]: frsisii: the end ?
-[16:46:33] [Server thread/INFO]: omarsenpai: am not focussing on that rn
-[16:46:40] [Server thread/INFO]: omarsenpai: no the nether
-[16:47:02] [Server thread/INFO]: frsisii: no like and the end did u guys unlock it
-[16:47:09] [Server thread/INFO]: omarsenpai: no
-[16:47:21] [Server thread/INFO]: omarsenpai: no one did
-[16:47:37] [Server thread/INFO]: frsisii: ok good to know
-[16:47:53] [Server thread/INFO]: frsisii: u got villagers ?
-[16:48:16] [Server thread/INFO]: omarsenpai: like people now die just in the nether so the dragon isn't waiting for us
-[16:48:20] [Server thread/INFO]: omarsenpai: LOL
-[16:48:38] [Server thread/INFO]: frsisii: lol
-[16:48:49] [Server thread/INFO]: frsisii: got food ?
-[16:48:54] [Server thread/INFO]: omarsenpai: i think so
-[16:49:24] [Server thread/INFO]: omarsenpai: come
-[16:49:45] [Server thread/INFO]: omarsenpai: we have a farm here
-[16:49:50] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[16:49:54] [Server thread/INFO]: omarsenpai: but still not got food
-[16:50:00] [Server thread/INFO]: omarsenpai: am 5 hunger bar
-[16:50:11] [Server thread/INFO]: frsisii: im at 3
-[16:50:45] [Server thread/INFO]: frsisii: i hear a happy ghast
-[16:50:49] [Server thread/INFO]: omarsenpai: yes
-[16:50:54] [Server thread/INFO]: omarsenpai: there is one
-[16:51:15] [Server thread/INFO]: omarsenpai: but you have to know that the his owner won't let it be free
-[16:51:29] [Server thread/INFO]: frsisii: ok
-[16:51:53] [Server thread/INFO]: frsisii: u guys did the pick up npcs plugin
-[16:52:00] [Server thread/INFO]: omarsenpai: no
-[16:52:13] [Server thread/INFO]: frsisii: well that unfortunate
-[16:52:25] [Server thread/INFO]: omarsenpai: am not admin or smth
-[16:52:32] [Server thread/INFO]: frsisii: ik
-[16:52:37] [Server thread/INFO]: omarsenpai: i just even dk what the plugins are
-[16:52:56] [Server thread/INFO]: frsisii has made the advancement [We Need to Go Deeper]
-[16:53:18] [Server thread/INFO]: frsisii: ima go mining ig
-[16:53:48] [Server thread/INFO]: omarsenpai: can you like help me build some automatique food farm
-[16:53:59] [Server thread/INFO]: omarsenpai: can you like help me build some automatic food farm
-[16:54:06] [Server thread/INFO]: frsisii: how
-[16:54:13] [Server thread/INFO]: omarsenpai: google
-[16:54:14] [Server thread/INFO]: frsisii has made the advancement [Monster Hunter]
-[16:54:19] [Server thread/INFO]: frsisii: ok lol
-[16:54:52] [Server thread/INFO]: InfinityNoob issued server command: /plugins
-[16:55:30] [Server thread/INFO]: omarsenpai: i just know that the server is 24/7
-[16:55:46] [Server thread/INFO]: omarsenpai: you are welcome to build your place underground
-[16:56:49] [Server thread/INFO]: frsisii: ok
-[16:57:58] [Server thread/INFO]: frsisii: i found a manshaft
-[16:58:04] [Server thread/INFO]: omarsenpai: oh
-[16:58:06] [Server thread/INFO]: frsisii: mineshaft
-[16:59:06] [Server thread/INFO]: [InfinityNoob: Set own game mode to Creative Mode]
-[16:59:18] [Server thread/INFO]: [InfinityNoob: Set own game mode to Survival Mode]
-[17:00:02] [Server thread/INFO]: omarsenpai: iwill search for the food videos
-[17:01:05] [User Authenticator #61/INFO]: UUID of player frsisii is 1cfd35a6-62ab-3e52-9434-eceaf4d34cab
-[17:01:05] [Server thread/INFO]: Disconnecting frsisii (/176.65.149.198:41490): The same username is already playing on the server!
-[17:01:06] [Server thread/INFO]: frsisii (/176.65.149.198:41490) lost connection: The same username is already playing on the server!
-[17:01:29] [Server thread/INFO]: frsisii: wth bro
-[17:02:20] [Server thread/INFO]: frsisii: infinity noob
-[17:02:34] [Server thread/INFO]: omarsenpai: is he afk?
-[17:02:39] [Server thread/INFO]: frsisii: idk
-[17:02:48] [User Authenticator #62/INFO]: UUID of player Ivyyypiii is 989b2290-569c-3ff7-9f77-e3b12302ed45
-[17:02:49] [Server thread/INFO]: Ivyyypiii joined the game
-[17:02:49] [Server thread/INFO]: Ivyyypiii[/109.99.149.74:64282] logged in with entity id 125786 at ([world]1886.9616279414827, 64.0, -252.55895617478666)
-[17:02:56] [Craft Scheduler Thread - 387 - AuthMe/INFO]: [AuthMe] Ivyyypiii logged in 109.99.149.74
-[17:03:01] [Server thread/INFO]: omarsenpai: hi
-[17:03:01] [Server thread/INFO]: Ivyyypiii: hi
-[17:03:18] [Server thread/INFO]: omarsenpai: are you new
-[17:03:21] [Server thread/INFO]: Ivyyypiii: no
-[17:03:28] [Server thread/INFO]: omarsenpai: oh
-[17:05:20] [Server thread/INFO]: frsisii was slain by Cave Spider
-[17:05:29] [Server thread/INFO]: frsisii: ig bru
-[17:05:41] [Server thread/INFO]: frsisii: i got gang banged
-[17:05:45] [Server thread/INFO]: frsisii issued server command: /back
-[17:06:04] [Server thread/INFO]: frsisii: yo omar
-[17:07:06] [Server thread/INFO]: Ivyyypiii lost connection: Disconnected
-[17:07:06] [Server thread/INFO]: Ivyyypiii left the game
-[17:07:19] [Server thread/INFO]: omarsenpai: yo
-[17:07:26] [Server thread/INFO]: omarsenpai: gang what
-[17:07:46] [Server thread/INFO]: omarsenpai: didyou do a respawn
-[17:08:07] [Server thread/INFO]: frsisii: respawn ?
-[17:08:15] [Server thread/INFO]: omarsenpai: any ways we can die
-[17:09:08] [Server thread/INFO]: frsisii fell from a high place
-[17:09:13] [Server thread/INFO]: omarsenpai: wtf
-[17:09:24] [Server thread/INFO]: frsisii: IM BAD AT THIS GAME XD
-[17:09:34] [Server thread/INFO]: omarsenpai: no problem
-[17:10:02] [Server thread/INFO]: frsisii: sorry brb my mom calling
-[17:10:10] [Server thread/INFO]: omarsenpai: ok i will go too
-[17:10:15] [Server thread/INFO]: omarsenpai lost connection: Disconnected
-[17:10:15] [Server thread/INFO]: omarsenpai left the game
-[17:11:40] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
-[17:11:40] [Server thread/INFO]: InfinityNoob left the game
-[17:11:52] [Server thread/INFO]: frsisii lost connection: Disconnected
-[17:11:52] [Server thread/INFO]: frsisii left the game
-[17:13:54] [User Authenticator #63/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
-[17:13:54] [Server thread/INFO]: InfinityNoob joined the game
-[17:13:54] [Server thread/INFO]: InfinityNoob[/49.207.192.67:61680] logged in with entity id 135199 at ([world]1759.4903097176898, 70.0, -410.18613084845373)
-[17:14:01] [Craft Scheduler Thread - 387 - AuthMe/INFO]: [AuthMe] InfinityNoob logged in 49.207.192.67
-[17:14:22] [Server thread/INFO]: InfinityNoob issued server command: /plugins
-[17:14:52] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
-[17:14:52] [Server thread/INFO]: InfinityNoob left the game
+[12:55:16] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-1-26.04.4-Ubuntu; Ubuntu null) on Linux 7.0.0-34-generic (amd64)
+[12:55:16] [ServerMain/INFO]: [bootstrap] Loading Purpur 26.3-2652-HEAD@b5fae12 (2026-10-17T03:38:05Z) for Minecraft 26.3
+[12:55:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:55:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/jedis/6.0.0/jedis-6.0.0.pom
+[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/junit/junit-bom/5.13.0-M1/junit-bom-5.13.0-M1.pom
+[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[12:55:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-pool2/2.12.1/commons-pool2-2.12.1.pom
+[12:55:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-parent/79/commons-parent-79.pom
+[12:55:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/apache/33/apache-33.pom
+[12:55:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/json/json/20250107/json-20250107.pom
+[12:55:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.pom
+[12:55:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson-parent/2.12.1/gson-parent-2.12.1.pom
+[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom
+[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom
+[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.pom
+[12:55:21] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:pom:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
+[12:55:21] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:pom:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
+[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.pom
+[12:55:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.pom
+[12:55:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.pom
+[12:55:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/h2database/h2/2.3.232/h2-2.3.232.pom
+[12:55:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.pom
+[12:55:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.pom
+[12:55:24] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:jar:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
+[12:55:24] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:jar:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
+[12:55:24] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/jedis/6.0.0/jedis-6.0.0.jar
+[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-pool2/2.12.1/commons-pool2-2.12.1.jar
+[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/json/json/20250107/json-20250107.jar
+[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar
+[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar
+[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.jar
+[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
+[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/h2database/h2/2.3.232/h2-2.3.232.jar
+[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.jar
+[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.jar
+[12:55:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[12:55:27] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - HuskHomes (4.11)
+[12:55:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - AuthMe (6.0.1-b2770), BossBarUltra (3.1), Geyser-Spigot (2.12.0-SNAPSHOT), SkinsRestorer (15.12.6), Skript (2.17.0), ViaBackwards (5.12.1), ViaVersion (5.12.1), floodgate (2.2.5-SNAPSHOT (b141-81b65cc)), uno-sleep (1.0)

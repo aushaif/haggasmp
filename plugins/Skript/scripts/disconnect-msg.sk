@@ -1,7 +1,0 @@
-# ==========================================
-# SERVER SHUTDOWN MESSAGE
-# ==========================================
-
-on shutdown:
-    loop all players:
-        kick loop-player due to "&c☕ Coffee break time!%nl%&7Server will be back more energetic than ever!"

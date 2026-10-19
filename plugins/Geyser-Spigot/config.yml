@@ -29,7 +29,7 @@ bedrock:
   # "nethernet" uses NetherNet (with signaling), which is the new connection method for Bedrock Edition.
   # "both" accepts both NetherNet and RakNet. They each need their own UDP port: see "webrtc-port".
   # "raknet" only accepts RakNet, the now deprecated connection method which will be removed in the future.
-  transport: raknet
+  transport: nethernet
 
   # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
   # This option makes the Bedrock port the same as the Java port every time you start the server.
@@ -48,6 +48,13 @@ bedrock:
 
     # Settings for built-in signaling. Only used in the "builtin" and "hybrid" modes.
     builtin:
+      # The addresses Geyser's signaling server sends to connecting players for the NetherNet WebRTC connection, e.g. 198.51.100.1 or [2001:db8::1]:19133.
+      # If no port is given, the configured NetherNet UDP port is used.
+      # You can list an address this machine does not have, such as your public IP, if your router forwards that port
+      # to this machine. You need to set up the port forwarding yourself.
+      # Leave empty to use the "address" Geyser binds to, or every local address if that is 0.0.0.0.
+      advertise-addresses: []
+
       # Serves signaling over HTTPS as well as HTTP, on the same port.
       https:
         # Path to a TLS certificate: either a PEM chain (with its key in "private-key"), or a PKCS12 file
@@ -72,10 +79,6 @@ bedrock:
 
       # Address of the external signaling service (NXS). Defaults to warden.
       endpoint: https://agent.warden.cloud
-
-      # Additional details sent to the signaling service, such as "region" or "pool" to choose where this server is listed.
-      # Other keys are sent as registration tags.
-      data: {}
 
 # Network settings for the Java server connection
 java:
@@ -185,7 +188,7 @@ gameplay:
 default-locale: system
 
 # Whether player IP addresses will be logged by the server.
-log-player-ip-addresses: false
+log-player-ip-addresses: true
 
 # For online mode authentication type only.
 # Stores a list of Bedrock player usernames that should have their Java Edition account saved after login.
@@ -275,6 +278,12 @@ advanced:
     # IP addresses, subnets, and links to plain text files are supported.
     haproxy-protocol-whitelisted-ips: []
 
+    # A list of reverse proxy addresses (for example, an HTTP load balancer) in front of built-in signaling.
+    # Built-in signaling reads the player's real address from the "X-Forwarded-For" header, and does not apply
+    # its per-address connection limit to them for all listed proxies. This is separate from HAPROXY protocol.
+    # IP addresses, subnets, and links to plain text files are supported.
+    signaling-trusted-proxies: []
+
     # Should be enabled if this Geyser instance is behind a WaterdogPE proxy. If enabled, Geyser will
     # use the xuid / address sent from WaterdogPE and reject clients that do not send it.
     use-waterdogpe-forwarding: false
@@ -291,8 +300,31 @@ advanced:
     # All Floodgate functionality (including skin uploading and account linking) will also not work when this option is disabled.
     validate-bedrock-login: true
 
+  # Advanced options for the external signaling service. Only used in the "nxs" and "hybrid" signaling modes.
+  nxs:
+    # Lets the signaling service help players connect when they cannot reach this server directly,
+    # for example when the server is behind a NAT without port forwarding.
+    assisted-joins: false
+
+    # Lets the signaling service check from several regions that players can reach this server,
+    # and stop offering addresses that fail.
+    connection-checks: true
+
+    # Finds this server's public address through the signaling service's STUN servers when it has none of its own.
+    # Not used when "advertise-addresses" is set.
+    stun-discovery: true
+
+    # Where this server is: "country" (a two-letter code), "city", "latitude" and "longitude".
+    # Leave empty to let the signaling service estimate or configure it.
+    location: {}
+
+    # Removes this server from the signaling service when Geyser shuts down.
+    # Enable this if the "nethernet" folder is lost on every restart (for example, in a container without a volume).
+    # Otherwise, every restart registers this server again as a new one.
+    deregister-on-shutdown: false
+
 # If debug messages should be sent through console
 debug-mode: false
 
 # Do not change!
-config-version: 8
+config-version: 10

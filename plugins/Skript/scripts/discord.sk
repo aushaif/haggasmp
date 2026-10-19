@@ -1,9 +1,0 @@
-
-# ==========================================
-# DISCORD COMMAND
-# ==========================================
-
-command /discord:
-    trigger:
-        send "&bJoin our community Discord:"
-        send formatted "<url:https://discord.gg/dvRPUwD5Cw>&9&n&l[ CLICK HERE TO JOIN ]"

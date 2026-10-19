@@ -1,9 +1,0 @@
-{
-  "groups": [],
-  "operator": true,
-  "can-fly": false,
-  "walk-speed": 0.2,
-  "fly-speed": 0.1,
-  "vehicle-uuid": "04ec195a-55fe-49e3-b639-0e01c0cce4b7",
-  "vehicle-type": "SKELETON_HORSE"
-}
