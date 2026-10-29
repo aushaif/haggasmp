@@ -1,0 +1,57 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 3914,
+      "minecraft:walk_one_cm": 13564,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 6407,
+      "minecraft:damage_taken": 590,
+      "minecraft:damage_dealt": 298,
+      "minecraft:boat_one_cm": 19258,
+      "minecraft:play_time": 7268,
+      "minecraft:jump": 154,
+      "minecraft:time_since_death": 3893,
+      "minecraft:sprint_one_cm": 16163,
+      "minecraft:open_chest": 6,
+      "minecraft:fall_one_cm": 1950,
+      "minecraft:total_world_time": 7268,
+      "minecraft:fly_one_cm": 48426,
+      "minecraft:walk_on_water_one_cm": 281,
+      "minecraft:crouch_one_cm": 36,
+      "minecraft:sneak_time": 16,
+      "minecraft:deaths": 2
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_log": 130,
+      "minecraft:cobblestone": 3,
+      "minecraft:stone": 192,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone": 3,
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_pickaxe": 16,
+      "minecraft:bread": 2,
+      "minecraft:oak_log": 1
+    },
+    "minecraft:mined": {
+      "minecraft:black_stained_glass": 4,
+      "minecraft:crafting_table": 1,
+      "minecraft:oak_log": 2,
+      "minecraft:stone": 3
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:oak_boat": 1,
+      "minecraft:oak_planks": 20,
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 5023
+}

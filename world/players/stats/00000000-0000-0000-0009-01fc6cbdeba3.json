@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:player": 3
+    },
+    "minecraft:used": {
+      "minecraft:jukebox": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:music_disc_cat": 15,
+      "minecraft:bedrock": 1,
+      "minecraft:white_wool": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:music_disc_cat": 11,
+      "minecraft:white_wool": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 134697,
+      "minecraft:walk_one_cm": 28435,
+      "minecraft:leave_game": 53,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 1133,
+      "minecraft:damage_taken": 3039,
+      "minecraft:damage_dealt": 90,
+      "minecraft:play_time": 214066,
+      "minecraft:jump": 105,
+      "minecraft:time_since_death": 134172,
+      "minecraft:play_record": 3,
+      "minecraft:drop": 12,
+      "minecraft:sprint_one_cm": 44085,
+      "minecraft:inspect_dispenser": 1,
+      "minecraft:fall_one_cm": 5900,
+      "minecraft:total_world_time": 214066,
+      "minecraft:fly_one_cm": 267095,
+      "minecraft:walk_on_water_one_cm": 50,
+      "minecraft:crouch_one_cm": 310,
+      "minecraft:sneak_time": 395,
+      "minecraft:deaths": 7
+    },
+    "minecraft:killed": {
+      "minecraft:sheep": 1
+    }
+  },
+  "DataVersion": 5023
+}

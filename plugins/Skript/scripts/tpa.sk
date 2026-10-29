@@ -1,0 +1,151 @@
+
+# ==========================================
+# TPA SYSTEM
+# ==========================================
+
+options:
+    tpa-time: 60 seconds
+
+
+# ==========================================
+# /tpa
+# ==========================================
+
+command /tpa <player>:
+    trigger:
+
+        # Prevent self-requests
+        if arg-1 is player:
+            send "&cYou cannot send a teleport request to yourself!" to player
+            stop
+
+        # Check if target is online
+        if arg-1 is not online:
+            send "&cPlayer %arg-1% is not online!" to player
+            stop
+
+        # Check cooldown
+        if {tpa.cooldown.%player%} is set:
+            if difference between now and {tpa.cooldown.%player%} < 3 seconds:
+                send "&cPlease wait before sending another teleport request!" to player
+                stop
+
+        # Prevent multiple requests to the same player
+        if {tpa.request.%arg-1%} is set:
+            send "&c%arg-1% already has a pending teleport request." to player
+            stop
+
+        # Store request
+        set {tpa.request.%arg-1%} to player
+        set {tpa.cooldown.%player%} to now
+
+        # Notify target
+        send "&d%player% &5has requested to teleport to you!" to arg-1
+        send "&aType &e/tpaaccept %player% &ato accept" to arg-1
+        send "&cType &e/tpadeny %player% &cto deny" to arg-1
+
+        # Notify requester
+        send "&5Teleport request sent to &d%arg-1% &5(expires in {@tpa-time})." to player
+
+        # Auto-expire request
+        wait {@tpa-time}
+
+        if {tpa.request.%arg-1%} is player:
+            delete {tpa.request.%arg-1%}
+
+            send "&cYour teleport request to %arg-1% has expired." to player
+
+            if arg-1 is online:
+                send "&7The teleport request from &c%player% &7has expired." to arg-1
+
+
+# ==========================================
+# /tpaaccept
+# ==========================================
+
+command /tpaaccept <player>:
+    aliases: /tpaccept
+    trigger:
+
+        if {tpa.request.%player%} is arg-1:
+
+            # Check if requester is still online
+            if arg-1 is not online:
+                send "&cThe player is no longer online!" to player
+                delete {tpa.request.%player%}
+                stop
+
+            # Teleport message
+            send "&aTeleporting %arg-1% to you..." to player
+            send "&aTeleporting to %player%..." to arg-1
+
+            # Teleport delay
+            wait 1 second
+
+            teleport arg-1 to player
+
+            # Success messages
+            send "&aYou accepted the teleport request from &d%arg-1%." to player
+            send "&aSuccessfully teleported to &d%player%!" to arg-1
+
+            # Remove request
+            delete {tpa.request.%player%}
+
+        else:
+            send "&cYou have no pending teleport request from %arg-1%!" to player
+
+
+# ==========================================
+# /tpadeny
+# ==========================================
+
+command /tpadeny <player>:
+    aliases: /tpdeny
+    trigger:
+
+        if {tpa.request.%player%} is arg-1:
+
+            send "&cYou denied the teleport request from &d%arg-1%." to player
+
+            if arg-1 is online:
+                send "&cYour teleport request to &d%player% &cwas denied." to arg-1
+
+            delete {tpa.request.%player%}
+
+        else:
+            send "&cYou have no pending teleport request from %arg-1%!" to player
+
+
+# ==========================================
+# /tpahelp
+# ==========================================
+
+command /tpahelp:
+    aliases: /tphelp
+    trigger:
+
+        send "&5========== &dTPA System Help &5=========="
+        send "&a/tpa <player> &7- Send teleport request"
+        send "&a/tpaaccept <player> &7- Accept teleport request"
+        send "&a/tpadeny <player> &7- Deny teleport request"
+        send "&a/tpastatus &7- Check pending requests"
+        send "&a/tpahelp &7- Show this help menu"
+        send "&7Requests expire after {@tpa-time}"
+        send "&5=================================="
+
+
+# ==========================================
+# /tpastatus
+# ==========================================
+
+command /tpastatus:
+    trigger:
+
+        if {tpa.request.%player%} is set:
+            send "&5You have a pending teleport request from: &d%{tpa.request.%player%}%"
+            send "&aUse &e/tpaaccept %{tpa.request.%player%}% &ato accept"
+            send "&cUse &e/tpadeny %{tpa.request.%player%}% &cto deny"
+
+        else:
+            send "&7You have no pending teleport requests."
+

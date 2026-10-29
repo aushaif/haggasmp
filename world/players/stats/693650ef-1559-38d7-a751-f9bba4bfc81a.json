@@ -1,0 +1,48 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:skeleton": 1
+    },
+    "minecraft:used": {
+      "minecraft:redstone": 1,
+      "minecraft:wooden_pickaxe": 6
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_log": 960,
+      "minecraft:wooden_pickaxe": 2,
+      "minecraft:stick": 44,
+      "minecraft:oak_planks": 173,
+      "minecraft:stone": 512,
+      "minecraft:redstone": 1,
+      "minecraft:bone": 1,
+      "minecraft:bread": 896
+    },
+    "minecraft:mined": {
+      "minecraft:wall_torch": 1,
+      "minecraft:oak_log": 1,
+      "minecraft:redstone_wire": 1,
+      "minecraft:cherry_wall_hanging_sign": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1652,
+      "minecraft:walk_one_cm": 21708,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 330,
+      "minecraft:damage_dealt": 282,
+      "minecraft:play_time": 5432,
+      "minecraft:jump": 78,
+      "minecraft:time_since_death": 1632,
+      "minecraft:sprint_one_cm": 15228,
+      "minecraft:open_chest": 2,
+      "minecraft:fall_one_cm": 1000,
+      "minecraft:total_world_time": 5432,
+      "minecraft:fly_one_cm": 15266,
+      "minecraft:deaths": 1
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 1
+    }
+  },
+  "DataVersion": 5023
+}

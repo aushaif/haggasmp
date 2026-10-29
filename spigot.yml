@@ -60,6 +60,7 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
 world-settings:
   default:
+    seed-abandonedcamp: 91231127
     unload-frozen-chunks: false
     below-zero-generation-in-existing-chunks: true
     simulation-distance: default
@@ -178,7 +179,7 @@ world-settings:
     verbose: false
 players:
   disable-saving: false
-config-version: 12
+config-version: 13
 stats:
   disable-saving: false
   forced-stats: {}

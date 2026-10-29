@@ -1,0 +1,8 @@
+# UnoSleep Configuration
+# This plugin simply requires 1 player to sleep to change the night to day. It works silently in the background.
+
+# If you want to announce when someone skips the night, set this to true
+broadcast-sleep: false
+
+# The message to broadcast if broadcast-sleep is true
+sleep-message: "&e%player% went to sleep. Skipping the night!"

@@ -1,44 +1,444 @@
-[12:55:16] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-1-26.04.4-Ubuntu; Ubuntu null) on Linux 7.0.0-34-generic (amd64)
-[12:55:16] [ServerMain/INFO]: [bootstrap] Loading Purpur 26.3-2652-HEAD@b5fae12 (2026-10-17T03:38:05Z) for Minecraft 26.3
-[12:55:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:55:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/jedis/6.0.0/jedis-6.0.0.pom
-[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
-[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/junit/junit-bom/5.13.0-M1/junit-bom-5.13.0-M1.pom
-[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
-[12:55:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
-[12:55:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-pool2/2.12.1/commons-pool2-2.12.1.pom
-[12:55:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-parent/79/commons-parent-79.pom
-[12:55:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/apache/33/apache-33.pom
-[12:55:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/json/json/20250107/json-20250107.pom
-[12:55:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.pom
-[12:55:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson-parent/2.12.1/gson-parent-2.12.1.pom
-[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom
-[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom
-[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.pom
-[12:55:21] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:pom:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
-[12:55:21] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:pom:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
-[12:55:21] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.pom
-[12:55:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.pom
-[12:55:22] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.pom
-[12:55:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/h2database/h2/2.3.232/h2-2.3.232.pom
-[12:55:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.pom
-[12:55:23] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.pom
-[12:55:24] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:jar:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
-[12:55:24] [ServerMain/INFO]: [org.eclipse.aether.internal.impl.DefaultArtifactResolver] Artifact com.mysql:mysql-connector-j:jar:9.3.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven (https://maven-central.storage-download.googleapis.com/maven2, default, releases+snapshots)]
-[12:55:24] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/jedis/6.0.0/jedis-6.0.0.jar
-[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
-[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-pool2/2.12.1/commons-pool2-2.12.1.jar
-[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/json/json/20250107/json-20250107.jar
-[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar
-[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar
-[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.jar
-[12:55:24] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
-[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/mariadb/jdbc/mariadb-java-client/3.5.3/mariadb-java-client-3.5.3.jar
-[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/h2database/h2/2.3.232/h2-2.3.232.jar
-[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.jar
-[12:55:25] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.jar
-[12:55:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[12:55:27] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - HuskHomes (4.11)
-[12:55:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - AuthMe (6.0.1-b2770), BossBarUltra (3.1), Geyser-Spigot (2.12.0-SNAPSHOT), SkinsRestorer (15.12.6), Skript (2.17.0), ViaBackwards (5.12.1), ViaVersion (5.12.1), floodgate (2.2.5-SNAPSHOT (b141-81b65cc)), uno-sleep (1.0)
+[00:57:54] [Server thread/INFO]: /198.46.182.214:61385 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (ServerboundHelloPacket) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
+[02:31:29] [Server thread/INFO]: /198.46.182.214:61385 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (ServerboundHelloPacket) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
+[03:24:17] [User Authenticator #2/INFO]: UUID of player _ComicShark is 3c3b4a8e-8ced-3c2c-b066-6ec3e86865b4
+[03:24:18] [Server thread/INFO]: Everyone welcome _ComicShark to our SMP!
+[03:24:18] [Server thread/INFO]: System chat: _ComicShark joined the game
+[03:24:18] [Server thread/INFO]: _ComicShark[/73.94.49.236:61824] logged in with entity id 838 at ([minecraft:overworld]2175.5, 64.0, -288.5)
+[03:24:39] [Server thread/INFO]: _ComicShark lost connection: Disconnected
+[03:24:39] [Server thread/INFO]: System chat: _ComicShark left the game
+[05:01:11] [User Authenticator #3/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[05:01:15] [Server thread/INFO]: System chat: InfinityNoob joined the game
+[05:01:15] [Server thread/INFO]: InfinityNoob[/151.240.105.39:53021] logged in with entity id 968 at ([minecraft:overworld]1759.5111588419027, 73.0, -493.6468719340457)
+[05:01:17] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
+[05:01:17] [Server thread/INFO]: System chat: InfinityNoob left the game
+[05:38:35] [Server thread/INFO]: /198.46.182.214:61385 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (ServerboundHelloPacket) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
+[08:30:35] [Server thread/INFO]: /198.46.182.214:61385 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (ServerboundHelloPacket) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
+[09:40:40] [Server thread/INFO]: /198.46.182.214:61385 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (ServerboundHelloPacket) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
+[12:45:43] [User Authenticator #4/INFO]: UUID of player LandLikePizza is 86110046-6e45-3519-8bee-cc347f9761cd
+[12:45:44] [Server thread/INFO]: Everyone welcome LandLikePizza to our SMP!
+[12:45:44] [Server thread/INFO]: System chat: LandLikePizza joined the game
+[12:45:44] [Server thread/INFO]: LandLikePizza[/27.130.48.231:41278] logged in with entity id 977 at ([minecraft:overworld]2179.5, 65.0, -297.5)
+[12:45:49] [Server thread/INFO]: LandLikePizza lost connection: Disconnected
+[12:45:49] [Server thread/INFO]: System chat: LandLikePizza left the game
+[12:47:05] [User Authenticator #5/INFO]: UUID of player ickhipok is 946c6bd1-d1ec-3a31-a72b-9bd214a066e7
+[12:47:06] [Server thread/INFO]: Everyone welcome ickhipok to our SMP!
+[12:47:06] [Server thread/INFO]: System chat: ickhipok joined the game
+[12:47:06] [Server thread/INFO]: ickhipok[/27.130.64.107:62396] logged in with entity id 1004 at ([minecraft:overworld]2171.5, 63.0, -304.5)
+[12:47:12] [User Authenticator #6/INFO]: UUID of player LandLikePizza is 86110046-6e45-3519-8bee-cc347f9761cd
+[12:47:13] [Server thread/INFO]: System chat: LandLikePizza joined the game
+[12:47:13] [Server thread/INFO]: LandLikePizza[/27.130.48.231:37200] logged in with entity id 1029 at ([minecraft:overworld]2179.5, 65.0, -297.5)
+[12:47:25] [Server thread/INFO]: [AuthMe] ickhipok registered 27.130.64.107
+[12:47:25] [Craft Scheduler Thread - 209 - AuthMe/INFO]: [AuthMe] ickhipok logged in 27.130.64.107
+[12:48:06] [Server thread/INFO]: System chat: ickhipok has made the advancement [Stone Age]
+[12:48:06] [Server thread/INFO]: [AuthMe] LandLikePizza registered 27.130.48.231
+[12:48:06] [Craft Scheduler Thread - 209 - AuthMe/INFO]: [AuthMe] LandLikePizza logged in 27.130.48.231
+[12:49:15] [Server thread/INFO]: System chat: LandLikePizza burned to death
+[12:49:19] [Server thread/INFO]: LandLikePizza issued server command: /huskhomes:back
+[12:49:56] [Server thread/INFO]: System chat: LandLikePizza tried to swim in lava
+[12:51:03] [Server thread/INFO]: System chat: ickhipok has made the advancement [We Need to Go Deeper]
+[12:51:04] [Server thread/INFO]: System chat: LandLikePizza has made the advancement [Stone Age]
+[12:51:20] [Server thread/INFO]: System chat: LandLikePizza has made the advancement [Monster Hunter]
+[12:53:12] [Server thread/INFO]: LandLikePizza lost connection: Disconnected
+[12:53:12] [Server thread/INFO]: System chat: LandLikePizza left the game
+[12:53:56] [User Authenticator #7/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[12:53:56] [Server thread/INFO]: System chat: InfinityNoob joined the game
+[12:53:56] [Server thread/INFO]: InfinityNoob[/49.207.228.34:40120] logged in with entity id 4177 at ([minecraft:overworld]1759.5111588419027, 73.0, -493.6468719340457)
+[12:53:59] [Craft Scheduler Thread - 209 - AuthMe/INFO]: [AuthMe] InfinityNoob logged in 49.207.228.34
+[12:54:05] [Server thread/INFO]: ickhipok: hi
+[12:54:09] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: helloo
+[12:54:13] [Server thread/INFO]: ickhipok: how to make friued heres?
+[12:54:15] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: where r u
+[12:54:19] [Server thread/INFO]: ickhipok: i wanna build cool house
+[12:54:25] [Server thread/INFO]: ickhipok: idk
+[12:54:27] [Server thread/INFO]: ickhipok: im new
+[12:54:43] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: you can build house any where you want
+[12:54:47] [Server thread/INFO]: ickhipok: wow
+[12:54:50] [Server thread/INFO]: ickhipok: no pvp?
+[12:54:51] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yup
+[12:55:24] [Server thread/INFO]: InfinityNoob issued server command: /tp ickhipok ickhipok
+[12:55:25] [Server thread/INFO]: ickhipok: im exploring this cool house
+[12:55:40] [Server thread/INFO]: ickhipok: so many chest
+[12:55:45] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[12:55:59] [Server thread/INFO]: ickhipok: soo cool
+[12:56:03] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm thanks
+[12:56:11] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob ickhipok
+[12:56:15] [Server thread/INFO]: ickhipok: everyone grinded these?
+[12:56:21] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yess
+[12:56:23] [Server thread/INFO]: ickhipok: wow
+[12:56:30] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: more players play in this smp
+[12:56:39] [Server thread/INFO]: ickhipok: i see
+[12:56:43] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm
+[12:56:43] [Server thread/INFO]: ickhipok: you have armor?
+[12:56:47] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: did u like this smp?
+[12:56:53] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: yes i have
+[12:56:55] [Server thread/INFO]: ickhipok: yeah i like
+[12:57:13] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: let me bring you some armor and tools
+[12:57:17] [Server thread/INFO]: ickhipok: okay
+[12:57:22] [Server thread/INFO]: ickhipok: thanks
+[12:57:25] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wlcom
+[12:57:38] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[12:59:18] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[12:59:36] [Server thread/INFO]: System chat: ickhipok has completed the challenge [Cover Me in Debris]
+[12:59:39] [Server thread/INFO]: ickhipok: thankkmyouuu
+[12:59:50] [Server thread/INFO]: System chat: InfinityNoob was slain by ickhipok
+[12:59:57] [Server thread/INFO]: System chat: ickhipok has reached the goal [Sky's the Limit]
+[12:59:59] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: heyy
+[13:00:05] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob ickhipok
+[13:00:24] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: why did you kill me
+[13:00:37] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: and my stuffs
+[13:01:54] [Server thread/INFO]: InfinityNoob issued server command: /warplist
+[13:02:04] [Server thread/INFO]: InfinityNoob issued server command: /spawn
+[13:03:25] [Server thread/INFO]: InfinityNoob issued server command: /homelist
+[13:03:35] [Server thread/INFO]: InfinityNoob issued server command: /home xpfarm
+[13:03:39] [Server thread/INFO]: System chat: ickhipok has made the advancement [Monster Hunter]
+[13:04:15] [NetherNet Built-in Signaling-4-2/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2225)
+[13:04:16] [clientNetworkSession-6-1/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to remote java server on address 127.0.1.1
+[13:04:16] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[13:04:16] [Server thread/INFO]: System chat: .Haras124 joined the game
+[13:04:16] [Server thread/INFO]: .Haras124[/127.0.0.1:53366] logged in with entity id 13737 at ([minecraft:overworld]1999.371337890625, 64.71875002384186, -235.5689697265625)
+[13:04:44] [Craft Scheduler Thread - 232 - AuthMe/INFO]: [AuthMe] .Haras124 logged in 127.0.0.1
+[13:04:57] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[13:04:57] [Server thread/INFO]: System chat: [.Haras124: Set minecraft:overworld to time marker minecraft:day]
+[13:05:22] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hey you had killed and looted me i am forgiving you if you berak more rules a strict action will be taken
+[13:05:36] [Server thread/INFO]: ⚡ [Admin] .Haras124: hello
+[13:05:45] [Server thread/INFO]: InfinityNoob issued server command: /tell .Haras124 bhai meko wo banda mar kr loot liya sara
+[13:06:02] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[13:06:10] [Server thread/INFO]: ⚡ [Admin] .Haras124: um
+[13:06:15] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: give my items
+[13:06:28] [Server thread/INFO]: Named entity SkeletonHorse['Aushuuuuuu'/13738, uuid='04ec195a-55fe-49e3-b639-0e01c0cce4b7', l='ServerLevel[world]', x=2011.87, y=64.00, z=-270.05, cpos=[125, -17], tl=2648, v=true] died: Aushuuuuuu was slain by ickhipok using [zulfikaar]
+[13:06:47] [Server thread/INFO]: System chat: ickhipok has completed the challenge [Over-Overkill]
+[13:07:14] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[13:07:42] [NetherNet Built-in Signaling-4-2/INFO]: [Geyser-Spigot] Haras124 has disconnected from remote Java server on address 127.0.1.1 because of §rBedrock client timed out
+[13:07:42] [Netty Epoll IO #1/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[13:07:42] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[13:07:42] [Server thread/INFO]: System chat: .Haras124 left the game
+[13:07:53] [Server thread/INFO]: ickhipok lost connection: Disconnected
+[13:07:53] [Server thread/INFO]: System chat: ickhipok left the game
+[13:11:58] [Server thread/INFO]: InfinityNoob lost connection: Disconnected
+[13:11:58] [Server thread/INFO]: System chat: InfinityNoob left the game
+[13:19:38] [User Authenticator #8/INFO]: UUID of player ickhipok is 946c6bd1-d1ec-3a31-a72b-9bd214a066e7
+[13:19:39] [Server thread/INFO]: System chat: ickhipok joined the game
+[13:19:39] [Server thread/INFO]: ickhipok[/27.130.64.107:59935] logged in with entity id 16443 at ([minecraft:overworld]1999.8381695256883, 64.0, -273.58388860320423)
+[13:19:45] [Craft Scheduler Thread - 237 - AuthMe/INFO]: [AuthMe] ickhipok logged in 27.130.64.107
+[13:27:01] [NetherNet Built-in Signaling-4-3/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2225)
+[13:27:01] [clientNetworkSession-6-2/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to remote java server on address 127.0.1.1
+[13:27:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[13:27:02] [Server thread/INFO]: System chat: .Haras124 joined the game
+[13:27:02] [Server thread/INFO]: .Haras124[/127.0.0.1:42412] logged in with entity id 19014 at ([minecraft:overworld]1931.1810060272126, 66.53939001437519, -314.72341457075134)
+[13:27:22] [Craft Scheduler Thread - 209 - AuthMe/INFO]: [AuthMe] .Haras124 logged in 127.0.0.1
+[13:27:41] [Server thread/INFO]: /198.46.182.214:61385 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet login/serverbound/minecraft:hello (ServerboundHelloPacket) was larger than I expected, found 1 bytes extra whilst reading packet serverbound/minecraft:hello
+[13:32:04] [NetherNet Built-in Signaling-4-3/INFO]: [Geyser-Spigot] Haras124 has disconnected from remote Java server on address 127.0.1.1 because of §rBedrock client timed out
+[13:32:04] [Netty Epoll IO #0/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[13:32:04] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[13:32:04] [Server thread/INFO]: System chat: .Haras124 left the game
+[13:32:11] [Server thread/INFO]: ickhipok lost connection: Disconnected
+[13:32:11] [Server thread/INFO]: System chat: ickhipok left the game
+[13:34:04] [NetherNet Built-in Signaling-4-4/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2225)
+[13:34:04] [clientNetworkSession-6-3/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to remote java server on address 127.0.1.1
+[13:34:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[13:34:05] [Server thread/INFO]: System chat: .Haras124 joined the game
+[13:34:05] [Server thread/INFO]: .Haras124[/127.0.0.1:56464] logged in with entity id 22162 at ([minecraft:overworld]1903.699989988079, 63.0, -348.56635)
+[13:34:22] [Craft Scheduler Thread - 245 - AuthMe/INFO]: [AuthMe] .Haras124 logged in 127.0.0.1
+[13:34:34] [User Authenticator #9/INFO]: UUID of player Cyb3rB0t11 is a1a0514a-7e93-3ae5-bfae-bc88ad729191
+[13:34:35] [Server thread/INFO]: System chat: Cyb3rB0t11 joined the game
+[13:34:35] [Server thread/INFO]: Cyb3rB0t11[/122.183.33.76:1708] logged in with entity id 22246 at ([minecraft:overworld]1862.5954747403682, 60.0, -137.64585515333258)
+[13:34:48] [Craft Scheduler Thread - 244 - AuthMe/INFO]: [AuthMe] Cyb3rB0t11 logged in 122.183.33.76
+[13:37:38] [Server thread/INFO]: ⚡ [Admin] .Haras124: hello
+[13:37:44] [Server thread/INFO]: Cyb3rB0t11: hiee
+[13:37:51] [Server thread/INFO]: Cyb3rB0t11: u host?
+[13:37:58] [Server thread/INFO]: ⚡ [Admin] .Haras124: nah im just a admin
+[13:38:06] [Server thread/INFO]: Cyb3rB0t11: same thing
+[13:38:17] [Server thread/INFO]: ⚡ [Admin] .Haras124: im not the real owner
+[13:38:22] [Server thread/INFO]: Cyb3rB0t11: i see
+[13:38:33] [Server thread/INFO]: Cyb3rB0t11: u frnd of owner?
+[13:38:38] [Server thread/INFO]: ⚡ [Admin] .Haras124: yes
+[13:39:37] [Server thread/INFO]: ⚡ [Admin] .Haras124: are you new to the server ?
+[13:39:42] [Server thread/INFO]: Cyb3rB0t11: yepp
+[13:39:48] [Server thread/INFO]: ⚡ [Admin] .Haras124: ohh okay
+[13:39:57] [Server thread/INFO]: Cyb3rB0t11: where u at will ya tp me
+[13:40:09] [Server thread/INFO]: ⚡ [Admin] .Haras124: sure send me tp request
+[13:40:23] [Server thread/INFO]: Cyb3rB0t11 issued server command: /tpa .Haras124
+[13:40:37] [Server thread/INFO]: Cyb3rB0t11: sent'
+[13:41:31] [Server thread/INFO]: ⚡ [Admin] .Haras124: oh lol
+[13:41:32] [Server thread/INFO]: Cyb3rB0t11 issued server command: /tpa .Haras124
+[13:41:38] [Server thread/INFO]: Cyb3rB0t11: accept
+[13:41:41] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[13:41:59] [Server thread/INFO]: .Haras124 issued server command: /tpaaccept Cyb3rB0T11
+[13:42:25] [Server thread/INFO]: Cyb3rB0t11: u on bedrock?
+[13:42:26] [Server thread/INFO]: ⚡ [Admin] .Haras124: pls dont grief this area
+[13:42:28] [Server thread/INFO]: ⚡ [Admin] .Haras124: yes
+[13:42:34] [Server thread/INFO]: Cyb3rB0t11: nahh i wont
+[13:42:46] [Server thread/INFO]: ⚡ [Admin] .Haras124: this is the main area of the server
+[13:42:56] [Server thread/INFO]: ⚡ [Admin] .Haras124: grifing will result in punishment
+[13:43:03] [Server thread/INFO]: Cyb3rB0t11: ohh i did took some iron from here ig
+[13:43:10] [Server thread/INFO]: ⚡ [Admin] .Haras124: thats okay
+[13:43:37] [Server thread/INFO]: Cyb3rB0t11: was this all build by using mod
+[13:43:42] [Server thread/INFO]: ⚡ [Admin] .Haras124: nope
+[13:43:50] [Server thread/INFO]: Cyb3rB0t11: creative?
+[13:43:53] [Server thread/INFO]: ⚡ [Admin] .Haras124: most of the builds are made by me
+[13:43:59] [Server thread/INFO]: ⚡ [Admin] .Haras124: no its made in survival
+[13:44:03] [Server thread/INFO]: Cyb3rB0t11: DAYMNNNNN
+[13:44:18] [Server thread/INFO]: ⚡ [Admin] .Haras124: im playing in this smp for 3 years
+[13:44:25] [Server thread/INFO]: Cyb3rB0t11: ohhh
+[13:44:39] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye you wanna see the owner castle ?
+[13:44:52] [Server thread/INFO]: Cyb3rB0t11: sure'
+[13:45:12] [Server thread/INFO]: Cyb3rB0t11: did yall beat the ender dragon
+[13:45:17] [Server thread/INFO]: ⚡ [Admin] .Haras124: yes
+[13:45:24] [Server thread/INFO]: Cyb3rB0t11: :(
+[13:45:35] [Server thread/INFO]: ⚡ [Admin] .Haras124: dont worry we can revive it again
+[13:46:03] [Server thread/INFO]: Cyb3rB0t11: u sure nobody steals those diamonds
+[13:46:12] [Server thread/INFO]: System chat: Cyb3rB0t11 has made the advancement [Sneak 100]
+[13:46:12] [Server thread/INFO]: ⚡ [Admin] .Haras124: sometimes Ahahha
+[13:46:53] [Server thread/INFO]: ⚡ [Admin] .Haras124: this is made by me
+[13:46:59] [Server thread/INFO]: Cyb3rB0t11: noice
+[13:47:06] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[13:47:29] [Server thread/INFO]: Cyb3rB0t11: yall shouldnt make like castle or anything this makes like not smp type
+[13:47:40] [Server thread/INFO]: Cyb3rB0t11: but i loved the architecture
+[13:47:55] [Server thread/INFO]: ⚡ [Admin] .Haras124: this castle got destroyed many times
+[13:48:01] [Server thread/INFO]: Cyb3rB0t11: thts whyy
+[13:48:16] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye but i just repair it everytime
+[13:48:20] [Server thread/INFO]: Cyb3rB0t11: noice
+[13:48:35] [Server thread/INFO]: ⚡ [Admin] .Haras124: you can make yiur own house somewhere near
+[13:48:49] [Server thread/INFO]: Cyb3rB0t11: but dont ppl cheat like use xray
+[13:49:09] [Server thread/INFO]: ⚡ [Admin] .Haras124: maybe but we keep an eye on everyone
+[13:49:24] [Server thread/INFO]: Cyb3rB0t11: cmon like onetime i joined at night i was all alone
+[13:49:30] [Server thread/INFO]: ⚡ [Admin] .Haras124: ow
+[13:49:38] [Server thread/INFO]: Cyb3rB0t11: i couldve xrayed
+[13:49:53] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye we cant stay active everytime
+[13:49:57] [Server thread/INFO]: Cyb3rB0t11: do yall got trading hall??
+[13:50:00] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[13:50:05] [Server thread/INFO]: Cyb3rB0t11: will ya show
+[13:50:22] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[13:50:22] [Server thread/INFO]: System chat: [.Haras124: Set minecraft:overworld to time marker minecraft:day]
+[13:50:54] [Server thread/INFO]: Cyb3rB0t11: lost
+[13:51:00] [Server thread/INFO]: ⚡ [Admin] .Haras124: lol
+[13:51:41] [Server thread/INFO]: ⚡ [Admin] .Haras124: holy why is there tons of boat
+[13:51:49] [Server thread/INFO]: Cyb3rB0t11: where r ya
+[13:51:57] [Server thread/INFO]: ⚡ [Admin] .Haras124: near the castle
+[13:51:59] [Server thread/INFO]: .Haras124 issued server command: /tp Cyb3rB0t11 .Haras124
+[13:52:10] [Server thread/INFO]: Cyb3rB0t11: remove it
+[13:52:18] [Server thread/INFO]: Cyb3rB0t11: it lags the server
+[13:53:26] [User Authenticator #10/INFO]: UUID of player InfinityNoob is 36f382f4-4a78-33f1-b542-73c52f07c10b
+[13:53:27] [Server thread/INFO]: System chat: InfinityNoob joined the game
+[13:53:27] [Server thread/INFO]: InfinityNoob[/49.207.228.34:41660] logged in with entity id 26536 at ([minecraft:overworld]1923.7610577415644, 66.68661198452092, -308.73608685134764)
+[13:53:32] [Server thread/INFO]: Cyb3rB0t11 issued server command: /tpa .Haras124
+[13:53:36] [Server thread/INFO]: Cyb3rB0t11: supp
+[13:53:38] [Craft Scheduler Thread - 244 - AuthMe/INFO]: [AuthMe] InfinityNoob logged in 49.207.228.34
+[13:53:42] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[13:54:03] [Server thread/INFO]: .Haras124 issued server command: /tpaaccept Cyb3rB0t11
+[13:54:34] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[13:54:50] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[13:56:09] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[13:56:09] [Server thread/INFO]: ⚡ [Admin] .Haras124: yo aushu wsp
+[13:56:20] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmm im good
+[13:56:30] [Server thread/INFO]: ⚡ [Admin] .Haras124: you have the gear shulker right ?
+[13:56:34] [Server thread/INFO]: ⚡ [Admin] .Haras124: gear up
+[13:56:38] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: which?
+[13:56:48] [Server thread/INFO]: ⚡ [Admin] .Haras124: nvm
+[13:56:50] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[13:56:52] [Server thread/INFO]: ⚡ [Admin] .Haras124: ill give you the gear
+[13:56:55] [Server thread/INFO]: Cyb3rB0t11: nahh yall got everything except mending n prot n unb
+[13:57:02] [Server thread/INFO]: ⚡ [Admin] .Haras124: sad
+[13:57:30] [Server thread/INFO]: Cyb3rB0t11: can i also get a gear shulker box plsssssssssssss :)
+[13:57:42] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmm sure
+[13:57:49] [Server thread/INFO]: .Haras124 issued server command: /tp .Haras124 InfinityNoob
+[13:57:59] [Server thread/INFO]: Cyb3rB0t11: where r yall from??
+[13:58:04] [Server thread/INFO]: ⚡ [Admin] .Haras124: yo aushu wya
+[13:58:07] [Server thread/INFO]: ⚡ [Admin] .Haras124: india
+[13:58:15] [Server thread/INFO]: Cyb3rB0t11: areee bhaiiiiiiiiiii
+[13:58:16] [Server thread/INFO]: .Haras124 issued server command: /tp .Haras124 InfinityNoob
+[13:58:28] [Server thread/INFO]: Cyb3rB0t11: me too
+[13:58:33] [Server thread/INFO]: ⚡ [Admin] .Haras124: ohh
+[13:58:48] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: which state bro?
+[13:58:54] [Server thread/INFO]: Cyb3rB0t11: maha
+[13:59:43] [Server thread/INFO]: Cyb3rB0t11: u guys
+[13:59:51] [Server thread/INFO]: ⚡ [Admin] .Haras124: kolkata
+[13:59:54] [Server thread/INFO]: Cyb3rB0t11: noice
+[13:59:57] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: me bengaluru
+[14:00:09] [Server thread/INFO]: Cyb3rB0t11: SON
+[14:00:18] [Server thread/INFO]: Cyb3rB0t11: ToT
+[14:00:43] [Server thread/INFO]: System chat: Cyb3rB0t11 has made the advancement [Sweet Dreams]
+[14:00:47] [Netty Epoll IO #1/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[14:00:47] [NetherNet Built-in Signaling-4-4/INFO]: [Geyser-Spigot] Haras124 has disconnected from remote Java server on address 127.0.1.1 because of §rBedrock client disconnected
+[14:00:47] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[14:00:47] [Server thread/INFO]: System chat: .Haras124 left the game
+[14:00:58] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[14:00:59] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[14:01:06] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[14:01:17] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[14:01:30] [Server thread/INFO]: Cyb3rB0t11: noob im lost
+[14:01:31] [NetherNet Built-in Signaling-4-1/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2225)
+[14:01:31] [clientNetworkSession-6-4/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to remote java server on address 127.0.1.1
+[14:01:32] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[14:01:32] [Server thread/INFO]: System chat: .Haras124 joined the game
+[14:01:32] [Server thread/INFO]: .Haras124[/127.0.0.1:58982] logged in with entity id 30579 at ([minecraft:overworld]67.52676, -44.0, 578.21625)
+[14:01:38] [Server thread/INFO]: Cyb3rB0t11 issued server command: /tpa InfinityNoob
+[14:01:52] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wait bro i will tp you
+[14:01:59] [Craft Scheduler Thread - 250 - AuthMe/INFO]: [AuthMe] .Haras124 logged in 127.0.0.1
+[14:01:59] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wait a min
+[14:02:10] [Server thread/INFO]: InfinityNoob issued server command: /spawn
+[14:02:17] [Server thread/INFO]: InfinityNoob issued server command: /tpaaccept Cyb3rB0t11
+[14:02:32] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:02:51] [Server thread/INFO]: InfinityNoob issued server command: /sethome stash
+[14:04:02] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: haras elytra de
+[14:04:29] [Server thread/INFO]: ⚡ [Admin] .Haras124: wait
+[14:04:57] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: bro i have installed homes plugin you can check it
+[14:04:57] [Server thread/INFO]: Cyb3rB0t11: yall should add proxy chat
+[14:05:26] [NetherNet Built-in Signaling-4-1/INFO]: [Geyser-Spigot] Haras124 has disconnected from remote Java server on address 127.0.1.1 because of §rBedrock client disconnected
+[14:05:26] [Netty Epoll IO #2/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[14:05:26] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[14:05:26] [Server thread/INFO]: System chat: .Haras124 left the game
+[14:05:38] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: voice chat?
+[14:05:52] [Server thread/INFO]: Cyb3rB0t11: yea
+[14:06:02] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hmmm we will think of it
+[14:06:10] [NetherNet Built-in Signaling-4-2/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2225)
+[14:06:10] [clientNetworkSession-6-1/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to remote java server on address 127.0.1.1
+[14:06:11] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[14:06:11] [Server thread/INFO]: System chat: .Haras124 joined the game
+[14:06:11] [Server thread/INFO]: .Haras124[/127.0.0.1:38418] logged in with entity id 32500 at ([minecraft:overworld]62.596226, -45.0, 598.5235)
+[14:06:38] [Craft Scheduler Thread - 257 - AuthMe/INFO]: [AuthMe] .Haras124 logged in 127.0.0.1
+[14:07:10] [Server thread/INFO]: ⚡ [Admin] .Haras124: yo cyb dont worry ill bring some gear for you
+[14:07:17] [Server thread/INFO]: InfinityNoob issued server command: /tell .Haras124 bhai ham homes plugin add kiye hai to /sethome kr ke apna home set kr sakta h
+[14:07:20] [Server thread/INFO]: Cyb3rB0t11: thxx
+[14:07:44] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[14:07:47] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[14:08:44] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[14:08:46] [Server thread/INFO]: .Haras124 issued server command: /w infinityNoob okay
+[14:08:58] [Server thread/INFO]: InfinityNoob issued server command: /tell .Haras124 hmm
+[14:09:00] [User Authenticator #11/INFO]: UUID of player ickhipok is 946c6bd1-d1ec-3a31-a72b-9bd214a066e7
+[14:09:00] [Server thread/INFO]: System chat: ickhipok joined the game
+[14:09:00] [Server thread/INFO]: ickhipok[/27.130.64.107:61801] logged in with entity id 34197 at ([minecraft:overworld]2000.1154199059895, 43.0, -298.30000001192093)
+[14:09:03] [Server thread/INFO]: .Haras124 issued server command: /sethome base 1
+[14:09:08] [Craft Scheduler Thread - 259 - AuthMe/INFO]: [AuthMe] ickhipok logged in 27.130.64.107
+[14:09:22] [Server thread/INFO]: .Haras124 issued server command: /gamemode creative
+[14:09:22] [Server thread/INFO]: System chat: [.Haras124: Set own game mode to Creative Mode]
+[14:09:29] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Survival Mode]
+[14:09:54] [Server thread/INFO]: Cyb3rB0t11 issued server command: /tpa ickhipok
+[14:10:03] [Server thread/INFO]: ickhipok issued server command: /tpaccept
+[14:10:08] [Server thread/INFO]: ickhipok issued server command: /tpaccept Cyb3rB0t11
+[14:10:15] [Server thread/INFO]: ickhipok issued server command: /tpahere Cyb3rB0t11
+[14:10:19] [Server thread/INFO]: .Haras124 issued server command: /gamemode survival
+[14:10:19] [Server thread/INFO]: System chat: [.Haras124: Set own game mode to Survival Mode]
+[14:10:22] [Server thread/INFO]: Cyb3rB0t11 issued server command: /huskhomes:tpaccept ickhipok
+[14:10:45] [Server thread/INFO]: Cyb3rB0t11: hehh
+[14:10:47] [Server thread/INFO]: Cyb3rB0t11 issued server command: /huskhomes:tpaccept ickhipok
+[14:11:01] [Server thread/INFO]: .Haras124 issued server command: /gamemode creative
+[14:11:01] [Server thread/INFO]: System chat: [.Haras124: Set own game mode to Creative Mode]
+[14:11:03] [Server thread/INFO]: InfinityNoob issued server command: /tell .Haras124 bhai kya kr rha h
+[14:11:16] [Server thread/INFO]: .Haras124 issued server command: /w infinityNoob gear set
+[14:11:27] [Server thread/INFO]: InfinityNoob issued server command: /tell .Haras124 ok
+[14:11:27] [Server thread/INFO]: Cyb3rB0t11 lost connection: Disconnected
+[14:11:27] [Server thread/INFO]: System chat: Cyb3rB0t11 left the game
+[14:11:31] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: jaaa
+[14:11:35] [Server thread/INFO]: ⚡ [Admin] .Haras124: mh
+[14:12:04] [Server thread/INFO]: InfinityNoob issued server command: /afk
+[14:12:04] [Server thread/INFO]: [AFK] InfinityNoob is now AFK.
+[14:14:47] [Server thread/INFO]: .Haras124 issued server command: /gamemode survival
+[14:14:47] [Server thread/INFO]: System chat: [.Haras124: Set own game mode to Survival Mode]
+[14:15:19] [Server thread/INFO]: ickhipok lost connection: Disconnected
+[14:15:19] [Server thread/INFO]: System chat: ickhipok left the game
+[14:15:37] [Server thread/INFO]: .Haras124 issued server command: /home
+[14:16:18] [User Authenticator #12/INFO]: UUID of player ickhipok is 946c6bd1-d1ec-3a31-a72b-9bd214a066e7
+[14:16:19] [Server thread/INFO]: System chat: ickhipok joined the game
+[14:16:19] [Server thread/INFO]: ickhipok[/27.130.64.107:61804] logged in with entity id 37892 at ([minecraft:overworld]2128.4936173884375, 70.0, -507.42802848639417)
+[14:16:31] [Craft Scheduler Thread - 264 - AuthMe/INFO]: [AuthMe] ickhipok logged in 27.130.64.107
+[14:19:39] [Server thread/INFO]: .Haras124 issued server command: /tp .Haras124 InfinityNoob
+[14:21:01] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: wah
+[14:22:08] [Server thread/INFO]: ⚡ [Admin] .Haras124: -_-
+[14:22:22] [Server thread/INFO]: ickhipok: why does the tower look likes Ps5?
+[14:22:29] [Server thread/INFO]: ⚡ [Admin] .Haras124: idk
+[14:22:35] [Server thread/INFO]: ickhipok: or its js me
+[14:22:43] [Server thread/INFO]: ⚡ [Admin] .Haras124: yes its just yiu
+[14:22:48] [Server thread/INFO]: InfinityNoob issued server command: /spawn
+[14:23:01] [Server thread/WARN]: ickhipok moved wrongly!, (0.5)
+[14:23:43] [Server thread/INFO]: .Haras124 issued server command: /tp .Haras124 InfinityNoob
+[14:25:43] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:27:44] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:29:09] [Server thread/INFO]: System chat: ickhipok has made the advancement [Into Fire]
+[14:30:48] [Server thread/INFO]: System chat: ickhipok has made the advancement [Local Brewery]
+[14:31:37] [Server thread/INFO]: System chat: ickhipok has made the advancement [Who Needs Rockets?]
+[14:31:42] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hey ickhipok please dont try destroy the spawn
+[14:31:47] [Server thread/INFO]: ickhipok: no im not
+[14:31:51] [Server thread/INFO]: System chat: InfinityNoob fell from a high place
+[14:31:54] [Server thread/INFO]: ickhipok: rip
+[14:31:55] [Server thread/INFO]: ⚡ [Admin] .Haras124: lol
+[14:31:57] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:32:01] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huh
+[14:32:01] [Server thread/INFO]: ickhipok: im js exploring
+[14:32:14] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: ok
+[14:33:04] [Server thread/INFO]: ickhipok: twin
+[14:33:08] [Server thread/INFO]: ickhipok: matching
+[14:33:13] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[14:33:19] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: u stole all mine
+[14:33:40] [Server thread/INFO]: ⚡ [Admin] .Haras124: btw why did you afk kill infinity noob ?
+[14:33:47] [Server thread/INFO]: InfinityNoob issued server command: /afk
+[14:33:47] [Server thread/INFO]: InfinityNoob is no longer AFK.
+[14:33:51] [Server thread/INFO]: ickhipok: i wanna explore freely with elytra
+[14:34:01] [Server thread/INFO]: ⚡ [Admin] .Haras124: you couldve asked for it
+[14:34:08] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: then you could have asked me for elytra
+[14:34:17] [Server thread/INFO]: ickhipok: mb then srry
+[14:35:09] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:35:32] [Server thread/INFO]: ickhipok: dom we have stone fArm
+[14:35:38] [Server thread/INFO]: ickhipok: i wanna make statue
+[14:36:02] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: nope we dont have it
+[14:36:06] [Server thread/INFO]: ickhipok: dam
+[14:36:07] [Server thread/INFO]: ickhipok: alr
+[14:36:16] [Server thread/INFO]: .Haras124 issued server command: /time set day
+[14:36:16] [Server thread/INFO]: System chat: [.Haras124: Set minecraft:overworld to time marker minecraft:day]
+[14:36:45] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: you r frm thai
+[14:36:55] [Server thread/INFO]: ickhipok: y?
+[14:37:03] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: just asking
+[14:37:17] [Server thread/INFO]: ⚡ [Admin] .Haras124: wait how did you know ?
+[14:37:26] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hahahah
+[14:37:32] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: i know
+[14:37:40] [Server thread/INFO]: ⚡ [Admin] .Haras124: yo someone destroyed the xp farm
+[14:37:47] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: huhh
+[14:37:59] [Server thread/INFO]: ickhipok: rip bro
+[14:38:10] [Server thread/INFO]: ⚡ [Admin] .Haras124: ye
+[14:38:11] [Server thread/INFO]: ickhipok: i used it an hour ago
+[14:38:17] [Server thread/INFO]: ickhipok: and when i goback
+[14:38:31] [Server thread/INFO]: ickhipok: i cant use it
+[14:38:39] [Server thread/INFO]: ⚡ [Admin] .Haras124: hmmm
+[14:38:41] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: we have to reprair
+[14:38:45] [Server thread/INFO]: ickhipok: yeah
+[14:38:47] [Server thread/INFO]: ickhipok: what we need?
+[14:39:00] [Server thread/INFO]: System chat: InfinityNoob was blown up by Creeper
+[14:39:03] [Server thread/INFO]: ⚡ [Admin] .Haras124: ayo
+[14:39:06] [Server thread/INFO]: InfinityNoob issued server command: /tp InfinityNoob .Haras124
+[14:39:11] [Server thread/INFO]: ⚡ [Admin] .Haras124: oh nah
+[14:39:24] [Server thread/INFO]: System chat: [InfinityNoob: Set own game mode to Creative Mode]
+[14:39:25] [Server thread/INFO]: ⚡ [Admin] .Haras124: yo block it
+[14:40:14] [NetherNet Built-in Signaling-4-2/INFO]: [Geyser-Spigot] Haras124 has disconnected from remote Java server on address 127.0.1.1 because of §rBedrock client timed out
+[14:40:14] [Netty Epoll IO #2/INFO]: [floodgate] Floodgate player logged in as .Haras124 disconnected
+[14:40:14] [Server thread/INFO]: .Haras124 lost connection: Disconnected
+[14:40:14] [Server thread/INFO]: System chat: .Haras124 left the game
+[14:41:08] [NetherNet Built-in Signaling-4-3/INFO]: [Geyser-Spigot] Player connected with username Haras124 (2225)
+[14:41:08] [clientNetworkSession-6-2/INFO]: [Geyser-Spigot] Haras124 (logged in as: Haras124) has connected to remote java server on address 127.0.1.1
+[14:41:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Haras124 joined (UUID: 00000000-0000-0000-0009-01f4a2e3dac3)
+[14:41:09] [Server thread/INFO]: System chat: .Haras124 joined the game
+[14:41:09] [Server thread/INFO]: .Haras124[/127.0.0.1:54550] logged in with entity id 54264 at ([minecraft:overworld]2048.1958, 195.0, -179.7038)
+[14:41:31] [Craft Scheduler Thread - 265 - AuthMe/INFO]: [AuthMe] .Haras124 logged in 127.0.0.1
+[14:41:32] [User Authenticator #13/INFO]: UUID of player Cyb3rB0t11 is a1a0514a-7e93-3ae5-bfae-bc88ad729191
+[14:41:32] [Server thread/INFO]: System chat: Cyb3rB0t11 joined the game
+[14:41:32] [Server thread/INFO]: Cyb3rB0t11[/122.183.33.76:10688] logged in with entity id 55028 at ([minecraft:overworld]1759.8068080714643, 63.0625, -394.22044449368997)
+[14:41:38] [Server thread/INFO]: ⚡ [Admin] .Haras124: yoo hes back
+[14:41:41] [Craft Scheduler Thread - 268 - AuthMe/INFO]: [AuthMe] Cyb3rB0t11 logged in 122.183.33.76
+[14:41:45] [Server thread/INFO]: Cyb3rB0t11: helooooooo
+[14:41:53] [Server thread/INFO]: .Haras124 issued server command: /tp .Haras124 Cyb3rB0t11
+[14:41:54] [Server thread/INFO]: ickhipok: yo
+[14:42:01] [Server thread/INFO]: Cyb3rB0t11: where yall at
+[14:42:06] [Server thread/INFO]: ⚡ [Admin] .Haras124: i have your gear shulker cyb
+[14:42:07] [Server thread/INFO]: InfinityNoob issued server command: /tp .Haras124 InfinityNoob
+[14:42:07] [Server thread/INFO]: ickhipok: im at farm
+[14:42:21] [Server thread/INFO]: Cyb3rB0t11: thank youuuuuuuuuu haras
+[14:42:22] [Server thread/INFO]: InfinityNoob issued server command: /tell wahi ladki kr rhi h
+[14:42:40] [Server thread/INFO]: InfinityNoob issued server command: /tell .Haras124 wahi ladki kr rhi h
+[14:42:51] [Server thread/INFO]: ⚡ [Admin] .Haras124: wlcm
+[14:43:06] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: hey ickhipok why u destroying spawn
+[14:43:15] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: u want to get banned?
+[14:43:18] [Server thread/INFO]: ickhipok: wym
+[14:43:19] [Server thread/INFO]: .Haras124 issued server command: /tp .Haras124 Cyb3rB0t11
+[14:43:32] [Server thread/INFO]: Cyb3rB0t11: wht he did?
+[14:43:36] [Server thread/INFO]: ⚡ [Admin] InfinityNoob: thenm who did this
+[14:43:37] [Server thread/INFO]: System chat: Cyb3rB0t11 was slain by ickhipok using [zulfikaar]
+[14:43:44] [Server thread/INFO]: Cyb3rB0t11 issued server command: /huskhomes:back
